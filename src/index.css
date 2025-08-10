@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+/* Base styles */
+
+body {
+  background-color: #f0f9ff;
+  background-image: url('assets/back.webp');
+   
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Bungee", sans-serif;
+  font-weight: bold;
+}
+
+/* Custom classes */
+.saveds { 
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+}
+.card{
+  background: white;
+  border: 3px solid black;
+  border-radius: 12px;
+  box-shadow: 4px 4px 0px #000;
+}
+.joke{
+  border: 3px solid black;
+  border-radius: 12px;
+  box-shadow: 2px 2px 0px #000;
+  transition: transform .2s ease;
+}
+.joke:active{
+  transform: translateY(2px);
+}
+.btn-header{
+  border: 3px solid black;
+  border-radius: 12px;
+  box-shadow: 1px 1px 0px #000;
+}
+.categorie-btn{
+   border: 3px solid black;
+  border-radius: 12px;
+  box-shadow: 1px 1px 0px #000;
+}
+.categorie-btn:focus{
+  background-color: rgba(27, 231, 54, 0.781);
+  outline: 1px solid #fff;
+}

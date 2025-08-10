@@ -1,0 +1,1222 @@
+[
+  {
+    "id": 1,
+    "chiste": "¿Por qué el plátano fue al psicólogo? Porque se pelaba solo."
+  },
+  {
+    "id": 2,
+    "chiste": "¿Qué hace un pez en una biblioteca? Nada... pero muy cultamente."
+  },
+  {
+    "id": 3,
+    "chiste": "¿Qué le dijo un cactus a otro cactus? ¡Qué pinche día tan bonito!"
+  },
+  {
+    "id": 4,
+    "chiste": "¿Por qué el sofá rompió con la mesa? Porque ya no había química, solo madera."
+  },
+  {
+    "id": 5,
+    "chiste": "¿Qué hace un aguacate en el gimnasio? ¡Guacapés!"
+  },
+  {
+    "id": 6,
+    "chiste": "¿Cómo se llama el hermano vegano de Bruce Lee? Broco-Lee."
+  },
+  {
+    "id": 7,
+    "chiste": "¿Por qué el reloj no se llevó bien con el microondas? Porque uno vivía en el tiempo... y el otro lo calentaba."
+  },
+  {
+    "id": 8,
+    "chiste": "¿Qué hace una tostadora en el mar? ¡Pan-diendo!"
+  },
+  {
+    "id": 9,
+    "chiste": "¿Por qué el tomate se sonrojó? Porque vio a la ensalada sin aderezo."
+  },
+  {
+    "id": 10,
+    "chiste": "¿Qué le dijo una neurona a otra? ¿Tú también sientes que esto no tiene sentido?"
+  },
+  {
+    "id": 11,
+    "chiste": "¿Por qué la escoba se graduó? Porque ya barría con todo."
+  },
+  {
+    "id": 12,
+    "chiste": "¿Qué hace un globo en la oficina? Se infla con cada elogio."
+  },
+  {
+    "id": 13,
+    "chiste": "¿Qué le dijo el sándwich al microondas? Calienta corazones, no solo pan."
+  },
+  {
+    "id": 14,
+    "chiste": "¿Por qué los calcetines se fueron de viaje? Porque estaban hartos de caminar siempre por los mismos caminos."
+  },
+  {
+    "id": 15,
+    "chiste": "¿Qué hace una nube en terapia? Trata de no llover sus problemas."
+  },
+  {
+    "id": 16,
+    "chiste": "¿Por qué el papel higiénico no fue a trabajar? Estaba enrollado con sus cosas."
+  },
+  {
+    "id": 17,
+    "chiste": "¿Qué le dijo una tostada a otra? Nos vemos en el desayuno… si no nos quemamos antes."
+  },
+  {
+    "id": 18,
+    "chiste": "¿Por qué el gato no quiso usar internet? Porque ya tenía muchas pestañas abiertas."
+  },
+  {
+    "id": 19,
+    "chiste": "¿Qué le dice un espagueti a otro? ¡Ánimo, que la salsa nos une!"
+  },
+  {
+    "id": 20,
+    "chiste": "¿Qué hace un pingüino en el Sahara? Derritiendo expectativas."
+  },
+  {
+    "id": 21,
+    "chiste": "¿Por qué el café no duerme? Porque se toma demasiado en serio."
+  },
+  {
+    "id": 22,
+    "chiste": "¿Qué hace una cuchara en una entrevista de trabajo? Remueve tensiones."
+  },
+  {
+    "id": 23,
+    "chiste": "¿Qué le dijo una cebolla a otra? Estoy llorando por dentro."
+  },
+  {
+    "id": 24,
+    "chiste": "¿Por qué los fantasmas no tienen WiFi? Porque siempre se desconectan."
+  },
+  {
+    "id": 25,
+    "chiste": "¿Qué hace un árbol con WiFi? Se conecta con sus raíces."
+  },
+  {
+    "id": 26,
+    "chiste": "¿Por qué el helado fue al sol? Porque quería derretirse de amor."
+  },
+  {
+    "id": 27,
+    "chiste": "¿Qué le dice una luna llena a otra? ¡Estás en tu punto más brillante!"
+  },
+  {
+    "id": 28,
+    "chiste": "¿Por qué el plátano se negó a bailar? Porque no quería resbalar."
+  },
+  {
+    "id": 29,
+    "chiste": "¿Qué hace una calculadora en una cita? Suma puntos."
+  },
+  {
+    "id": 30,
+    "chiste": "¿Por qué el libro rompió con el lector? Porque lo estaba juzgando por su portada."
+  },
+  {
+    "id": 31,
+    "chiste": "¿Qué le dijo un espejo a otro? ¡Qué reflejo tan profundo!"
+  },
+  {
+    "id": 32,
+    "chiste": "¿Por qué los zapatos no se hablan? Porque cada uno va por su camino."
+  },
+  {
+    "id": 33,
+    "chiste": "¿Qué hace un semáforo en una fiesta? Cambia de color por nervios."
+  },
+  {
+    "id": 34,
+    "chiste": "¿Por qué la tostadora se sintió incomprendida? Porque nadie sabía lo que tenía dentro."
+  },
+  {
+    "id": 35,
+    "chiste": "¿Qué hace una servilleta con ansiedad? Se arruga sola."
+  },
+  {
+    "id": 36,
+    "chiste": "¿Por qué el ratón dejó el teclado? Porque le hacía click todo."
+  },
+  {
+    "id": 37,
+    "chiste": "¿Qué le dijo una lámpara triste a otra? No brilles sin mí."
+  },
+  {
+    "id": 38,
+    "chiste": "¿Por qué el ventilador rompió con el aire? Porque lo sentía muy frío."
+  },
+  {
+    "id": 39,
+    "chiste": "¿Qué hace una taza en vacaciones? Descansa al borde del abismo."
+  },
+  {
+    "id": 40,
+    "chiste": "¿Por qué la nevera se fue de casa? Porque ya no sentía chispa."
+  },
+  {
+    "id": 41,
+    "chiste": "¿Qué le dice un enchufe a otro? ¡Conéctate conmigo!"
+  },
+  {
+    "id": 42,
+    "chiste": "¿Por qué el microondas quería cantar? Porque tenía buenos tiempos."
+  },
+  {
+    "id": 43,
+    "chiste": "¿Qué hace una sartén con insomnio? Da vueltas toda la noche."
+  },
+  {
+    "id": 44,
+    "chiste": "¿Por qué el teclado estaba deprimido? Porque nadie tocaba sus teclas favoritas."
+  },
+  {
+    "id": 45,
+    "chiste": "¿Qué hace una lámpara en un concierto? Ilumina el momento."
+  },
+  {
+    "id": 46,
+    "chiste": "¿Por qué el queso no se presentó? Porque se sintió muy rallado."
+  },
+  {
+    "id": 47,
+    "chiste": "¿Qué le dijo el azúcar al café? Endulzo tus días."
+  },
+  {
+    "id": 48,
+    "chiste": "¿Por qué el agua no tiene redes sociales? Porque ya fluye sola."
+  },
+  {
+    "id": 49,
+    "chiste": "¿Qué hace un tren en el gimnasio? Corre en círculos mentales."
+  },
+  {
+    "id": 50,
+    "chiste": "¿Por qué el espejo tiene ansiedad? Porque se enfrenta a sí mismo todo el tiempo."
+  },
+  {
+    "id": 51,
+    "chiste": "¿Por qué el plátano fue al psicólogo? Porque se pelaba solo."
+  },
+  {
+    "id": 52,
+    "chiste": "¿Qué hace un pez en una biblioteca? Nada... pero muy cultamente."
+  },
+  {
+    "id": 53,
+    "chiste": "¿Qué le dijo un cactus a otro cactus? ¡Qué pinche día tan bonito!"
+  },
+  {
+    "id": 54,
+    "chiste": "¿Por qué el sofá rompió con la mesa? Porque ya no había química, solo madera."
+  },
+  {
+    "id": 55,
+    "chiste": "¿Qué hace un aguacate en el gimnasio? ¡Guacapés!"
+  },
+  {
+    "id": 56,
+    "chiste": "¿Cómo se llama el hermano vegano de Bruce Lee? Broco-Lee."
+  },
+  {
+    "id": 57,
+    "chiste": "¿Por qué el reloj no se llevó bien con el microondas? Porque uno vivía en el tiempo... y el otro lo calentaba."
+  },
+  {
+    "id": 58,
+    "chiste": "¿Qué hace una tostadora en el mar? ¡Pan-diendo!"
+  },
+  {
+    "id": 59,
+    "chiste": "¿Por qué el tomate se sonrojó? Porque vio a la ensalada sin aderezo."
+  },
+  {
+    "id": 60,
+    "chiste": "¿Qué le dijo una neurona a otra? ¿Tú también sientes que esto no tiene sentido?"
+  },
+  {
+    "id": 61,
+    "chiste": "¿Por qué la escoba se graduó? Porque ya barría con todo."
+  },
+  {
+    "id": 62,
+    "chiste": "¿Qué hace un globo en la oficina? Se infla con cada elogio."
+  },
+  {
+    "id": 63,
+    "chiste": "¿Qué le dijo el sándwich al microondas? Calienta corazones, no solo pan."
+  },
+  {
+    "id": 64,
+    "chiste": "¿Por qué los calcetines se fueron de viaje? Porque estaban hartos de caminar siempre por los mismos caminos."
+  },
+  {
+    "id": 65,
+    "chiste": "¿Qué hace una nube en terapia? Trata de no llover sus problemas."
+  },
+  {
+    "id": 66,
+    "chiste": "¿Por qué el papel higiénico no fue a trabajar? Estaba enrollado con sus cosas."
+  },
+  {
+    "id": 67,
+    "chiste": "¿Qué le dijo una tostada a otra? Nos vemos en el desayuno… si no nos quemamos antes."
+  },
+  {
+    "id": 68,
+    "chiste": "¿Por qué el gato no quiso usar internet? Porque ya tenía muchas pestañas abiertas."
+  },
+  {
+    "id": 69,
+    "chiste": "¿Qué le dice un espagueti a otro? ¡Ánimo, que la salsa nos une!"
+  },
+  {
+    "id": 70,
+    "chiste": "¿Qué hace un pingüino en el Sahara? Derritiendo expectativas."
+  },
+  {
+    "id": 71,
+    "chiste": "¿Por qué el café no duerme? Porque se toma demasiado en serio."
+  },
+  {
+    "id": 72,
+    "chiste": "¿Qué hace una cuchara en una entrevista de trabajo? Remueve tensiones."
+  },
+  {
+    "id": 73,
+    "chiste": "¿Qué le dijo una cebolla a otra? Estoy llorando por dentro."
+  },
+  {
+    "id": 74,
+    "chiste": "¿Por qué los fantasmas no tienen WiFi? Porque siempre se desconectan."
+  },
+  {
+    "id": 75,
+    "chiste": "¿Qué hace un árbol con WiFi? Se conecta con sus raíces."
+  },
+  {
+    "id": 76,
+    "chiste": "¿Por qué el helado fue al sol? Porque quería derretirse de amor."
+  },
+  {
+    "id": 77,
+    "chiste": "¿Qué le dice una luna llena a otra? ¡Estás en tu punto más brillante!"
+  },
+  {
+    "id": 78,
+    "chiste": "¿Por qué el plátano se negó a bailar? Porque no quería resbalar."
+  },
+  {
+    "id": 79,
+    "chiste": "¿Qué hace una calculadora en una cita? Suma puntos."
+  },
+  {
+    "id": 80,
+    "chiste": "¿Por qué el libro rompió con el lector? Porque lo estaba juzgando por su portada."
+  },
+  {
+    "id": 81,
+    "chiste": "¿Qué le dijo un espejo a otro? ¡Qué reflejo tan profundo!"
+  },
+  {
+    "id": 82,
+    "chiste": "¿Por qué los zapatos no se hablan? Porque cada uno va por su camino."
+  },
+  {
+    "id": 83,
+    "chiste": "¿Qué hace un semáforo en una fiesta? Cambia de color por nervios."
+  },
+  {
+    "id": 84,
+    "chiste": "¿Por qué la tostadora se sintió incomprendida? Porque nadie sabía lo que tenía dentro."
+  },
+  {
+    "id": 85,
+    "chiste": "¿Qué hace una servilleta con ansiedad? Se arruga sola."
+  },
+  {
+    "id": 86,
+    "chiste": "¿Por qué el ratón dejó el teclado? Porque le hacía click todo."
+  },
+  {
+    "id": 87,
+    "chiste": "¿Qué le dijo una lámpara triste a otra? No brilles sin mí."
+  },
+  {
+    "id": 88,
+    "chiste": "¿Por qué el ventilador rompió con el aire? Porque lo sentía muy frío."
+  },
+  {
+    "id": 89,
+    "chiste": "¿Qué hace una taza en vacaciones? Descansa al borde del abismo."
+  },
+  {
+    "id": 90,
+    "chiste": "¿Por qué la nevera se fue de casa? Porque ya no sentía chispa."
+  },
+  {
+    "id": 91,
+    "chiste": "¿Qué le dice un enchufe a otro? ¡Conéctate conmigo!"
+  },
+  {
+    "id": 92,
+    "chiste": "¿Por qué el microondas quería cantar? Porque tenía buenos tiempos."
+  },
+  {
+    "id": 93,
+    "chiste": "¿Qué hace una sartén con insomnio? Da vueltas toda la noche."
+  },
+  {
+    "id": 94,
+    "chiste": "¿Por qué el teclado estaba deprimido? Porque nadie tocaba sus teclas favoritas."
+  },
+  {
+    "id": 95,
+    "chiste": "¿Qué hace una lámpara en un concierto? Ilumina el momento."
+  },
+  {
+    "id": 96,
+    "chiste": "¿Por qué el queso no se presentó? Porque se sintió muy rallado."
+  },
+  {
+    "id": 97,
+    "chiste": "¿Qué le dijo el azúcar al café? Endulzo tus días."
+  },
+  {
+    "id": 98,
+    "chiste": "¿Por qué el agua no tiene redes sociales? Porque ya fluye sola."
+  },
+  {
+    "id": 99,
+    "chiste": "¿Qué hace un tren en el gimnasio? Corre en círculos mentales."
+  },
+  {
+    "id": 100,
+    "chiste": "¿Por qué el espejo tiene ansiedad? Porque se enfrenta a sí mismo todo el tiempo."
+  },
+  {
+    "id": 101,
+    "chiste": "¿Por qué el semáforo fue al psicólogo? Porque tenía problemas para poner límites."
+  },
+  {
+    "id": 102,
+    "chiste": "¿Qué hace una almohada en una reunión? Sueña despierta."
+  },
+  {
+    "id": 103,
+    "chiste": "¿Por qué la impresora está estresada? Porque siempre trabaja bajo presión."
+  },
+  {
+    "id": 104,
+    "chiste": "¿Qué hace un ladrillo en una piscina? Se hunde en sus pensamientos."
+  },
+  {
+    "id": 105,
+    "chiste": "¿Por qué el papel no puede guardar secretos? Porque siempre se dobla."
+  },
+  {
+    "id": 106,
+    "chiste": "¿Qué hace una mosca en el teclado? Busca la tecla de escape."
+  },
+  {
+    "id": 107,
+    "chiste": "¿Por qué el helado fue rechazado? Porque era muy frío emocionalmente."
+  },
+  {
+    "id": 108,
+    "chiste": "¿Qué hace un lápiz con baja autoestima? Se borra solo."
+  },
+  {
+    "id": 109,
+    "chiste": "¿Por qué el pan se divorció de la mermelada? Porque ya no se entendían bien."
+  },
+  {
+    "id": 110,
+    "chiste": "¿Qué hace un grano de arroz en una fiesta? Espera su turno para el sushi."
+  },
+  {
+    "id": 111,
+    "chiste": "¿Por qué la televisión está deprimida? Porque nadie la ve con atención."
+  },
+  {
+    "id": 112,
+    "chiste": "¿Qué hace un paraguas con miedo? Se cierra."
+  },
+  {
+    "id": 113,
+    "chiste": "¿Por qué el microondas no tiene amigos? Porque explota a la mínima."
+  },
+  {
+    "id": 114,
+    "chiste": "¿Qué le dijo un tornillo a una tuerca? Me vuelves loco."
+  },
+  {
+    "id": 115,
+    "chiste": "¿Por qué el espejo rompió con la pared? Porque no se veían juntos."
+  },
+  {
+    "id": 116,
+    "chiste": "¿Qué hace una planta con redes sociales? Publica fotos con filtros de clorofila."
+  },
+  {
+    "id": 117,
+    "chiste": "¿Por qué el calendario estaba nervioso? Porque sus días estaban contados."
+  },
+  {
+    "id": 118,
+    "chiste": "¿Qué hace un plátano en una entrevista? Se pela para la ocasión."
+  },
+  {
+    "id": 119,
+    "chiste": "¿Por qué el ventilador no tiene pareja? Porque siempre gira en círculos."
+  },
+  {
+    "id": 120,
+    "chiste": "¿Qué hace una regla en la universidad? Mide su progreso."
+  },
+  {
+    "id": 121,
+    "chiste": "¿Por qué el bolígrafo está celoso? Porque el lápiz tiene más puntos."
+  },
+  {
+    "id": 122,
+    "chiste": "¿Qué le dijo una esponja a la otra? Me siento absorbida."
+  },
+  {
+    "id": 123,
+    "chiste": "¿Por qué el gato no quiso jugar ajedrez? Porque no le gusta pensar en blanco y negro."
+  },
+  {
+    "id": 124,
+    "chiste": "¿Qué hace un semáforo en terapia? Aprende a decir no (rojo)."
+  },
+  {
+    "id": 125,
+    "chiste": "¿Por qué la cortina no va a fiestas? Porque siempre se corre."
+  },
+  {
+    "id": 126,
+    "chiste": "¿Qué hace una batería deprimida? No se carga de emoción."
+  },
+  {
+    "id": 127,
+    "chiste": "¿Por qué el yogur no tiene amigos? Porque siempre está fermentado."
+  },
+  {
+    "id": 128,
+    "chiste": "¿Qué hace una pelota en el cine? Rebota con la trama."
+  },
+  {
+    "id": 129,
+    "chiste": "¿Por qué la chancla nunca discute? Porque sabe que da miedo."
+  },
+  {
+    "id": 130,
+    "chiste": "¿Qué hace un enchufe en una reunión? Busca conexión."
+  },
+  {
+    "id": 131,
+    "chiste": "¿Por qué el azúcar está triste? Porque todo el mundo la quiere por interés."
+  },
+  {
+    "id": 132,
+    "chiste": "¿Qué le dice un globo a otro? No te infles tanto, que vas a explotar."
+  },
+  {
+    "id": 133,
+    "chiste": "¿Por qué el refrigerador se siente vacío? Porque lo dejaron en frío."
+  },
+  {
+    "id": 134,
+    "chiste": "¿Qué hace un zapato soltero? Da pasos en falso."
+  },
+  {
+    "id": 135,
+    "chiste": "¿Por qué el teclado no va a terapia? Porque no puede expresar sus emociones."
+  },
+  {
+    "id": 136,
+    "chiste": "¿Qué hace una cuchara enojada? Da cucharadas de verdad."
+  },
+  {
+    "id": 137,
+    "chiste": "¿Por qué la lámpara está confundida? Porque no sabe si brilla por dentro o por fuera."
+  },
+  {
+    "id": 138,
+    "chiste": "¿Qué hace una nube con pena? Se esconde detrás del sol."
+  },
+  {
+    "id": 139,
+    "chiste": "¿Por qué la taza dejó el café? Porque la relación era muy tóxica."
+  },
+  {
+    "id": 140,
+    "chiste": "¿Qué hace una servilleta con autoestima? Se limpia de todo lo malo."
+  },
+  {
+    "id": 141,
+    "chiste": "¿Por qué el mouse se fue del escritorio? Porque no aguantaba más clics."
+  },
+  {
+    "id": 142,
+    "chiste": "¿Qué hace una silla con confianza? Se planta donde quiere."
+  },
+  {
+    "id": 143,
+    "chiste": "¿Por qué el espejo nunca miente? Porque refleja la verdad."
+  },
+  {
+    "id": 144,
+    "chiste": "¿Qué hace un limón enojado? Se exprime de rabia."
+  },
+  {
+    "id": 145,
+    "chiste": "¿Por qué el teclado rompió con la pantalla? Porque necesitaba espacio."
+  },
+  {
+    "id": 146,
+    "chiste": "¿Qué hace una zanahoria artista? Pinta con sus raíces."
+  },
+  {
+    "id": 147,
+    "chiste": "¿Por qué el reloj se tomó vacaciones? Porque estaba agotado del tiempo."
+  },
+  {
+    "id": 148,
+    "chiste": "¿Qué hace una cebolla al escribir? Llora sobre el teclado."
+  },
+  {
+    "id": 149,
+    "chiste": "¿Por qué el clip está deprimido? Porque no encuentra nada que lo una."
+  },
+  {
+    "id": 150,
+    "chiste": "¿Qué hace una calculadora romántica? Suma momentos contigo."
+  },
+  {
+    "id": 151,
+    "chiste": "¿Por qué el tenedor rompió con la cuchara? Porque se sentía pinchado."
+  },
+  {
+    "id": 152,
+    "chiste": "¿Qué hace una toalla feliz? Se seca las lágrimas de emoción."
+  },
+  {
+    "id": 153,
+    "chiste": "¿Por qué el enchufe está ilusionado? Porque encontró una conexión real."
+  },
+  {
+    "id": 201,
+    "chiste": "¿Por qué el teclado aprendió a nadar? Para no hundirse en sus pensamientos."
+  },
+  {
+    "id": 202,
+    "chiste": "¿Qué hace un foco en la oscuridad? Piensa brillante."
+  },
+  {
+    "id": 203,
+    "chiste": "¿Por qué la escoba se separó del recogedor? Porque barría con todo."
+  },
+  {
+    "id": 204,
+    "chiste": "¿Qué hace una abeja en la oficina? Zumba reuniones."
+  },
+  {
+    "id": 205,
+    "chiste": "¿Por qué el microondas se frustró? Porque nada lo calentaba por dentro."
+  },
+  {
+    "id": 206,
+    "chiste": "¿Qué hace un cubo de hielo en el desierto? Reflexiona sobre su existencia."
+  },
+  {
+    "id": 207,
+    "chiste": "¿Por qué el teléfono se quedó solo? Porque nadie lo llamó más."
+  },
+  {
+    "id": 208,
+    "chiste": "¿Qué hace un clip en una cita? Trata de unir corazones."
+  },
+  {
+    "id": 209,
+    "chiste": "¿Por qué el papel se rompió? Porque no aguantó la presión."
+  },
+  {
+    "id": 210,
+    "chiste": "¿Qué hace una almohada con insomnio? Se abraza a sí misma."
+  },
+  {
+    "id": 211,
+    "chiste": "¿Por qué el enchufe está triste? Porque perdió la conexión."
+  },
+  {
+    "id": 212,
+    "chiste": "¿Qué hace un tren en meditación? Sigue la vía interior."
+  },
+  {
+    "id": 213,
+    "chiste": "¿Por qué la linterna no se siente vista? Porque solo brilla en la oscuridad."
+  },
+  {
+    "id": 214,
+    "chiste": "¿Qué hace una sartén filósofa? Le da vueltas al pensamiento."
+  },
+  {
+    "id": 215,
+    "chiste": "¿Por qué el zapato se sentía vacío? Porque le faltaba alma."
+  },
+  {
+    "id": 216,
+    "chiste": "¿Qué hace una pluma deprimida? Deja de volar."
+  },
+  {
+    "id": 217,
+    "chiste": "¿Por qué el teclado escribe poesía? Porque tiene muchas teclas sensibles."
+  },
+  {
+    "id": 218,
+    "chiste": "¿Qué hace un espejo en soledad? Se refleja a sí mismo."
+  },
+  {
+    "id": 219,
+    "chiste": "¿Por qué el café se sentía fuerte? Porque siempre estaba cargado."
+  },
+  {
+    "id": 220,
+    "chiste": "¿Qué hace un tomate en un escenario? Actúa con pulpa."
+  },
+  {
+    "id": 221,
+    "chiste": "¿Por qué la nube lloraba? Porque el cielo la dejó en visto."
+  },
+  {
+    "id": 222,
+    "chiste": "¿Qué hace una hoja suelta en otoño? Se entrega al viento."
+  },
+  {
+    "id": 223,
+    "chiste": "¿Por qué el router no tiene amigos? Porque todos lo reinician."
+  },
+  {
+    "id": 224,
+    "chiste": "¿Qué hace un cable sin corriente? Vive desconectado."
+  },
+  {
+    "id": 225,
+    "chiste": "¿Por qué el mouse corre? Porque le persigue el cursor."
+  },
+  {
+    "id": 226,
+    "chiste": "¿Qué hace un papel con autoestima? Se dobla, pero no se rompe."
+  },
+  {
+    "id": 227,
+    "chiste": "¿Por qué la tostadora se enamoró del pan? Porque lo hacía sentir caliente."
+  },
+  {
+    "id": 228,
+    "chiste": "¿Qué hace un diccionario enojado? Define los límites."
+  },
+  {
+    "id": 229,
+    "chiste": "¿Por qué la calculadora no tiene suerte en el amor? Porque siempre calcula todo."
+  },
+  {
+    "id": 230,
+    "chiste": "¿Qué hace una hoja de Excel en una cita? Organiza emociones en celdas."
+  },
+  {
+    "id": 231,
+    "chiste": "¿Por qué el queso no fue al evento? Porque ya estaba rallado."
+  },
+  {
+    "id": 232,
+    "chiste": "¿Qué hace un ventilador romántico? Suspira en círculos."
+  },
+  {
+    "id": 233,
+    "chiste": "¿Por qué la sartén se quemó? Porque se dejó llevar por la llama."
+  },
+  {
+    "id": 234,
+    "chiste": "¿Qué hace un micrófono tímido? Se queda en silencio."
+  },
+  {
+    "id": 235,
+    "chiste": "¿Por qué el despertador fue despedido? Porque siempre sonaba mal."
+  },
+  {
+    "id": 236,
+    "chiste": "¿Qué hace una bocina feliz? Da buenos tonos."
+  },
+  {
+    "id": 237,
+    "chiste": "¿Por qué el teclado quiere vacaciones? Porque ya está muy presionado."
+  },
+  {
+    "id": 238,
+    "chiste": "¿Qué hace una pizza en terapia? Habla de sus porciones internas."
+  },
+  {
+    "id": 239,
+    "chiste": "¿Por qué el reloj se adelantó? Porque tenía prisa por llegar."
+  },
+  {
+    "id": 240,
+    "chiste": "¿Qué hace un espejo roto? Refleja sus errores."
+  },
+  {
+    "id": 241,
+    "chiste": "¿Por qué el sartén no puede dormir? Porque siempre tiene algo en la cabeza."
+  },
+  {
+    "id": 242,
+    "chiste": "¿Qué hace una impresora cuando está cansada? Saca copias de sí misma."
+  },
+  {
+    "id": 243,
+    "chiste": "¿Por qué el colador no confía en nadie? Porque todo se le escapa."
+  },
+  {
+    "id": 244,
+    "chiste": "¿Qué hace un pan con orgullo? Se infla solo."
+  },
+  {
+    "id": 245,
+    "chiste": "¿Por qué la nevera está celosa del horno? Porque todos lo encuentran más caliente."
+  },
+  {
+    "id": 246,
+    "chiste": "¿Qué hace una escalera deprimida? Baja el ánimo."
+  },
+  {
+    "id": 247,
+    "chiste": "¿Por qué el enchufe no se decide? Porque tiene muchas conexiones."
+  },
+  {
+    "id": 248,
+    "chiste": "¿Qué hace una bombilla motivada? Ilumina hasta en sus peores días."
+  },
+  {
+    "id": 249,
+    "chiste": "¿Por qué la cortina escribe poemas? Porque siente el viento del alma."
+  },
+  {
+    "id": 250,
+    "chiste": "¿Qué hace una tostadora poética? Brinda calor con palabras."
+  },
+  {
+    "id": 251,
+    "chiste": "¿Por qué el control remoto se esconde? Porque quiere tener el control absoluto."
+  },
+  {
+    "id": 301,
+    "chiste": "¿Por qué la impresora se quedó sin amigos? Porque siempre estaba sacando copias."
+  },
+  {
+    "id": 302,
+    "chiste": "¿Qué hace una cuchara en una clase de yoga? Se relaja profundamente."
+  },
+  {
+    "id": 303,
+    "chiste": "¿Por qué el bolígrafo se siente vacío? Porque ya no escribe lo que siente."
+  },
+  {
+    "id": 304,
+    "chiste": "¿Qué hace una silla tímida? Se esconde bajo la mesa."
+  },
+  {
+    "id": 305,
+    "chiste": "¿Por qué el semáforo es buen terapeuta? Porque sabe cuándo parar."
+  },
+  {
+    "id": 306,
+    "chiste": "¿Qué hace un ladrón en la cocina? Se lleva la cena puesta."
+  },
+  {
+    "id": 307,
+    "chiste": "¿Por qué la escoba quiere ser influencer? Porque tiene muchos seguidores… de polvo."
+  },
+  {
+    "id": 308,
+    "chiste": "¿Qué hace una linterna triste? Se apaga por dentro."
+  },
+  {
+    "id": 309,
+    "chiste": "¿Por qué el router escribe poesía? Porque tiene muchas conexiones emocionales."
+  },
+  {
+    "id": 310,
+    "chiste": "¿Qué hace un gato filósofo? Maulla preguntas sin respuesta."
+  },
+  {
+    "id": 311,
+    "chiste": "¿Por qué la licuadora está confundida? Porque todo le da vueltas."
+  },
+  {
+    "id": 312,
+    "chiste": "¿Qué hace una puerta educada? Siempre da paso."
+  },
+  {
+    "id": 313,
+    "chiste": "¿Por qué el queso fue al karaoke? Porque quería rallar emociones."
+  },
+  {
+    "id": 314,
+    "chiste": "¿Qué hace una nube emocional? Llora en forma de arte."
+  },
+  {
+    "id": 315,
+    "chiste": "¿Por qué el reloj se volvió loco? Porque perdió la noción de sí mismo."
+  },
+  {
+    "id": 316,
+    "chiste": "¿Qué hace una tetera enfadada? Silba de rabia."
+  },
+  {
+    "id": 317,
+    "chiste": "¿Por qué el teclado rompió con la pantalla? Porque no podían verse cara a cara."
+  },
+  {
+    "id": 318,
+    "chiste": "¿Qué hace una tostadora en la ópera? Da notas calientes."
+  },
+  {
+    "id": 319,
+    "chiste": "¿Por qué el jabón no hace amigos? Porque siempre se resbala."
+  },
+  {
+    "id": 320,
+    "chiste": "¿Qué hace una lupa en una cita? Examina cada detalle."
+  },
+  {
+    "id": 321,
+    "chiste": "¿Por qué el mouse no encuentra el amor? Porque siempre da vueltas en círculos."
+  },
+  {
+    "id": 322,
+    "chiste": "¿Qué hace una hoja en el viento? Deja que la vida la lleve."
+  },
+  {
+    "id": 323,
+    "chiste": "¿Por qué el microondas no confía en nadie? Porque todos quieren abrirlo."
+  },
+  {
+    "id": 324,
+    "chiste": "¿Qué hace un clip en vacaciones? Descansa sin sujetar nada."
+  },
+  {
+    "id": 325,
+    "chiste": "¿Por qué el teléfono está deprimido? Porque todos lo dejan en visto."
+  },
+  {
+    "id": 326,
+    "chiste": "¿Qué hace un globo con autoestima? Se infla de orgullo."
+  },
+  {
+    "id": 327,
+    "chiste": "¿Por qué la ventana llora? Porque siempre ve pasar a los demás."
+  },
+  {
+    "id": 328,
+    "chiste": "¿Qué hace un peine despeinado? Vive en rebeldía."
+  },
+  {
+    "id": 329,
+    "chiste": "¿Por qué el cubo de basura se siente mal? Porque siempre lo llenan de cosas que no sirven."
+  },
+  {
+    "id": 330,
+    "chiste": "¿Qué hace una bandeja feliz? Lleva todo con una sonrisa."
+  },
+  {
+    "id": 331,
+    "chiste": "¿Por qué la impresora es dramática? Porque todo lo saca en blanco y negro."
+  },
+  {
+    "id": 332,
+    "chiste": "¿Qué hace una sartén inspirada? Cocina ideas."
+  },
+  {
+    "id": 333,
+    "chiste": "¿Por qué el congelador es frío? Porque guarda sus emociones."
+  },
+  {
+    "id": 334,
+    "chiste": "¿Qué hace un exprimidor con rabia? Saca lo peor de los cítricos."
+  },
+  {
+    "id": 335,
+    "chiste": "¿Por qué la sombrilla está triste? Porque solo la buscan cuando todo se nubla."
+  },
+  {
+    "id": 336,
+    "chiste": "¿Qué hace una alarma en domingo? Rompe corazones."
+  },
+  {
+    "id": 337,
+    "chiste": "¿Por qué el teclado sueña? Porque tiene muchas teclas dormidas."
+  },
+  {
+    "id": 338,
+    "chiste": "¿Qué hace un auricular solo? Escucha sus pensamientos."
+  },
+  {
+    "id": 339,
+    "chiste": "¿Por qué el espejo tiene autoestima? Porque siempre se ve bien."
+  },
+  {
+    "id": 340,
+    "chiste": "¿Qué hace una calculadora enamorada? Cuenta contigo."
+  },
+  {
+    "id": 341,
+    "chiste": "¿Por qué el refrigerador está deprimido? Porque todos lo abren sin preguntarle cómo está."
+  },
+  {
+    "id": 342,
+    "chiste": "¿Qué hace una hoja en blanco? Espera inspiración."
+  },
+  {
+    "id": 343,
+    "chiste": "¿Por qué la mopa se siente usada? Porque todos caminan sobre ella."
+  },
+  {
+    "id": 344,
+    "chiste": "¿Qué hace un control remoto perdido? Se encuentra a sí mismo."
+  },
+  {
+    "id": 345,
+    "chiste": "¿Por qué el jabón se esconde? Porque todos lo usan y luego lo dejan."
+  },
+  {
+    "id": 346,
+    "chiste": "¿Qué hace una sartén soltera? Cocina para uno."
+  },
+  {
+    "id": 347,
+    "chiste": "¿Por qué el café tiene ansiedad? Porque siempre está al límite."
+  },
+  {
+    "id": 348,
+    "chiste": "¿Qué hace una lámpara cansada? Apenas brilla."
+  },
+  {
+    "id": 349,
+    "chiste": "¿Por qué el radiador tiene buen humor? Porque siempre calienta el ambiente."
+  },
+  {
+    "id": 350,
+    "chiste": "¿Qué hace una grapadora nerviosa? Se traba con facilidad."
+  },
+  {
+    "id": 351,
+    "chiste": "¿Por qué la escoba escribe libros? Porque tiene muchas historias barridas."
+  },
+  {
+    "id": 401,
+    "chiste": "¿Por qué la tostadora fue a clases de canto? Porque quería dar notas calientes."
+  },
+  {
+    "id": 402,
+    "chiste": "¿Qué hace un cable enamorado? Se enreda por amor."
+  },
+  {
+    "id": 403,
+    "chiste": "¿Por qué la mermelada no juega a las escondidas? Porque siempre se queda pegada."
+  },
+  {
+    "id": 404,
+    "chiste": "¿Qué hace un sartén nervioso? Tiembla en cada comida."
+  },
+  {
+    "id": 405,
+    "chiste": "¿Por qué la olla se siente vacía? Porque nadie cocina con amor."
+  },
+  {
+    "id": 406,
+    "chiste": "¿Qué hace una escoba con autoestima? Barre lo que no le sirve."
+  },
+  {
+    "id": 407,
+    "chiste": "¿Por qué el ventilador se marea? Porque da muchas vueltas a todo."
+  },
+  {
+    "id": 408,
+    "chiste": "¿Qué hace un mouse existencialista? Busca su propósito con cada clic."
+  },
+  {
+    "id": 409,
+    "chiste": "¿Por qué el cable USB está confundido? Porque entra mal en todas partes."
+  },
+  {
+    "id": 410,
+    "chiste": "¿Qué hace un teclado despechado? Escribe en mayúsculas."
+  },
+  {
+    "id": 411,
+    "chiste": "¿Por qué el horno no quiere hablar? Porque guarda todo por dentro."
+  },
+  {
+    "id": 412,
+    "chiste": "¿Qué hace una taza en el psicólogo? Habla de sus grietas."
+  },
+  {
+    "id": 413,
+    "chiste": "¿Por qué la tostadora se siente sola? Porque todos solo la usan por las mañanas."
+  },
+  {
+    "id": 414,
+    "chiste": "¿Qué hace una bolsa de té en crisis? Se sumerge en sus pensamientos."
+  },
+  {
+    "id": 415,
+    "chiste": "¿Por qué la cafetera está agotada? Porque da mucho y nadie la valora."
+  },
+  {
+    "id": 416,
+    "chiste": "¿Qué hace una goma con problemas? Borra su pasado."
+  },
+  {
+    "id": 417,
+    "chiste": "¿Por qué el espejo tiene insomnio? Porque se refleja toda la noche."
+  },
+  {
+    "id": 418,
+    "chiste": "¿Qué hace una pila con energía? Ilumina el día."
+  },
+  {
+    "id": 419,
+    "chiste": "¿Por qué el refrigerador estudia filosofía? Porque guarda muchas ideas frías."
+  },
+  {
+    "id": 420,
+    "chiste": "¿Qué hace una cuchara en vacaciones? Se revuelve en paz."
+  },
+  {
+    "id": 421,
+    "chiste": "¿Por qué la televisión se siente vacía? Porque nadie la escucha realmente."
+  },
+  {
+    "id": 422,
+    "chiste": "¿Qué hace un grano de sal feliz? Sazona el momento."
+  },
+  {
+    "id": 423,
+    "chiste": "¿Por qué el clip tiene ansiedad? Porque quiere unir todo."
+  },
+  {
+    "id": 424,
+    "chiste": "¿Qué hace un calendario nostálgico? Vive de recuerdos."
+  },
+  {
+    "id": 425,
+    "chiste": "¿Por qué el espejo es poeta? Porque se inspira con su reflejo."
+  },
+  {
+    "id": 426,
+    "chiste": "¿Qué hace un cable USB inseguro? Se conecta y se desconecta constantemente."
+  },
+  {
+    "id": 427,
+    "chiste": "¿Por qué la lámpara no tiene secretos? Porque siempre lo revela todo."
+  },
+  {
+    "id": 428,
+    "chiste": "¿Qué hace una almohada emocionada? Acolcha los sentimientos."
+  },
+  {
+    "id": 429,
+    "chiste": "¿Por qué la sartén es popular? Porque siempre está en el fuego de la acción."
+  },
+  {
+    "id": 430,
+    "chiste": "¿Qué hace una tostada madura? Acepta que algún día se quemará."
+  },
+  {
+    "id": 431,
+    "chiste": "¿Por qué la caja de herramientas se siente útil? Porque da soluciones."
+  },
+  {
+    "id": 432,
+    "chiste": "¿Qué hace un espejo nuevo? Refleja su entusiasmo."
+  },
+  {
+    "id": 433,
+    "chiste": "¿Por qué el radiador está tranquilo? Porque se calienta lentamente."
+  },
+  {
+    "id": 434,
+    "chiste": "¿Qué hace una puerta vieja? Cierra ciclos."
+  },
+  {
+    "id": 435,
+    "chiste": "¿Por qué el botón no reacciona? Porque necesita presión emocional."
+  },
+  {
+    "id": 436,
+    "chiste": "¿Qué hace una taza con carácter? No se rompe fácilmente."
+  },
+  {
+    "id": 437,
+    "chiste": "¿Por qué el tenedor no se lleva con la cuchara? Porque tienen diferentes puntos de vista."
+  },
+  {
+    "id": 438,
+    "chiste": "¿Qué hace una esponja optimista? Absorbe lo bueno."
+  },
+  {
+    "id": 439,
+    "chiste": "¿Por qué el tostador escribe poesía? Porque calienta el alma."
+  },
+  {
+    "id": 440,
+    "chiste": "¿Qué hace una olla sin tapa? Deja salir lo que siente."
+  },
+  {
+    "id": 441,
+    "chiste": "¿Por qué el microondas se frustra fácil? Porque todo lo quiere rápido."
+  },
+  {
+    "id": 442,
+    "chiste": "¿Qué hace una sartén enamorada? Cocina con pasión."
+  },
+  {
+    "id": 443,
+    "chiste": "¿Por qué el teclado es escritor? Porque tiene muchas palabras guardadas."
+  },
+  {
+    "id": 444,
+    "chiste": "¿Qué hace una nube feliz? Flota sin preocupaciones."
+  },
+  {
+    "id": 445,
+    "chiste": "¿Por qué la escalera tiene metas? Porque siempre quiere subir."
+  },
+  {
+    "id": 446,
+    "chiste": "¿Qué hace un control remoto confiado? Cambia el mundo desde su lugar."
+  },
+  {
+    "id": 447,
+    "chiste": "¿Por qué la licuadora no duerme? Porque todo lo revuelve."
+  },
+  {
+    "id": 448,
+    "chiste": "¿Qué hace una lámpara sabia? Ilumina sin juzgar."
+  },
+  {
+    "id": 449,
+    "chiste": "¿Por qué el papel higiénico tiene miedo? Porque sabe cómo termina todo."
+  },
+  {
+    "id": 450,
+    "chiste": "¿Qué hace una nota musical libre? Vibra donde quiere."
+  }
+]
