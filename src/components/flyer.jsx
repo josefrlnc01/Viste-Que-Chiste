@@ -2,7 +2,7 @@ export default function Flyer({ joke, visible }) {
     return (
       <div
         id="customFlyer"
-        className="min-w-full min-h-screen grid place-content-center fixed top-0 left-0 z-50"
+        className=" min-h-screen grid place-content-center fixed top-0 left-0 z-50"
         style={{ display: visible ? "block" : "none" } }
       >
         <div className="flyer-container">

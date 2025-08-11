@@ -14,25 +14,22 @@ import { Capacitor } from '@capacitor/core';
 import { Filesystem, Directory } from "@capacitor/filesystem";
 import Confetti from "react-confetti";
 
-const BACKUP_JOKES = [
+const BACKUP_jokeDefinitive = [
   "¿Qué le dice un jaguar a otro jaguar? Jaguar you",
   "¿Cómo se despiden los químicos? Ácido un placer",
   "¿Qué le dice una iguana a su hermana gemela? Somos iguanitas"
 ];
 
 export default function Jokes() {
-    const [loading, setLoading] = useState(false);
-    const [error, setError] = useState('');
     const [chisteActual, setChisteActual] = useState('');
     const { addJoke, removeJoke } = useFavoritesStore();
      const [showFlyer, setShowFlyer] = useState(false);
-    const flyerRef = useRef(null);
     const maxForaddsCounter = 6
     const [firstJoke, setFirstJoke] = useState(false)
     const {categoria} = useCategoria()
-
    const [showConfetti, setShowConfetti] = useState(false);
-
+   const [jokeDefinitive, setjokeDefinitive] = useState(chistesData);
+   const {jokes} = useFavoritesStore() 
   const handleAction = () => {
     setShowConfetti(true);
 
@@ -118,24 +115,34 @@ export default function Jokes() {
     }
 
   
-
-    const [jokes, setJokes] = useState(chistesData);
+    function saveJoke(){
+      
+      // Detectar duplicados por texto, ya que el store guarda { id: uuid, text }
+      if (jokes.some(j => j.text === chisteActual)) {
+        toast.error('Este chiste ya está guardado 🥸​')
+        return
+      }
+      handleAction()
+      toast.success('Nuevo chiste para la colección 🤪​')
+      addJoke(chisteActual)
+    }
+    
 
     
 
     const mostrarChisteAleatorio = () => {
       try {
-         handleAction()
+        
         const pool = categoria === 'Generales'
-        ? jokes
+        ? jokeDefinitive
         : categoriesChistes.filter(cat => cat.categoria === categoria)
         setFirstJoke(true)
         const randomJoke = pool[Math.floor(Math.random() * pool.length)]
        
         const normalized =
         typeof randomJoke === 'string'
-          ? { chiste: randomJoke, categoria: categoria === 'Generales' ? 'General' : categoria }
-          : { chiste: randomJoke?.chiste ?? String(randomJoke ?? ''), categoria: randomJoke?.categoria ?? 'General' };
+          ? { chiste: randomJoke, categoria: categoria === 'Generales' ? 'General' : categoria, id: randomJoke.id }
+          : { chiste: randomJoke?.chiste ?? String(randomJoke ?? ''), categoria: randomJoke?.categoria ?? 'General' , id:randomJoke.id};
         
         
         setChisteActual(normalized.chiste)
@@ -154,8 +161,8 @@ export default function Jokes() {
         )
       } catch (error) {
         console.error('Error al mostrar el chiste:', error);
-        // Fallback to backup jokes if there's an error
-        const backupJoke = BACKUP_JOKES[Math.floor(Math.random() * BACKUP_JOKES.length)];
+        // Fallback to backup jokeDefinitive if there's an error
+        const backupJoke = BACKUP_jokeDefinitive[Math.floor(Math.random() * BACKUP_jokeDefinitive.length)];
         setChisteActual(backupJoke);
         speak(backupJoke);
       }
@@ -183,10 +190,7 @@ export default function Jokes() {
               <div className=' min-w-full min-h-full p-2 mt-2 mb-0   text-white flex flex-row justify-center gap-2  rounded-lg'>
               {firstJoke ?  <button className=' p-6 bg-sky-400 shadow-md  rounded-md' onClick={() => speak(chisteActual)}>🔊​</button> : ''}
                
-                {firstJoke ? <button className=' p-6 bg-pink-400 shadow-md   rounded-md' onClick={() => {
-                  toast.success('Nuevo chiste para la colección 🤪​')
-                  addJoke(chisteActual)
-                }}>⭐​​</button> : ''}
+                {firstJoke ? <button className=' p-6 bg-pink-400 shadow-md   rounded-md' onClick={saveJoke}>⭐​​</button> : ''}
                 {firstJoke ? <button className=' p-6 bg-green-400 shadow-md   rounded-md' onClick={() => shareCanvas()}>🚀​​​</button> : '' }
                 
               </div>

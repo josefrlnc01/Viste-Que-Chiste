@@ -35,7 +35,7 @@ export default function App() {
   <Jokes
   setReadyForCanvas={setReadyForCanvas}
   />
-  <Toaster position='top-center'/>
+  <Toaster position='bottom-center'/>
   </>
  )
 }
