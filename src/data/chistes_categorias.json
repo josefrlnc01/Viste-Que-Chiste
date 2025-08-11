@@ -1,1605 +1,1507 @@
 [
-  {
-    "id": "pepito_1",
-    "categoria": "Pepito",
-    "chiste": "Pepito pregunta: «¿si estudio cinco minutos cuenta como maratón?» —«cuenta como siesta»"
-  },
-  {
-    "id": "pepito_2",
-    "categoria": "Pepito",
-    "chiste": "Pepito pregunta: «¿si estudio cinco minutos cuenta como maratón?» —«solo en domingo»"
-  },
-  {
-    "id": "pepito_3",
-    "categoria": "Pepito",
-    "chiste": "Pepito le dice a la maestra: «si estudio dormido aprendo por osmosis». La maestra responde: «entrega en silencio y en papel»."
-  },
-  {
-    "id": "pepito_4",
-    "categoria": "Pepito",
-    "chiste": "En el examen, Pepito escribe: «vease tarea anterior… (tampoco hay)». El profe: «tu creatividad es inversamente proporcional al resultado»."
-  },
-  {
-    "id": "pepito_5",
-    "categoria": "Pepito",
-    "chiste": "En el examen, Pepito escribe: «lo importante es participar». El profe: «participaste poco»."
-  },
-  {
-    "id": "pepito_6",
-    "categoria": "Pepito",
-    "chiste": "—Pepito, ¿qué hiciste en vacaciones? —Porque mi perro se hizo influencer y me quitó el cuaderno."
-  },
-  {
-    "id": "pepito_7",
-    "categoria": "Pepito",
-    "chiste": "En el examen, Pepito escribe: «respuesta en la página siguiente… (no hay)». El profe: «tu creatividad es inversamente proporcional al resultado»."
-  },
-  {
-    "id": "pepito_8",
-    "categoria": "Pepito",
-    "chiste": "—Pepito, ¿cuánto es 2+2? —Porque así mínimo una estará bien."
-  },
-  {
-    "id": "pepito_9",
-    "categoria": "Pepito",
-    "chiste": "Pepito pregunta: «¿la calculadora trae modo milagro?» —«solo en domingo»"
-  },
-  {
-    "id": "pepito_10",
-    "categoria": "Pepito",
-    "chiste": "Pepito llega a casa y dice: «me felicitaron… por venir». Su mamá: «pues sorpréndete estudiando»."
-  },
-  {
-    "id": "pepito_11",
-    "categoria": "Pepito",
-    "chiste": "—Pepito, ¿por qué llegaste sin tarea? —Porque así mínimo una estará bien."
-  },
-  {
-    "id": "pepito_12",
-    "categoria": "Pepito",
-    "chiste": "Pepito pregunta: «¿puedo poner mi nombre grande para que sume?» —«solo en domingo»"
-  },
-  {
-    "id": "pepito_13",
-    "categoria": "Pepito",
-    "chiste": "En el examen, Pepito escribe: «respuesta en la página siguiente… (no hay)». El profe: «el arte no puntúa aquí»."
-  },
-  {
-    "id": "pepito_14",
-    "categoria": "Pepito",
-    "chiste": "Pepito pregunta: «¿la calculadora trae modo milagro?» —«cuenta como siesta»"
-  },
-  {
-    "id": "pepito_15",
-    "categoria": "Pepito",
-    "chiste": "Pepito le dice a la maestra: «si saco cero, ¿es un círculo perfecto?». La maestra responde: «solo si sueñas con el libro abierto»."
-  },
-  {
-    "id": "pepito_16",
-    "categoria": "Pepito",
-    "chiste": "En el examen, Pepito escribe: «proceso creativo en progreso». El profe: «lo importante es aprobar»."
-  },
-  {
-    "id": "pepito_17",
-    "categoria": "Pepito",
-    "chiste": "Pepito le dice a la maestra: «yo no llegué tarde, el recreo llegó temprano». La maestra responde: «es un cero redondo, pero sigue siendo cero»."
-  },
-  {
-    "id": "pepito_18",
-    "categoria": "Pepito",
-    "chiste": "—Pepito, ¿por qué pusiste tu nombre en todas las respuestas? —Porque depende del plan de datos."
-  },
-  {
-    "id": "pepito_19",
-    "categoria": "Pepito",
-    "chiste": "En el examen, Pepito escribe: «vease tarea anterior… (tampoco hay)». El profe: «participaste poco»."
-  },
-  {
-    "id": "pepito_20",
-    "categoria": "Pepito",
-    "chiste": "En el examen, Pepito escribe: «proceso creativo en progreso». El profe: «participaste poco»."
-  },
-  {
-    "id": "pepito_21",
-    "categoria": "Pepito",
-    "chiste": "Pepito llega a casa y dice: «me felicitaron… por venir». Su mamá: «la economía empieza por apagar la consola»."
-  },
-  {
-    "id": "pepito_22",
-    "categoria": "Pepito",
-    "chiste": "Pepito llega a casa y dice: «me felicitaron… por venir». Su mamá: «mi sorpresa es que sigues despierto»."
-  },
-  {
-    "id": "pepito_23",
-    "categoria": "Pepito",
-    "chiste": "Pepito llega a casa y dice: «saqué 10, pero en porcentaje». Su mamá: «la economía empieza por apagar la consola»."
-  },
-  {
-    "id": "pepito_24",
-    "categoria": "Pepito",
-    "chiste": "Pepito le dice a la maestra: «si estudio dormido aprendo por osmosis». La maestra responde: «solo si sueñas con el libro abierto»."
-  },
-  {
-    "id": "pepito_25",
-    "categoria": "Pepito",
-    "chiste": "Pepito llega a casa y dice: «mañana es examen sorpresa, me lo dijo el profe». Su mamá: «mi sorpresa es que sigues despierto»."
-  },
-  {
-    "id": "pepito_26",
-    "categoria": "Pepito",
-    "chiste": "—Pepito, ¿cuánto es 2+2? —Porque mi perro se hizo influencer y me quitó el cuaderno."
-  },
-  {
-    "id": "pepito_27",
-    "categoria": "Pepito",
-    "chiste": "En el examen, Pepito escribe: «lo importante es participar». El profe: «lo importante es aprobar»."
-  },
-  {
-    "id": "pepito_28",
-    "categoria": "Pepito",
-    "chiste": "Pepito llega a casa y dice: «mañana es examen sorpresa, me lo dijo el profe». Su mamá: «la economía empieza por apagar la consola»."
-  },
-  {
-    "id": "pepito_29",
-    "categoria": "Pepito",
-    "chiste": "Pepito le dice a la maestra: «¿puedo entregar el examen en PDF? Pereza De Formatear». La maestra responde: «entrega en silencio y en papel»."
-  },
-  {
-    "id": "pepito_30",
-    "categoria": "Pepito",
-    "chiste": "Pepito llega a casa y dice: «estoy estudiando economía de esfuerzos». Su mamá: «pues sorpréndete estudiando»."
-  },
-  {
-    "id": "pepito_31",
-    "categoria": "Pepito",
-    "chiste": "En el examen, Pepito escribe: «respuesta en la página siguiente… (no hay)». El profe: «lo importante es aprobar»."
-  },
-  {
-    "id": "pepito_32",
-    "categoria": "Pepito",
-    "chiste": "Pepito le dice a la maestra: «si estudio dormido aprendo por osmosis». La maestra responde: «y tu excusa llegó sin recreo»."
-  },
-  {
-    "id": "pepito_33",
-    "categoria": "Pepito",
-    "chiste": "—Pepito, ¿por qué llegaste sin tarea? —Porque mi perro se hizo influencer y me quitó el cuaderno."
-  },
-  {
-    "id": "pepito_34",
-    "categoria": "Pepito",
-    "chiste": "Pepito le dice a la maestra: «si saco cero, ¿es un círculo perfecto?». La maestra responde: «entrega en silencio y en papel»."
-  },
-  {
-    "id": "pepito_35",
-    "categoria": "Pepito",
-    "chiste": "En el examen, Pepito escribe: «proceso creativo en progreso». El profe: «tu creatividad es inversamente proporcional al resultado»."
-  },
-  {
-    "id": "pepito_36",
-    "categoria": "Pepito",
-    "chiste": "En el examen, Pepito escribe: «proceso creativo en progreso». El profe: «el arte no puntúa aquí»."
-  },
-  {
-    "id": "pepito_37",
-    "categoria": "Pepito",
-    "chiste": "Pepito le dice a la maestra: «si saco cero, ¿es un círculo perfecto?». La maestra responde: «cuentan como levantar el ánimo… cuando las terminas»."
-  },
-  {
-    "id": "pepito_38",
-    "categoria": "Pepito",
-    "chiste": "Pepito le dice a la maestra: «si estudio dormido aprendo por osmosis». La maestra responde: «es un cero redondo, pero sigue siendo cero»."
-  },
-  {
-    "id": "pepito_39",
-    "categoria": "Pepito",
-    "chiste": "Pepito llega a casa y dice: «estoy estudiando economía de esfuerzos». Su mamá: «la economía empieza por apagar la consola»."
-  },
-  {
-    "id": "pepito_40",
-    "categoria": "Pepito",
-    "chiste": "Pepito pregunta: «¿puedo poner mi nombre grande para que sume?» —«cuenta como siesta»"
-  },
-  {
-    "id": "pepito_41",
-    "categoria": "Pepito",
-    "chiste": "Pepito le dice a la maestra: «¿las tareas cuentan como cardio?». La maestra responde: «cuentan como levantar el ánimo… cuando las terminas»."
-  },
-  {
-    "id": "pepito_42",
-    "categoria": "Pepito",
-    "chiste": "—Pepito, ¿por qué llegaste sin tarea? —Porque depende del plan de datos."
-  },
-  {
-    "id": "pepito_43",
-    "categoria": "Pepito",
-    "chiste": "—Pepito, ¿qué hiciste en vacaciones? —Porque así mínimo una estará bien."
-  },
-  {
-    "id": "pepito_44",
-    "categoria": "Pepito",
-    "chiste": "Pepito le dice a la maestra: «¿las tareas cuentan como cardio?». La maestra responde: «y tu excusa llegó sin recreo»."
-  },
-  {
-    "id": "pepito_45",
-    "categoria": "Pepito",
-    "chiste": "Pepito pregunta: «¿si estudio cinco minutos cuenta como maratón?» —«suma cero, pero queda bonito»"
-  },
-  {
-    "id": "pepito_46",
-    "categoria": "Pepito",
-    "chiste": "Pepito llega a casa y dice: «saqué 10, pero en porcentaje». Su mamá: «mi sorpresa es que sigues despierto»."
-  },
-  {
-    "id": "pepito_47",
-    "categoria": "Pepito",
-    "chiste": "—Pepito, ¿por qué llegaste sin tarea? —Porque hice fila para descansar."
-  },
-  {
-    "id": "pepito_48",
-    "categoria": "Pepito",
-    "chiste": "Pepito le dice a la maestra: «¿puedo entregar el examen en PDF? Pereza De Formatear». La maestra responde: «es un cero redondo, pero sigue siendo cero»."
-  },
-  {
-    "id": "pepito_49",
-    "categoria": "Pepito",
-    "chiste": "Pepito llega a casa y dice: «estoy estudiando economía de esfuerzos». Su mamá: «mi sorpresa es que sigues despierto»."
-  },
-  {
-    "id": "pepito_50",
-    "categoria": "Pepito",
-    "chiste": "Pepito pregunta: «¿puedo poner mi nombre grande para que sume?» —«suma cero, pero queda bonito»"
-  },
-  {
-    "id": "pepito_51",
-    "categoria": "Pepito",
-    "chiste": "Pepito pregunta: «¿si estudio cinco minutos cuenta como maratón?» —«cuenta como siesta»"
-  },
-  {
-    "id": "pepito_52",
-    "categoria": "Pepito",
-    "chiste": "Pepito le dice a la maestra: «¿las tareas cuentan como cardio?». La maestra responde: «es un cero redondo, pero sigue siendo cero»."
-  },
-  {
-    "id": "pepito_53",
-    "categoria": "Pepito",
-    "chiste": "En el examen, Pepito escribe: «vease tarea anterior… (tampoco hay)». El profe: «tu creatividad es inversamente proporcional al resultado»."
-  },
-  {
-    "id": "pepito_54",
-    "categoria": "Pepito",
-    "chiste": "—Pepito, ¿qué hiciste en vacaciones? —Porque hice fila para descansar."
-  },
-  {
-    "id": "pepito_55",
-    "categoria": "Pepito",
-    "chiste": "—Pepito, ¿qué hiciste en vacaciones? —Porque mi perro se hizo influencer y me quitó el cuaderno."
-  },
-  {
-    "id": "pepito_56",
-    "categoria": "Pepito",
-    "chiste": "En el examen, Pepito escribe: «respuesta en la página siguiente… (no hay)». El profe: «tu creatividad es inversamente proporcional al resultado»."
-  },
-  {
-    "id": "pepito_57",
-    "categoria": "Pepito",
-    "chiste": "—Pepito, ¿cuánto es 2+2? —Porque así mínimo una estará bien."
-  },
-  {
-    "id": "pepito_58",
-    "categoria": "Pepito",
-    "chiste": "En el examen, Pepito escribe: «respuesta en la página siguiente… (no hay)». El profe: «participaste poco»."
-  },
-  {
-    "id": "pepito_59",
-    "categoria": "Pepito",
-    "chiste": "—Pepito, ¿cuánto es 2+2? —Porque hice fila para descansar."
-  },
-  {
-    "id": "pepito_60",
-    "categoria": "Pepito",
-    "chiste": "En el examen, Pepito escribe: «lo importante es participar». El profe: «tu creatividad es inversamente proporcional al resultado»."
-  },
-  {
-    "id": "pepito_61",
-    "categoria": "Pepito",
-    "chiste": "Pepito pregunta: «¿la calculadora trae modo milagro?» —«solo en domingo»"
-  },
-  {
-    "id": "pepito_62",
-    "categoria": "Pepito",
-    "chiste": "—Pepito, ¿cuánto es 2+2? —Porque depende del plan de datos."
-  },
-  {
-    "id": "pepito_63",
-    "categoria": "Pepito",
-    "chiste": "Pepito llega a casa y dice: «me felicitaron… por venir». Su mamá: «pues sorpréndete estudiando»."
-  },
-  {
-    "id": "pepito_64",
-    "categoria": "Pepito",
-    "chiste": "Pepito pregunta: «¿puedo poner mi nombre grande para que sume?» —«solo en domingo»"
-  },
-  {
-    "id": "pepito_65",
-    "categoria": "Pepito",
-    "chiste": "Pepito pregunta: «¿la calculadora trae modo milagro?» —«suma cero, pero queda bonito»"
-  },
-  {
-    "id": "pepito_66",
-    "categoria": "Pepito",
-    "chiste": "Pepito llega a casa y dice: «me felicitaron… por venir». Su mamá: «sorpresa será si estudias»."
-  },
-  {
-    "id": "pepito_67",
-    "categoria": "Pepito",
-    "chiste": "En el examen, Pepito escribe: «respuesta en la página siguiente… (no hay)». El profe: «el arte no puntúa aquí»."
-  },
-  {
-    "id": "pepito_68",
-    "categoria": "Pepito",
-    "chiste": "En el examen, Pepito escribe: «vease tarea anterior… (tampoco hay)». El profe: «el arte no puntúa aquí»."
-  },
-  {
-    "id": "pepito_69",
-    "categoria": "Pepito",
-    "chiste": "Pepito pregunta: «¿la calculadora trae modo milagro?» —«cuenta como siesta»"
-  },
-  {
-    "id": "pepito_70",
-    "categoria": "Pepito",
-    "chiste": "Pepito le dice a la maestra: «yo no llegué tarde, el recreo llegó temprano». La maestra responde: «solo si sueñas con el libro abierto»."
-  },
-  {
-    "id": "pepito_71",
-    "categoria": "Pepito",
-    "chiste": "Pepito le dice a la maestra: «yo no llegué tarde, el recreo llegó temprano». La maestra responde: «es un cero redondo, pero sigue siendo cero»."
-  },
-  {
-    "id": "pepito_72",
-    "categoria": "Pepito",
-    "chiste": "Pepito llega a casa y dice: «saqué 10, pero en porcentaje». Su mamá: «sorpresa será si estudias»."
-  },
-  {
-    "id": "pepito_73",
-    "categoria": "Pepito",
-    "chiste": "En el examen, Pepito escribe: «vease tarea anterior… (tampoco hay)». El profe: «participaste poco»."
-  },
-  {
-    "id": "pepito_74",
-    "categoria": "Pepito",
-    "chiste": "En el examen, Pepito escribe: «proceso creativo en progreso». El profe: «participaste poco»."
-  },
-  {
-    "id": "pepito_75",
-    "categoria": "Pepito",
-    "chiste": "Pepito llega a casa y dice: «me felicitaron… por venir». Su mamá: «la economía empieza por apagar la consola»."
-  },
-  {
-    "id": "pepito_76",
-    "categoria": "Pepito",
-    "chiste": "Pepito llega a casa y dice: «me felicitaron… por venir». Su mamá: «mi sorpresa es que sigues despierto»."
-  },
-  {
-    "id": "pepito_77",
-    "categoria": "Pepito",
-    "chiste": "Pepito llega a casa y dice: «mañana es examen sorpresa, me lo dijo el profe». Su mamá: «pues sorpréndete estudiando»."
-  },
-  {
-    "id": "pepito_78",
-    "categoria": "Pepito",
-    "chiste": "Pepito llega a casa y dice: «saqué 10, pero en porcentaje». Su mamá: «mi sorpresa es que sigues despierto»."
-  },
-  {
-    "id": "pepito_79",
-    "categoria": "Pepito",
-    "chiste": "—Pepito, ¿por qué pusiste tu nombre en todas las respuestas? —Porque hice fila para descansar."
-  },
-  {
-    "id": "pepito_80",
-    "categoria": "Pepito",
-    "chiste": "Pepito llega a casa y dice: «mañana es examen sorpresa, me lo dijo el profe». Su mamá: «mi sorpresa es que sigues despierto»."
-  },
-  {
-    "id": "pepito_81",
-    "categoria": "Pepito",
-    "chiste": "—Pepito, ¿cuánto es 2+2? —Porque mi perro se hizo influencer y me quitó el cuaderno."
-  },
-  {
-    "id": "pepito_82",
-    "categoria": "Pepito",
-    "chiste": "En el examen, Pepito escribe: «lo importante es participar». El profe: «lo importante es aprobar»."
-  },
-  {
-    "id": "pepito_83",
-    "categoria": "Pepito",
-    "chiste": "Pepito llega a casa y dice: «saqué 10, pero en porcentaje». Su mamá: «pues sorpréndete estudiando»."
-  },
-  {
-    "id": "pepito_84",
-    "categoria": "Pepito",
-    "chiste": "En el examen, Pepito escribe: «respuesta en la página siguiente… (no hay)». El profe: «lo importante es aprobar»."
-  },
-  {
-    "id": "pepito_85",
-    "categoria": "Pepito",
-    "chiste": "Pepito llega a casa y dice: «estoy estudiando economía de esfuerzos». Su mamá: «pues sorpréndete estudiando»."
-  },
-  {
-    "id": "pepito_86",
-    "categoria": "Pepito",
-    "chiste": "En el examen, Pepito escribe: «proceso creativo en progreso». El profe: «el arte no puntúa aquí»."
-  },
-  {
-    "id": "pepito_87",
-    "categoria": "Pepito",
-    "chiste": "Pepito le dice a la maestra: «si saco cero, ¿es un círculo perfecto?». La maestra responde: «entrega en silencio y en papel»."
-  },
-  {
-    "id": "pepito_88",
-    "categoria": "Pepito",
-    "chiste": "Pepito le dice a la maestra: «si saco cero, ¿es un círculo perfecto?». La maestra responde: «cuentan como levantar el ánimo… cuando las terminas»."
-  },
-  {
-    "id": "pepito_89",
-    "categoria": "Pepito",
-    "chiste": "Pepito le dice a la maestra: «yo no llegué tarde, el recreo llegó temprano». La maestra responde: «y tu excusa llegó sin recreo»."
-  },
-  {
-    "id": "pepito_90",
-    "categoria": "Pepito",
-    "chiste": "—Pepito, ¿por qué pusiste tu nombre en todas las respuestas? —Porque así mínimo una estará bien."
-  },
-  {
-    "id": "pepito_91",
-    "categoria": "Pepito",
-    "chiste": "Pepito pregunta: «¿puedo poner mi nombre grande para que sume?» —«cuenta como siesta»"
-  },
-  {
-    "id": "pepito_92",
-    "categoria": "Pepito",
-    "chiste": "En el examen, Pepito escribe: «vease tarea anterior… (tampoco hay)». El profe: «lo importante es aprobar»."
-  },
-  {
-    "id": "pepito_93",
-    "categoria": "Pepito",
-    "chiste": "—Pepito, ¿por qué pusiste tu nombre en todas las respuestas? —Porque mi perro se hizo influencer y me quitó el cuaderno."
-  },
-  {
-    "id": "pepito_94",
-    "categoria": "Pepito",
-    "chiste": "Pepito le dice a la maestra: «¿las tareas cuentan como cardio?». La maestra responde: «cuentan como levantar el ánimo… cuando las terminas»."
-  },
-  {
-    "id": "pepito_95",
-    "categoria": "Pepito",
-    "chiste": "—Pepito, ¿qué hiciste en vacaciones? —Porque así mínimo una estará bien."
-  },
-  {
-    "id": "pepito_96",
-    "categoria": "Pepito",
-    "chiste": "—Pepito, ¿por qué llegaste sin tarea? —Porque depende del plan de datos."
-  },
-  {
-    "id": "pepito_97",
-    "categoria": "Pepito",
-    "chiste": "Pepito llega a casa y dice: «estoy estudiando economía de esfuerzos». Su mamá: «mi sorpresa es que sigues despierto»."
-  },
-  {
-    "id": "pepito_98",
-    "categoria": "Pepito",
-    "chiste": "Pepito le dice a la maestra: «¿puedo entregar el examen en PDF? Pereza De Formatear». La maestra responde: «solo si sueñas con el libro abierto»."
-  },
-  {
-    "id": "pepito_99",
-    "categoria": "Pepito",
-    "chiste": "Pepito le dice a la maestra: «¿puedo entregar el examen en PDF? Pereza De Formatear». La maestra responde: «es un cero redondo, pero sigue siendo cero»."
-  },
-  {
-    "id": "pepito_100",
-    "categoria": "Pepito",
-    "chiste": "Pepito le dice a la maestra: «si estudio dormido aprendo por osmosis». La maestra responde: «es un cero redondo, pero sigue siendo cero»."
-  },
+ 
   {
     "id": "borrachos_1",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un farmacia y pregunta: «¿sirven agua con recuerdos?». El mesero: «el agua no, pero tenemos historia»."
+    "chiste": "Un borracho entra a un bar con un ladrillo en la mano y dice: —Póngame una cerveza para mí y otra para mi amigo… —¿Qué amigo? —Este ladrillo, que es un buen compañero, siempre aguanta firme."
   },
   {
     "id": "borrachos_2",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un panadería y pregunta: «¿sirven agua con recuerdos?». El cajero: «aquí solo vendemos hielo, el equilibrio es por su cuenta»."
+    "chiste": "Un policía detiene a un borracho y le pregunta: —¿Dónde vive? —Pues… conmigo mismo, oficial."
   },
   {
     "id": "borrachos_3",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un restaurante y pregunta: «¿sirven agua con recuerdos?». El cajero: «tenemos hielo viejo, se derrite más sabio»."
+    "chiste": "—Oiga, ¿usted está borracho? —No, señor, estoy en modo ahorro de batería."
   },
   {
     "id": "borrachos_4",
     "categoria": "Borrachos",
-    "chiste": "Borracho: «yo no estoy ebrio, estoy en edición lenta». Amigo: «el piso agradece la variedad»."
+    "chiste": "Un borracho tropieza en la acera y le dice a una farola: —Perdone, ¿vivimos juntos o solo nos encontramos por las noches?"
   },
   {
     "id": "borrachos_5",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un farmacia y pregunta: «¿tienen hielo con experiencia?». El taxista: «el agua no, pero tenemos historia»."
+    "chiste": "El camarero le dice a un borracho: —Creo que ya bebió suficiente. —¿Suficiente para qué? —Para olvidarse que me debe tres rondas."
   },
   {
     "id": "borrachos_6",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un bar y pregunta: «¿tienen hielo con experiencia?». El taxista: «tenemos hielo viejo, se derrite más sabio»."
+    "chiste": "Un borracho entra a la farmacia y dice: —¿Tiene pastillas para la memoria? —Sí, ¿de cuántos miligramos? —No sé, no me acuerdo."
   },
   {
     "id": "borrachos_7",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un panadería y pregunta: «¿dónde guardan el equilibrio?». El cajero: «el agua no, pero tenemos historia»."
+    "chiste": "—Señor, ha chocado contra un árbol. —¡Menos mal que estaba ahí, porque si no, me caigo!"
   },
   {
     "id": "borrachos_8",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un taxi y pregunta: «¿dónde guardan el equilibrio?». El taxista: «tenemos hielo viejo, se derrite más sabio»."
+    "chiste": "Un borracho llama a la puerta de su casa y grita: —¡Ábreme, que soy yo! —Pues si eres tú, entra solo."
   },
   {
     "id": "borrachos_9",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un farmacia y pregunta: «¿sirven agua con recuerdos?». El cajero: «el agua no, pero tenemos historia»."
+    "chiste": "En la barra, un amigo le dice a otro: —Creo que ya bebiste mucho. —Sí, pero ahora ya no puedo dejarlo a medias, sería una falta de respeto."
   },
   {
     "id": "borrachos_10",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un restaurante y pregunta: «¿tienen hielo con experiencia?». El barman: «tenemos hielo viejo, se derrite más sabio»."
+    "chiste": "Un borracho se cae de la bicicleta y dice: —No fue culpa mía… fue que el suelo se acercó demasiado rápido."
   },
+  
   {
     "id": "borrachos_11",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un farmacia y pregunta: «¿dónde guardan el equilibrio?». El barman: «aquí solo vendemos hielo, el equilibrio es por su cuenta»."
+    "chiste": "Un borracho entra a una panadería y pide una cerveza. El panadero le dice: —Aquí solo vendemos pan. —Pues póngamelo líquido."
   },
   {
     "id": "borrachos_12",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un panadería y pregunta: «¿tienen hielo con experiencia?». El barman: «aquí solo vendemos hielo, el equilibrio es por su cuenta»."
+    "chiste": "Un borracho habla con un espejo: —Oye tú… yo te conozco… pero estás muy delgado."
   },
   {
     "id": "borrachos_13",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un farmacia y pregunta: «¿tienen hielo con experiencia?». El mesero: «el agua no, pero tenemos historia»."
+    "chiste": "—Señor, no puede dormir en el banco del parque. —Pues tráigame una cama y así solucionamos el problema."
   },
   {
     "id": "borrachos_14",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un restaurante y pregunta: «¿sirven agua con recuerdos?». El taxista: «tenemos hielo viejo, se derrite más sabio»."
+    "chiste": "Un borracho pide un café y el camarero le pregunta: —¿Solo? —No, con mi soledad y mis problemas."
   },
   {
     "id": "borrachos_15",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un panadería y pregunta: «¿sirven agua con recuerdos?». El cajero: «el agua no, pero tenemos historia»."
+    "chiste": "—Oiga, usted está cantando muy alto. —Es para que me oiga el del karaoke… aunque no hay karaoke."
   },
   {
     "id": "borrachos_16",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un taxi y pregunta: «¿tienen hielo con experiencia?». El barman: «el agua no, pero tenemos historia»."
+    "chiste": "Un borracho ve doble y pide dos cervezas. El camarero le trae dos y él dice: —Ahora veo cuatro… ¡Siga trayendo!"
   },
   {
     "id": "borrachos_17",
     "categoria": "Borrachos",
-    "chiste": "—Oiga, ¿este taxi va a la felicidad? —Con usted va a cualquier parte… si paga."
+    "chiste": "En la gasolinera: —Señor, ¿va a pagar con tarjeta o efectivo? —Con esperanza."
   },
   {
     "id": "borrachos_18",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un restaurante y pregunta: «¿tienen hielo con experiencia?». El cajero: «tenemos hielo viejo, se derrite más sabio»."
+    "chiste": "Un borracho tropieza y se levanta sonriendo: —Caí con estilo, como las estrellas fugaces."
   },
   {
     "id": "borrachos_19",
     "categoria": "Borrachos",
-    "chiste": "Borracho: «camino en zigzag para no aburrir al piso». Amigo: «pues actualízate a modo avión»."
+    "chiste": "Un policía: —¿Sabe que iba en sentido contrario? —Claro, todos se equivocaron menos yo."
   },
   {
     "id": "borrachos_20",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un restaurante y pregunta: «¿sirven agua con recuerdos?». El taxista: «el agua no, pero tenemos historia»."
+    "chiste": "En el restaurante: —¿Qué va a tomar? —Algo que combine con mi estado… —¿Qué sería eso? —Un flotador."
   },
   {
     "id": "borrachos_21",
     "categoria": "Borrachos",
-    "chiste": "Borracho: «camino en zigzag para no aburrir al piso». Amigo: «el piso agradece la variedad»."
+    "chiste": "Un borracho abraza un árbol y le dice: —No te voy a soltar hasta que dejes de girar."
   },
   {
     "id": "borrachos_22",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un restaurante y pregunta: «¿sirven agua con recuerdos?». El cajero: «el agua no, pero tenemos historia»."
+    "chiste": "—Oiga, ¿por qué trae un casco para beber cerveza? —Por si me caigo antes de terminarla."
   },
   {
     "id": "borrachos_23",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un panadería y pregunta: «¿tienen hielo con experiencia?». El taxista: «tenemos hielo viejo, se derrite más sabio»."
+    "chiste": "Un borracho pide una sopa y le echa hielo. —Así se enfría antes de que me dé tiempo a dormirme."
   },
   {
     "id": "borrachos_24",
     "categoria": "Borrachos",
-    "chiste": "Borracho: «yo no estoy ebrio, estoy en edición lenta». Amigo: «llénala de agua también»."
+    "chiste": "—Señor, está usted hablando con un maniquí. —Pues es el único que me escucha."
   },
   {
     "id": "borrachos_25",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un panadería y pregunta: «¿sirven agua con recuerdos?». El mesero: «el agua no, pero tenemos historia»."
+    "chiste": "En el bar: —¿Otra cerveza? —No, póngame un vaso de agua… pero que tenga burbujas y un sabor a cebada."
   },
   {
     "id": "borrachos_26",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un restaurante y pregunta: «¿tienen hielo con experiencia?». El taxista: «tenemos hielo viejo, se derrite más sabio»."
+    "chiste": "—Señor, lleva usted el zapato en la mano. —Sí, porque está cansado de caminar."
   },
   {
     "id": "borrachos_27",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un farmacia y pregunta: «¿dónde guardan el equilibrio?». El mesero: «aquí solo vendemos hielo, el equilibrio es por su cuenta»."
+    "chiste": "Un borracho intenta abrir la puerta de su casa con una cuchara: —Es que mi llave se fue de vacaciones."
   },
   {
     "id": "borrachos_28",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un panadería y pregunta: «¿sirven agua con recuerdos?». El barman: «aquí solo vendemos hielo, el equilibrio es por su cuenta»."
+    "chiste": "En la farmacia: —Quiero algo para el mareo. —¿Ahora mismo? —No, para dentro de tres copas."
   },
   {
     "id": "borrachos_29",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un taxi y pregunta: «¿tienen hielo con experiencia?». El cajero: «aquí solo vendemos hielo, el equilibrio es por su cuenta»."
+    "chiste": "—Señor, ese no es su coche. —Pero se parece al mío… y además me gusta más."
   },
   {
     "id": "borrachos_30",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un panadería y pregunta: «¿sirven agua con recuerdos?». El mesero: «aquí solo vendemos hielo, el equilibrio es por su cuenta»."
+    "chiste": "Un borracho mira la luna y dice: —Tú y yo, redondas… pero tú no tienes resaca."
   },
   {
     "id": "borrachos_31",
     "categoria": "Borrachos",
-    "chiste": "—Oiga, ¿este taxi va a la luna? —Con usted va a cualquier parte… si paga."
+    "chiste": "En el taxi: —¿Dónde lo llevo? —A un sitio donde haya más vasos que problemas."
   },
   {
     "id": "borrachos_32",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un restaurante y pregunta: «¿tienen hielo con experiencia?». El barman: «aquí solo vendemos hielo, el equilibrio es por su cuenta»."
+    "chiste": "Un borracho le habla a un perro en la calle: —Tú sí que me entiendes… ¿o eres un buzón?"
   },
   {
     "id": "borrachos_33",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un taxi y pregunta: «¿tienen hielo con experiencia?». El mesero: «aquí solo vendemos hielo, el equilibrio es por su cuenta»."
+    "chiste": "—Señor, esa es una fuente pública. —Perfecto, entonces la cerveza es gratis."
   },
   {
     "id": "borrachos_34",
     "categoria": "Borrachos",
-    "chiste": "—Oiga, ¿este taxi va a la otra cuadra? —Con usted va a cualquier parte… si paga."
+    "chiste": "En la barra: —Otra ronda, pero esta vez… ¡que no se acabe nunca!"
   },
   {
     "id": "borrachos_35",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un bar y pregunta: «¿dónde guardan el equilibrio?». El cajero: «el agua no, pero tenemos historia»."
+    "chiste": "—Oiga, ¿por qué baila solo? —No estoy solo, el suelo me sigue el ritmo."
   },
   {
     "id": "borrachos_36",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un farmacia y pregunta: «¿sirven agua con recuerdos?». El taxista: «aquí solo vendemos hielo, el equilibrio es por su cuenta»."
+    "chiste": "Un borracho se cae en la acera y dice: —Esto es culpa de la gravedad, siempre trabajando horas extra."
   },
   {
     "id": "borrachos_37",
     "categoria": "Borrachos",
-    "chiste": "Borracho: «camino en zigzag para no aburrir al piso». Amigo: «llénala de agua también»."
+    "chiste": "En la nevera: —¿Qué buscas? —La cerveza… pero creo que se escondió detrás de la leche."
   },
   {
     "id": "borrachos_38",
     "categoria": "Borrachos",
-    "chiste": "Borracho: «mi copa está medio llena… de esperanza». Amigo: «el piso agradece la variedad»."
+    "chiste": "Un borracho compra un globo y dice: —Así, si me caigo, no me hundo."
   },
   {
     "id": "borrachos_39",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un restaurante y pregunta: «¿dónde guardan el equilibrio?». El barman: «tenemos hielo viejo, se derrite más sabio»."
+    "chiste": "En el supermercado: —¿Dónde están las cervezas? —En la sección de bebidas. —Perfecto, pensaba que estaban en la de milagros."
   },
   {
     "id": "borrachos_40",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un bar y pregunta: «¿tienen hielo con experiencia?». El mesero: «aquí solo vendemos hielo, el equilibrio es por su cuenta»."
+    "chiste": "Un borracho se mira en el espejo y dice: —Si me vas a juzgar, por lo menos invítame algo."
   },
   {
     "id": "borrachos_41",
     "categoria": "Borrachos",
-    "chiste": "Borracho: «mi copa está medio llena… de esperanza». Amigo: «llénala de agua también»."
+    "chiste": "En la gasolinera: —¿Cuánto quiere? —Hasta que el coche me diga que ya es suficiente."
   },
   {
     "id": "borrachos_42",
     "categoria": "Borrachos",
-    "chiste": "Borracho: «mi copa está medio llena… de esperanza». Amigo: «pues actualízate a modo avión»."
+    "chiste": "—Oiga, está bebiendo de un florero. —Pues el vino está raro."
   },
   {
     "id": "borrachos_43",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un taxi y pregunta: «¿dónde guardan el equilibrio?». El cajero: «el agua no, pero tenemos historia»."
+    "chiste": "En el autobús: —¿Me avisa cuando llegue a mi parada? —Claro. —Perfecto… ¿y cuál es mi parada?"
   },
   {
     "id": "borrachos_44",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un farmacia y pregunta: «¿dónde guardan el equilibrio?». El cajero: «aquí solo vendemos hielo, el equilibrio es por su cuenta»."
+    "chiste": "Un borracho le dice al camarero: —Póngame algo que me haga olvidar. —¿La cuenta? —No, mejor una canción."
   },
   {
     "id": "borrachos_45",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un bar y pregunta: «¿sirven agua con recuerdos?». El cajero: «aquí solo vendemos hielo, el equilibrio es por su cuenta»."
+    "chiste": "En el parque: —¿Por qué abraza esa estatua? —Porque no me deja solo."
   },
   {
     "id": "borrachos_46",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un panadería y pregunta: «¿dónde guardan el equilibrio?». El mesero: «tenemos hielo viejo, se derrite más sabio»."
+    "chiste": "—Señor, ¿dónde va? —A buscar mis pasos… los perdí hace tres calles."
   },
   {
     "id": "borrachos_47",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un farmacia y pregunta: «¿sirven agua con recuerdos?». El barman: «el agua no, pero tenemos historia»."
+    "chiste": "Un borracho mira su copa y le dice: —Si me dejas, prometo cambiar."
   },
   {
     "id": "borrachos_48",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un taxi y pregunta: «¿dónde guardan el equilibrio?». El cajero: «tenemos hielo viejo, se derrite más sabio»."
+    "chiste": "En la barra: —Otra cerveza. —¿No cree que ya tuvo suficiente? —¡Suficiente no es una medida exacta!"
   },
   {
     "id": "borrachos_49",
     "categoria": "Borrachos",
-    "chiste": "Borracho: «yo no estoy ebrio, estoy en edición lenta». Amigo: «pues actualízate a modo avión»."
+    "chiste": "Un borracho abre la nevera y se ríe: —Jajaja, ¡luces gratis!"
   },
   {
     "id": "borrachos_50",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un bar y pregunta: «¿sirven agua con recuerdos?». El barman: «tenemos hielo viejo, se derrite más sabio»."
+    "chiste": "En la calle: —Señor, ¿necesita ayuda para caminar? —No, necesito que el suelo deje de moverse."
   },
   {
     "id": "borrachos_51",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un farmacia y pregunta: «¿dónde guardan el equilibrio?». El taxista: «tenemos hielo viejo, se derrite más sabio»."
+    "chiste": "Un borracho entra a una tienda de animales y le pregunta al dueño: —¿Venden peces? —Sí. —Perfecto, quiero uno que me acompañe a tomar algo."
   },
   {
     "id": "borrachos_52",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un panadería y pregunta: «¿sirven agua con recuerdos?». El cajero: «aquí solo vendemos hielo, el equilibrio es por su cuenta»."
+    "chiste": "En la calle, un borracho saluda a un poste de luz: —Buenas noches, ¡qué alto ha crecido su hijo!"
   },
   {
     "id": "borrachos_53",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un restaurante y pregunta: «¿sirven agua con recuerdos?». El taxista: «aquí solo vendemos hielo, el equilibrio es por su cuenta»."
+    "chiste": "—Señor, ¿está seguro de que es su casa? —Claro, si no lo es… ¡será la de un vecino muy amable!"
   },
   {
     "id": "borrachos_54",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un taxi y pregunta: «¿dónde guardan el equilibrio?». El taxista: «aquí solo vendemos hielo, el equilibrio es por su cuenta»."
+    "chiste": "Un borracho pide un café. El camarero: —¿Solo? —No, con el recuerdo de mis amigos."
   },
   {
     "id": "borrachos_55",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un taxi y pregunta: «¿sirven agua con recuerdos?». El taxista: «aquí solo vendemos hielo, el equilibrio es por su cuenta»."
+    "chiste": "Un policía: —Está usted hablando con una papelera. —No importa, me está dando buenos consejos."
   },
   {
     "id": "borrachos_56",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un farmacia y pregunta: «¿dónde guardan el equilibrio?». El cajero: «tenemos hielo viejo, se derrite más sabio»."
+    "chiste": "Un borracho en el súper: —¿Dónde están las uvas? —En frutas. —Perfecto, quiero unas que ya vengan hechas vino."
   },
   {
     "id": "borrachos_57",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un bar y pregunta: «¿tienen hielo con experiencia?». El mesero: «tenemos hielo viejo, se derrite más sabio»."
+    "chiste": "—Señor, ese es un maniquí. —Pues es el mejor compañero de baile que he tenido."
   },
   {
     "id": "borrachos_58",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un taxi y pregunta: «¿sirven agua con recuerdos?». El mesero: «aquí solo vendemos hielo, el equilibrio es por su cuenta»."
+    "chiste": "En la farmacia: —¿Tiene algo para el mareo? —Sí. —Póngamelo en una copa grande."
   },
   {
     "id": "borrachos_59",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un taxi y pregunta: «¿tienen hielo con experiencia?». El taxista: «aquí solo vendemos hielo, el equilibrio es por su cuenta»."
+    "chiste": "Un borracho se sienta en un charco: —Esto no es agua, es una piscina de bolsillo."
   },
   {
     "id": "borrachos_60",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un taxi y pregunta: «¿sirven agua con recuerdos?». El taxista: «el agua no, pero tenemos historia»."
+    "chiste": "En el taxi: —¿Dónde lo llevo? —A un sitio donde la música me entienda."
   },
   {
     "id": "borrachos_61",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un restaurante y pregunta: «¿sirven agua con recuerdos?». El barman: «tenemos hielo viejo, se derrite más sabio»."
+    "chiste": "—Señor, su mesa está al fondo. —Perfecto, así hago ejercicio para bajar lo que aún no he bebido."
   },
   {
     "id": "borrachos_62",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un panadería y pregunta: «¿tienen hielo con experiencia?». El cajero: «el agua no, pero tenemos historia»."
+    "chiste": "Un borracho pide una cerveza y el camarero le da agua. —Esto no tiene burbujas… ni esperanza."
   },
   {
     "id": "borrachos_63",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un panadería y pregunta: «¿tienen hielo con experiencia?». El barman: «el agua no, pero tenemos historia»."
+    "chiste": "En la calle: —¡Ey, cuidado con el bordillo! —Tranquilo, ya me adoptó."
   },
   {
     "id": "borrachos_64",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un panadería y pregunta: «¿tienen hielo con experiencia?». El barman: «tenemos hielo viejo, se derrite más sabio»."
+    "chiste": "Un borracho canta solo en la acera. Pasa un señor y le dice: —No desafine. —Pues venga, afíname tú."
   },
   {
     "id": "borrachos_65",
     "categoria": "Borrachos",
-    "chiste": "—Oiga, ¿este taxi va a la felicidad? —Con usted va a cualquier parte… si paga."
+    "chiste": "En un restaurante: —Quiero algo ligero. —¿Ensalada? —No, una cerveza con poca luz."
   },
   {
     "id": "borrachos_66",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un restaurante y pregunta: «¿dónde guardan el equilibrio?». El mesero: «el agua no, pero tenemos historia»."
+    "chiste": "—Señor, eso es un microondas, no una caja fuerte. —Pues me ha guardado bien la pizza."
   },
   {
     "id": "borrachos_67",
     "categoria": "Borrachos",
-    "chiste": "Borracho: «camino en zigzag para no aburrir al piso». Amigo: «pues actualízate a modo avión»."
+    "chiste": "Un borracho en el cine: —¿Venden palomitas con cerveza? —No. —Pues póngame cerveza con palomitas."
   },
   {
     "id": "borrachos_68",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un panadería y pregunta: «¿dónde guardan el equilibrio?». El mesero: «aquí solo vendemos hielo, el equilibrio es por su cuenta»."
+    "chiste": "En el parque: —Señor, lleva usted dos horas en el columpio. —Estoy entrenando para volar."
   },
   {
     "id": "borrachos_69",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un restaurante y pregunta: «¿tienen hielo con experiencia?». El barman: «el agua no, pero tenemos historia»."
+    "chiste": "—Oiga, ¿por qué está abrazando esa farola? —Porque me ilumina más que mi ex."
   },
   {
     "id": "borrachos_70",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un bar y pregunta: «¿tienen hielo con experiencia?». El barman: «aquí solo vendemos hielo, el equilibrio es por su cuenta»."
+    "chiste": "Un borracho pide una copa y el camarero: —¿De qué? —De cualquier cosa que me haga reír antes de llorar."
   },
   {
     "id": "borrachos_71",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un taxi y pregunta: «¿sirven agua con recuerdos?». El cajero: «el agua no, pero tenemos historia»."
+    "chiste": "En la tienda: —Quiero una cuerda. —¿Para qué? —Para que mi vaso no se me escape."
   },
   {
     "id": "borrachos_72",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un restaurante y pregunta: «¿dónde guardan el equilibrio?». El barman: «el agua no, pero tenemos historia»."
+    "chiste": "Un borracho tropieza y dice: —Esto fue culpa del suelo… o de mi vaso."
   },
   {
     "id": "borrachos_73",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un bar y pregunta: «¿sirven agua con recuerdos?». El taxista: «tenemos hielo viejo, se derrite más sabio»."
+    "chiste": "En el ascensor: —¿A qué piso? —Al que tenga barra libre."
   },
   {
     "id": "borrachos_74",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un restaurante y pregunta: «¿sirven agua con recuerdos?». El taxista: «el agua no, pero tenemos historia»."
+    "chiste": "Un borracho mira un pez en una pecera: —Tú nadas en círculos… igual que yo buscando mi casa."
   },
   {
     "id": "borrachos_75",
     "categoria": "Borrachos",
-    "chiste": "Borracho: «camino en zigzag para no aburrir al piso». Amigo: «el piso agradece la variedad»."
+    "chiste": "En la gasolinera: —¿Cuánto le pongo? —Lo que alcance antes de que cambie de opinión."
   },
   {
     "id": "borrachos_76",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un taxi y pregunta: «¿sirven agua con recuerdos?». El taxista: «tenemos hielo viejo, se derrite más sabio»."
+    "chiste": "—Señor, eso es un buzón. —Sí, pero me escuchó mejor que mi amigo."
   },
   {
     "id": "borrachos_77",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un farmacia y pregunta: «¿dónde guardan el equilibrio?». El cajero: «el agua no, pero tenemos historia»."
+    "chiste": "En la barra: —¿Qué toma? —Lo que me haga olvidar que mañana es lunes."
   },
   {
     "id": "borrachos_78",
     "categoria": "Borrachos",
-    "chiste": "Borracho: «yo no estoy ebrio, estoy en edición lenta». Amigo: «llénala de agua también»."
+    "chiste": "Un borracho entra en una boda: —Perdón, me equivoqué… pero ya que estoy, ¿hay barra libre?"
   },
   {
     "id": "borrachos_79",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un restaurante y pregunta: «¿tienen hielo con experiencia?». El taxista: «tenemos hielo viejo, se derrite más sabio»."
+    "chiste": "En la calle: —¿Dónde vive? —En la acera… por lo menos hoy."
   },
   {
     "id": "borrachos_80",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un taxi y pregunta: «¿dónde guardan el equilibrio?». El mesero: «el agua no, pero tenemos historia»."
+    "chiste": "—Señor, ¿sabe la hora? —Sí… pero no la voy a decir sin una cerveza."
   },
   {
     "id": "borrachos_81",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un farmacia y pregunta: «¿dónde guardan el equilibrio?». El mesero: «aquí solo vendemos hielo, el equilibrio es por su cuenta»."
+    "chiste": "En el restaurante: —Quiero una bebida que combine con mi camisa. —Pues tráigame otra camisa."
   },
   {
     "id": "borrachos_82",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un panadería y pregunta: «¿sirven agua con recuerdos?». El mesero: «aquí solo vendemos hielo, el equilibrio es por su cuenta»."
+    "chiste": "Un borracho le dice al camarero: —Hoy pago yo… con aplausos."
   },
   {
     "id": "borrachos_83",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un taxi y pregunta: «¿tienen hielo con experiencia?». El taxista: «tenemos hielo viejo, se derrite más sabio»."
+    "chiste": "En el taxi: —Lléveme donde las luces bailen más que yo."
   },
   {
     "id": "borrachos_84",
     "categoria": "Borrachos",
-    "chiste": "—Oiga, ¿este taxi va a la luna? —Con usted va a cualquier parte… si paga."
+    "chiste": "Un borracho en la nevera: —¿Tú eres la luz de mi vida… o solo la del frigorífico?"
   },
   {
     "id": "borrachos_85",
     "categoria": "Borrachos",
-    "chiste": "—Oiga, ¿este taxi va a la otra cuadra? —Con usted va a cualquier parte… si paga."
+    "chiste": "En la farmacia: —Quiero algo para el dolor de cabeza. —¿Ahora? —No, para mañana."
   },
   {
     "id": "borrachos_86",
     "categoria": "Borrachos",
-    "chiste": "Borracho: «camino en zigzag para no aburrir al piso». Amigo: «llénala de agua también»."
+    "chiste": "—Señor, lleva usted un zapato y una chancla. —Es que no encontraba el par perfecto."
   },
   {
     "id": "borrachos_87",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un bar y pregunta: «¿dónde guardan el equilibrio?». El mesero: «el agua no, pero tenemos historia»."
+    "chiste": "Un borracho se sienta en el bordillo y dice: —Qué bien se está aquí… hasta que pase un coche."
   },
   {
     "id": "borrachos_88",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un bar y pregunta: «¿dónde guardan el equilibrio?». El cajero: «el agua no, pero tenemos historia»."
+    "chiste": "En el bar: —¿Algo para picar? —Sí, pero que no me muerda de vuelta."
   },
   {
     "id": "borrachos_89",
     "categoria": "Borrachos",
-    "chiste": "Borracho: «mi copa está medio llena… de esperanza». Amigo: «el piso agradece la variedad»."
+    "chiste": "—Señor, está usted en un parque infantil. —Perfecto, necesito columpiar mis problemas."
   },
   {
     "id": "borrachos_90",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un bar y pregunta: «¿tienen hielo con experiencia?». El mesero: «aquí solo vendemos hielo, el equilibrio es por su cuenta»."
+    "chiste": "En la tienda: —¿Dónde está el hielo? —En congelados. —Perfecto, que no se me caliente."
   },
   {
     "id": "borrachos_91",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un bar y pregunta: «¿tienen hielo con experiencia?». El cajero: «aquí solo vendemos hielo, el equilibrio es por su cuenta»."
+    "chiste": "Un borracho acaricia una escoba y dice: —Tú y yo hemos barrido muchas noches."
   },
   {
     "id": "borrachos_92",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un panadería y pregunta: «¿tienen hielo con experiencia?». El taxista: «el agua no, pero tenemos historia»."
+    "chiste": "En el súper: —Busco algo que me quite la sed. —Agua. —No, algo más divertido."
   },
   {
     "id": "borrachos_93",
     "categoria": "Borrachos",
-    "chiste": "Borracho: «mi copa está medio llena… de esperanza». Amigo: «llénala de agua también»."
+    "chiste": "—Señor, está usted hablando con un cajero automático. —Pues ya me está escuchando mejor que mi jefe."
   },
   {
     "id": "borrachos_94",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un farmacia y pregunta: «¿dónde guardan el equilibrio?». El taxista: «el agua no, pero tenemos historia»."
+    "chiste": "En la calle: —¿Qué hace ahí tirado? —Esperando que el suelo me cuente un secreto."
   },
   {
     "id": "borrachos_95",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un bar y pregunta: «¿tienen hielo con experiencia?». El mesero: «el agua no, pero tenemos historia»."
+    "chiste": "—Señor, ¿quiere un taxi? —Solo si también me lleva el alma."
   },
   {
     "id": "borrachos_96",
     "categoria": "Borrachos",
-    "chiste": "Borracho: «mi copa está medio llena… de esperanza». Amigo: «pues actualízate a modo avión»."
+    "chiste": "En el bar: —Otra, pero que venga con una historia."
   },
   {
     "id": "borrachos_97",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un farmacia y pregunta: «¿tienen hielo con experiencia?». El mesero: «aquí solo vendemos hielo, el equilibrio es por su cuenta»."
+    "chiste": "Un borracho le dice al barman: —Si me río, la segunda es gratis, ¿no?"
   },
   {
     "id": "borrachos_98",
     "categoria": "Borrachos",
-    "chiste": "Un borracho entra a un taxi y pregunta: «¿dónde guardan el equilibrio?». El mesero: «tenemos hielo viejo, se derrite más sabio»."
+    "chiste": "En el karaoke: —¿Qué canción quiere? —Cualquiera que me sepa solo el estribillo."
   },
   {
     "id": "borrachos_99",
     "categoria": "Borrachos",
-    "chiste": "Borracho: «yo no estoy ebrio, estoy en edición lenta». Amigo: «pues actualízate a modo avión»."
+    "chiste": "Un borracho en el banco: —Vengo a ingresar… tiempo de diversión."
   },
   {
     "id": "borrachos_100",
     "categoria": "Borrachos",
-    "chiste": "Borracho: «yo no estoy ebrio, estoy en edición lenta». Amigo: «el piso agradece la variedad»."
+    "chiste": "En la calle: —¿A dónde va? —A donde mi sombra quiera."
   },
   {
     "id": "suegras_1",
     "categoria": "Suegras",
-    "chiste": "—Suegra, ¿sabes cocinar algo? —Hijo: «sí: comida a domicilio»."
+    "chiste": "Mi suegra y yo éramos felices durante 20 años… luego nos conocimos."
   },
   {
     "id": "suegras_2",
     "categoria": "Suegras",
-    "chiste": "Mi suegra me dijo: «en mis tiempos todo era más fácil». Yo: «en sus tiempos no existía usted aquí»."
+    "chiste": "—Cariño, tu madre está abajo como loca gritándome. —¿Y tú qué haces? —Le bajo el volumen."
   },
   {
     "id": "suegras_3",
     "categoria": "Suegras",
-    "chiste": "Mi suegra es tan tempranera que opina hasta del silencio."
+    "chiste": "La policía me preguntó si podía describir a mi suegra. Les dije: 'Claro… pero necesitarán más de un cuaderno'."
   },
   {
     "id": "suegras_4",
     "categoria": "Suegras",
-    "chiste": "—Suegra, ¿cuidas a mi tesoro? —Hijo: «sí: comida a domicilio»."
+    "chiste": "Mi suegra me dijo que su casa era mi casa… ¡así que la vendí!"
   },
   {
     "id": "suegras_5",
     "categoria": "Suegras",
-    "chiste": "Mi suegra es tan tempranera que le pone contraseña al tupper vacío."
+    "chiste": "Le dije a mi suegra que su opinión es muy valiosa… por eso la guardo en un cajón."
   },
   {
     "id": "suegras_6",
     "categoria": "Suegras",
-    "chiste": "Mi suegra me dijo: «mi hija come mejor conmigo». Yo: «entonces vuelva a esos tiempos… con cariño»."
+    "chiste": "—¿Cuál es la diferencia entre una suegra y un huracán? —Ninguna, pero el huracán avisa antes de llegar."
   },
   {
     "id": "suegras_7",
     "categoria": "Suegras",
-    "chiste": "—Suegra, ¿sabes cocinar algo? —Hijo: «sí, pero necesito manual»."
+    "chiste": "Dicen que detrás de todo hombre feliz hay una mujer… y detrás de todo hombre divorciado, una suegra."
   },
   {
     "id": "suegras_8",
     "categoria": "Suegras",
-    "chiste": "Mi suegra me dijo: «en mis tiempos todo era más fácil». Yo: «por eso la invité, para equilibrar»."
+    "chiste": "Le pedí a mi suegra que se sintiera como en su casa… y empezó a redecorar la mía."
   },
   {
     "id": "suegras_9",
     "categoria": "Suegras",
-    "chiste": "Mi suegra es tan tierna que opina hasta del silencio."
+    "chiste": "Mi suegra siempre llega sin avisar… creo que es su superpoder."
   },
   {
     "id": "suegras_10",
     "categoria": "Suegras",
-    "chiste": "Mi suegra es tan tierna que llega temprano al futuro."
+    "chiste": "—Suegra, ¿quiere un té? —No, gracias. —Perfecto, se lo guardo para cuando cambie de opinión."
   },
   {
     "id": "suegras_11",
     "categoria": "Suegras",
-    "chiste": "Mi suegra es tan tierna que me llama para recordarme que la llame."
+    "chiste": "Mi suegra es tan rápida… que critica antes de que cometa el error."
   },
   {
     "id": "suegras_12",
     "categoria": "Suegras",
-    "chiste": "Mi suegra me dijo: «yo solo vine a ayudar… a opinar». Yo: «por eso la invité, para equilibrar»."
+    "chiste": "Mi suegra cree que siempre tengo que escucharla… yo creo que debería usar altavoz."
   },
   {
     "id": "suegras_13",
     "categoria": "Suegras",
-    "chiste": "Mi suegra es tan intensa que le pone contraseña al tupper vacío."
+    "chiste": "Le regalé un GPS a mi suegra para que encontrara el camino… pero siempre llega a mi casa."
   },
   {
     "id": "suegras_14",
     "categoria": "Suegras",
-    "chiste": "Mi suegra es tan tecnológica que le pone contraseña al tupper vacío."
+    "chiste": "Mi suegra y yo jugamos al escondite… ella cuenta hasta diez y yo corro a otro país."
   },
   {
     "id": "suegras_15",
     "categoria": "Suegras",
-    "chiste": "Mi suegra es tan intensa que llega temprano al futuro."
+    "chiste": "Dicen que las suegras no envejecen… solo acumulan más frases para criticar."
   },
   {
     "id": "suegras_16",
     "categoria": "Suegras",
-    "chiste": "Mi suegra me dijo: «mi hija come mejor conmigo». Yo: «en sus tiempos no existía usted aquí»."
+    "chiste": "Mi suegra me dijo: 'Espero que me recuerdes siempre'. Creo que eso era una amenaza."
   },
   {
     "id": "suegras_17",
     "categoria": "Suegras",
-    "chiste": "—Suegra, ¿cuidas a mi tesoro? —Hijo: «mejor tráigase también el manual»."
+    "chiste": "—Suegra, ¿quiere ver las fotos de nuestro viaje? —Sí. —Perfecto, las tengo en mi imaginación."
   },
   {
     "id": "suegras_18",
     "categoria": "Suegras",
-    "chiste": "Mi suegra es tan tecnológica que me llama para recordarme que la llame."
+    "chiste": "Cuando mi suegra me sonríe… siento que algo malo está a punto de pasar."
   },
   {
     "id": "suegras_19",
     "categoria": "Suegras",
-    "chiste": "—Suegra, ¿qué tal te llevo el postre? —Hijo: «mejor tráigase también el manual»."
+    "chiste": "Mi suegra me pidió un consejo… y aún así hizo lo contrario."
   },
   {
     "id": "suegras_20",
     "categoria": "Suegras",
-    "chiste": "—Suegra, ¿cuidas a mi tesoro? —Hijo: «sí, pero necesito manual»."
+    "chiste": "Mi suegra es como el Wi-Fi… cuando está cerca, todo se vuelve más lento."
   },
   {
     "id": "suegras_21",
     "categoria": "Suegras",
-    "chiste": "Mi suegra es tan tempranera que llega temprano al futuro."
+    "chiste": "Mi suegra siempre dice que le encanta ayudar… por eso supervisa cómo barro, cómo cocino y hasta cómo respiro."
   },
   {
     "id": "suegras_22",
     "categoria": "Suegras",
-    "chiste": "Mi suegra es tan tecnológica que opina hasta del silencio."
+    "chiste": "Le pregunté a mi suegra qué quería para su cumpleaños y me dijo: 'Nada'. Y ahora está molesta porque no le regalé nada."
   },
   {
     "id": "suegras_23",
     "categoria": "Suegras",
-    "chiste": "Mi suegra es tan tierna que le pone contraseña al tupper vacío."
+    "chiste": "Mi suegra es como el antivirus… aparece cada vez que hago algo divertido."
   },
   {
     "id": "suegras_24",
     "categoria": "Suegras",
-    "chiste": "—Suegra, ¿qué tal te llevo el postre? —Hijo: «sí, pero necesito manual»."
+    "chiste": "Cuando mi suegra me dice 'no te preocupes', es cuando más me preocupo."
   },
   {
     "id": "suegras_25",
     "categoria": "Suegras",
-    "chiste": "Mi suegra es tan precavida que me llama para recordarme que la llame."
+    "chiste": "Le dije a mi suegra que la casa es pequeña para visitas largas… y ahora vive aquí."
   },
   {
     "id": "suegras_26",
     "categoria": "Suegras",
-    "chiste": "Mi suegra es tan tecnológica que llega temprano al futuro."
+    "chiste": "Mi suegra es como Netflix… siempre está en mi sala y nunca sé cuándo se irá."
   },
   {
     "id": "suegras_27",
     "categoria": "Suegras",
-    "chiste": "Mi suegra es tan precavida que le pone contraseña al tupper vacío."
+    "chiste": "Dicen que hay suegras modernas… pero la mía es edición coleccionista."
   },
   {
     "id": "suegras_28",
     "categoria": "Suegras",
-    "chiste": "Mi suegra es tan precavida que opina hasta del silencio."
+    "chiste": "—Suegra, ¿va a quedarse mucho tiempo? —No te preocupes, hijo… hasta que te acostumbres."
   },
   {
     "id": "suegras_29",
     "categoria": "Suegras",
-    "chiste": "Mi suegra es tan intensa que me llama para recordarme que la llame."
+    "chiste": "Mi suegra es tan detallista… que revisa hasta las bolsas de basura por si tiro algo importante."
   },
   {
     "id": "suegras_30",
     "categoria": "Suegras",
-    "chiste": "Mi suegra es tan precavida que llega temprano al futuro."
+    "chiste": "La última vez que mi suegra me dijo 'confía en mí' terminé pintando toda su casa."
   },
   {
     "id": "suegras_31",
     "categoria": "Suegras",
-    "chiste": "—Suegra, ¿qué tal te llevo el postre? —Hijo: «sí: comida a domicilio»."
+    "chiste": "Mi suegra cree que soy muy callado… yo creo que ella habla por los dos."
   },
   {
     "id": "suegras_32",
     "categoria": "Suegras",
-    "chiste": "Mi suegra me dijo: «yo solo vine a ayudar… a opinar». Yo: «en sus tiempos no existía usted aquí»."
+    "chiste": "Cuando mi suegra me abraza, siento que está midiendo dónde colgaría un cuadro."
   },
   {
     "id": "suegras_33",
     "categoria": "Suegras",
-    "chiste": "Mi suegra me dijo: «en mis tiempos todo era más fácil». Yo: «entonces vuelva a esos tiempos… con cariño»."
+    "chiste": "—Suegra, ¿puede pasarme la sal? —Claro, pero también te paso un consejo."
   },
   {
     "id": "suegras_34",
     "categoria": "Suegras",
-    "chiste": "Mi suegra es tan tempranera que me llama para recordarme que la llame."
+    "chiste": "Mi suegra dice que cocina mejor que yo… y probablemente tenga razón, pero no pienso admitirlo."
   },
   {
     "id": "suegras_35",
     "categoria": "Suegras",
-    "chiste": "—Suegra, ¿sabes cocinar algo? —Hijo: «mejor tráigase también el manual»."
+    "chiste": "Mi suegra siempre pregunta si necesito algo… y luego me lo trae aunque le diga que no."
   },
   {
     "id": "suegras_36",
     "categoria": "Suegras",
-    "chiste": "Mi suegra es tan intensa que opina hasta del silencio."
+    "chiste": "La primera vez que conocí a mi suegra, me dio la mano… y todavía no me la suelta."
   },
   {
     "id": "suegras_37",
     "categoria": "Suegras",
-    "chiste": "Mi suegra me dijo: «yo solo vine a ayudar… a opinar». Yo: «entonces vuelva a esos tiempos… con cariño»."
+    "chiste": "Mi suegra es como una aplicación que no se puede desinstalar."
   },
   {
     "id": "suegras_38",
     "categoria": "Suegras",
-    "chiste": "Mi suegra me dijo: «mi hija come mejor conmigo». Yo: «por eso la invité, para equilibrar»."
+    "chiste": "Mi suegra dice que siempre tengo la última palabra… y es verdad: 'Sí, suegra'."
   },
   {
     "id": "suegras_39",
     "categoria": "Suegras",
-    "chiste": "—Suegra, ¿sabes cocinar algo? —Hijo: «sí: comida a domicilio». (39)"
+    "chiste": "Cuando mi suegra dice 'solo paso un minuto', sé que debo preparar café y cena."
   },
   {
     "id": "suegras_40",
     "categoria": "Suegras",
-    "chiste": "—Suegra, ¿sabes cocinar algo? —Hijo: «sí: comida a domicilio». (40)"
+    "chiste": "—Suegra, ¿cómo está? —Mejor que tú… pero no te preocupes, te lo voy a contar."
   },
   {
     "id": "suegras_41",
     "categoria": "Suegras",
-    "chiste": "—Suegra, ¿sabes cocinar algo? —Hijo: «sí: comida a domicilio». (41)"
+    "chiste": "Mi suegra y yo tenemos algo en común: los dos amamos a la misma persona… pero no nos caemos bien."
   },
   {
     "id": "suegras_42",
     "categoria": "Suegras",
-    "chiste": "—Suegra, ¿sabes cocinar algo? —Hijo: «sí: comida a domicilio». (42)"
+    "chiste": "Mi suegra siempre tiene razón… aunque no la tenga."
   },
   {
     "id": "suegras_43",
     "categoria": "Suegras",
-    "chiste": "—Suegra, ¿sabes cocinar algo? —Hijo: «sí: comida a domicilio». (43)"
+    "chiste": "Cuando mi suegra me felicita, siento que algo raro está pasando."
   },
   {
     "id": "suegras_44",
     "categoria": "Suegras",
-    "chiste": "—Suegra, ¿sabes cocinar algo? —Hijo: «sí: comida a domicilio». (44)"
+    "chiste": "Mi suegra y yo jugamos a las cartas… ella gana siempre, aunque no sepa las reglas."
   },
   {
     "id": "suegras_45",
     "categoria": "Suegras",
-    "chiste": "—Suegra, ¿sabes cocinar algo? —Hijo: «sí: comida a domicilio». (45)"
+    "chiste": "Mi suegra es como el despertador… aparece cuando menos la espero."
   },
   {
     "id": "suegras_46",
     "categoria": "Suegras",
-    "chiste": "—Suegra, ¿sabes cocinar algo? —Hijo: «sí: comida a domicilio». (46)"
+    "chiste": "Dicen que con el tiempo uno aprende a querer a su suegra… yo aún estoy en periodo de prueba."
   },
   {
     "id": "suegras_47",
     "categoria": "Suegras",
-    "chiste": "—Suegra, ¿sabes cocinar algo? —Hijo: «sí: comida a domicilio». (47)"
+    "chiste": "Mi suegra siempre se despide tres veces antes de irse… pero nunca se va."
   },
   {
     "id": "suegras_48",
     "categoria": "Suegras",
-    "chiste": "—Suegra, ¿sabes cocinar algo? —Hijo: «sí: comida a domicilio». (48)"
+    "chiste": "Mi suegra dice que todo lo hago rápido… excepto despedirme de ella."
   },
   {
     "id": "suegras_49",
     "categoria": "Suegras",
-    "chiste": "—Suegra, ¿sabes cocinar algo? —Hijo: «sí: comida a domicilio». (49)"
+    "chiste": "Le pedí a mi suegra que me diera espacio… y ahora me manda mensajes por WhatsApp."
   },
   {
     "id": "suegras_50",
     "categoria": "Suegras",
-    "chiste": "—Suegra, ¿sabes cocinar algo? —Hijo: «sí: comida a domicilio». (50)"
+    "chiste": "Mi suegra es como un meme viral… todos la conocen, nadie sabe de dónde salió."
   },
   {
     "id": "suegras_51",
     "categoria": "Suegras",
-    "chiste": "—Suegra, ¿sabes cocinar algo? —Hijo: «sí: comida a domicilio»."
+    "chiste": "Mi suegra me dijo que se quedaría unos días… eso fue hace seis meses."
   },
   {
     "id": "suegras_52",
     "categoria": "Suegras",
-    "chiste": "Mi suegra me dijo: «en mis tiempos todo era más fácil». Yo: «en sus tiempos no existía usted aquí»."
+    "chiste": "—Suegra, ¿le gusta cómo cocino? —Mejor no te contesto para no arruinar la cena."
   },
   {
     "id": "suegras_53",
     "categoria": "Suegras",
-    "chiste": "Mi suegra es tan tempranera que opina hasta del silencio."
+    "chiste": "Dicen que el silencio es oro… pero mi suegra debe pensar que es pecado."
   },
   {
     "id": "suegras_54",
     "categoria": "Suegras",
-    "chiste": "—Suegra, ¿cuidas a mi tesoro? —Hijo: «sí: comida a domicilio»."
+    "chiste": "Mi suegra me preguntó qué opinaba de ella… le dije que era una conversación de riesgo."
   },
   {
     "id": "suegras_55",
     "categoria": "Suegras",
-    "chiste": "Mi suegra es tan tempranera que le pone contraseña al tupper vacío."
+    "chiste": "—Suegra, ¿quiere ver una película? —Sí. —Perfecto, yo me voy al otro cuarto."
   },
   {
     "id": "suegras_56",
     "categoria": "Suegras",
-    "chiste": "Mi suegra me dijo: «mi hija come mejor conmigo». Yo: «entonces vuelva a esos tiempos… con cariño»."
+    "chiste": "Mi suegra es tan rápida que critica hasta en cámara lenta."
   },
   {
     "id": "suegras_57",
     "categoria": "Suegras",
-    "chiste": "—Suegra, ¿sabes cocinar algo? —Hijo: «sí, pero necesito manual»."
+    "chiste": "Le dije a mi suegra que se sintiera como en casa… y empezó a darme órdenes."
   },
   {
     "id": "suegras_58",
     "categoria": "Suegras",
-    "chiste": "Mi suegra me dijo: «en mis tiempos todo era más fácil». Yo: «por eso la invité, para equilibrar»."
+    "chiste": "Mi suegra no necesita GPS… siempre encuentra mi cocina."
   },
   {
     "id": "suegras_59",
     "categoria": "Suegras",
-    "chiste": "Mi suegra es tan tierna que opina hasta del silencio."
+    "chiste": "Cuando mi suegra me dice 'haz lo que quieras', sé que no quiere que lo haga."
   },
   {
     "id": "suegras_60",
     "categoria": "Suegras",
-    "chiste": "Mi suegra es tan tierna que llega temprano al futuro."
+    "chiste": "—Suegra, ¿quiere café? —Sí, pero como yo lo hago. —Entonces mejor se lo prepara usted."
   },
   {
     "id": "suegras_61",
     "categoria": "Suegras",
-    "chiste": "Mi suegra es tan tierna que me llama para recordarme que la llame."
+    "chiste": "Mi suegra dice que siempre está de paso… pero pasa todos los días."
   },
   {
     "id": "suegras_62",
     "categoria": "Suegras",
-    "chiste": "Mi suegra me dijo: «yo solo vine a ayudar… a opinar». Yo: «por eso la invité, para equilibrar»."
+    "chiste": "Dicen que las suegras son ángeles… pero a veces suenan más como sirenas de alarma."
   },
   {
     "id": "suegras_63",
     "categoria": "Suegras",
-    "chiste": "Mi suegra es tan intensa que le pone contraseña al tupper vacío."
+    "chiste": "Mi suegra y yo tenemos una buena relación… ella habla y yo asiento."
   },
   {
     "id": "suegras_64",
     "categoria": "Suegras",
-    "chiste": "Mi suegra es tan tecnológica que le pone contraseña al tupper vacío."
+    "chiste": "Cuando mi suegra me dice 'yo en tu lugar haría esto', siempre termino haciendo lo contrario."
   },
   {
     "id": "suegras_65",
     "categoria": "Suegras",
-    "chiste": "Mi suegra es tan intensa que llega temprano al futuro."
+    "chiste": "Mi suegra es tan puntual que llega antes de que yo la invite."
   },
   {
     "id": "suegras_66",
     "categoria": "Suegras",
-    "chiste": "Mi suegra me dijo: «mi hija come mejor conmigo». Yo: «en sus tiempos no existía usted aquí»."
+    "chiste": "La última vez que mi suegra me guiñó un ojo, me sentí amenazado."
   },
   {
     "id": "suegras_67",
     "categoria": "Suegras",
-    "chiste": "—Suegra, ¿cuidas a mi tesoro? —Hijo: «mejor tráigase también el manual»."
+    "chiste": "—Suegra, ¿puede ayudarme con algo? —Claro… te diré todo lo que haces mal."
   },
   {
     "id": "suegras_68",
     "categoria": "Suegras",
-    "chiste": "Mi suegra es tan tecnológica que me llama para recordarme que la llame."
+    "chiste": "Mi suegra es como un libro de historia… siempre recordando mis errores."
   },
   {
     "id": "suegras_69",
     "categoria": "Suegras",
-    "chiste": "—Suegra, ¿qué tal te llevo el postre? —Hijo: «mejor tráigase también el manual»."
+    "chiste": "Le dije a mi suegra que su opinión es importante… pero no urgente."
   },
   {
     "id": "suegras_70",
     "categoria": "Suegras",
-    "chiste": "—Suegra, ¿cuidas a mi tesoro? —Hijo: «sí, pero necesito manual»."
+    "chiste": "Cuando mi suegra me dice 'no pasa nada', sé que algo grave va a pasar."
   },
   {
     "id": "suegras_71",
     "categoria": "Suegras",
-    "chiste": "Mi suegra es tan tecnológica que opina hasta del silencio."
+    "chiste": "Mi suegra cree que soy un buen oyente… pero yo solo pongo cara de entender."
   },
   {
     "id": "suegras_72",
     "categoria": "Suegras",
-    "chiste": "Mi suegra es tan tempranera que llega temprano al futuro."
+    "chiste": "—Suegra, ¿va a quedarse a cenar? —Claro, no me perdería la oportunidad de criticar."
   },
   {
     "id": "suegras_73",
     "categoria": "Suegras",
-    "chiste": "Mi suegra es tan tierna que le pone contraseña al tupper vacío."
+    "chiste": "Mi suegra dice que siempre me ve cansado… debe ser de escucharla."
   },
   {
     "id": "suegras_74",
     "categoria": "Suegras",
-    "chiste": "—Suegra, ¿qué tal te llevo el postre? —Hijo: «sí, pero necesito manual»."
+    "chiste": "Dicen que el amor todo lo soporta… pero nunca mencionaron a mi suegra."
   },
   {
     "id": "suegras_75",
     "categoria": "Suegras",
-    "chiste": "Mi suegra es tan precavida que me llama para recordarme que la llame."
+    "chiste": "Cuando mi suegra dice 'tenemos que hablar', yo empiezo a buscar vuelos."
   },
   {
     "id": "suegras_76",
     "categoria": "Suegras",
-    "chiste": "Mi suegra es tan tecnológica que llega temprano al futuro."
+    "chiste": "Mi suegra y yo tenemos un pacto… ella no se mete en mi vida y yo finjo que funciona."
   },
   {
     "id": "suegras_77",
     "categoria": "Suegras",
-    "chiste": "Mi suegra es tan precavida que le pone contraseña al tupper vacío."
+    "chiste": "—Suegra, ¿quiere un postre? —No, pero me llevo uno por si acaso."
   },
   {
     "id": "suegras_78",
     "categoria": "Suegras",
-    "chiste": "Mi suegra es tan precavida que opina hasta del silencio."
+    "chiste": "Mi suegra es como una aplicación que siempre quiere actualizar mi vida."
   },
   {
     "id": "suegras_79",
     "categoria": "Suegras",
-    "chiste": "Mi suegra es tan intensa que me llama para recordarme que la llame."
+    "chiste": "Mi suegra dice que siempre tiene la razón… y lo peor es que ella misma se lo cree."
   },
   {
     "id": "suegras_80",
     "categoria": "Suegras",
-    "chiste": "Mi suegra es tan precavida que llega temprano al futuro."
+    "chiste": "Cuando mi suegra me da un cumplido, lo reviso dos veces por si es sarcasmo."
   },
   {
     "id": "suegras_81",
     "categoria": "Suegras",
-    "chiste": "—Suegra, ¿qué tal te llevo el postre? —Hijo: «sí: comida a domicilio»."
+    "chiste": "Mi suegra y yo jugamos al ajedrez… ella mueve las piezas y yo la mesa."
   },
   {
     "id": "suegras_82",
     "categoria": "Suegras",
-    "chiste": "Mi suegra me dijo: «yo solo vine a ayudar… a opinar». Yo: «en sus tiempos no existía usted aquí»."
+    "chiste": "Le pedí a mi suegra que no hablara de política… ahora me habla de mis defectos."
   },
   {
     "id": "suegras_83",
     "categoria": "Suegras",
-    "chiste": "Mi suegra es tan tempranera que me llama para recordarme que la llame."
+    "chiste": "Mi suegra es como la música de ascensor… siempre está ahí aunque no la quiera."
   },
   {
     "id": "suegras_84",
     "categoria": "Suegras",
-    "chiste": "Mi suegra me dijo: «en mis tiempos todo era más fácil». Yo: «entonces vuelva a esos tiempos… con cariño»."
+    "chiste": "—Suegra, ¿puede prestarme su receta? —Claro, pero nunca te saldrá igual."
   },
   {
     "id": "suegras_85",
     "categoria": "Suegras",
-    "chiste": "—Suegra, ¿sabes cocinar algo? —Hijo: «mejor tráigase también el manual»."
+    "chiste": "Mi suegra dice que tiene buen ojo… sobre todo para encontrar mis errores."
   },
   {
     "id": "suegras_86",
     "categoria": "Suegras",
-    "chiste": "Mi suegra es tan intensa que opina hasta del silencio."
+    "chiste": "Cuando mi suegra me dice 'no te lo tomes a mal', es porque me lo voy a tomar a mal."
   },
   {
     "id": "suegras_87",
     "categoria": "Suegras",
-    "chiste": "Mi suegra me dijo: «yo solo vine a ayudar… a opinar». Yo: «entonces vuelva a esos tiempos… con cariño»."
+    "chiste": "Mi suegra es tan atenta… que siempre sabe en qué gastar mi dinero."
   },
   {
     "id": "suegras_88",
     "categoria": "Suegras",
-    "chiste": "Mi suegra me dijo: «mi hija come mejor conmigo». Yo: «por eso la invité, para equilibrar»."
+    "chiste": "Mi suegra cree que siempre sé lo que hago… y tiene razón: finjo que sé."
   },
   {
     "id": "suegras_89",
     "categoria": "Suegras",
-    "chiste": "—Suegra, ¿sabes cocinar algo? —Hijo: «sí: comida a domicilio». (39)"
+    "chiste": "—Suegra, ¿cómo está? —Mejor que tú, pero ya te contaré."
   },
   {
     "id": "suegras_90",
     "categoria": "Suegras",
-    "chiste": "—Suegra, ¿sabes cocinar algo? —Hijo: «sí: comida a domicilio». (40)"
+    "chiste": "Dicen que la paciencia es una virtud… y mi suegra la pone a prueba todos los días."
   },
   {
     "id": "suegras_91",
     "categoria": "Suegras",
-    "chiste": "—Suegra, ¿sabes cocinar algo? —Hijo: «sí: comida a domicilio». (41)"
+    "chiste": "Mi suegra es como un reality show… siempre trae drama gratis."
   },
   {
     "id": "suegras_92",
     "categoria": "Suegras",
-    "chiste": "—Suegra, ¿sabes cocinar algo? —Hijo: «sí: comida a domicilio». (42)"
+    "chiste": "Mi suegra dice que solo quiere ayudar… pero a veces ayuda como un spoiler."
   },
   {
     "id": "suegras_93",
     "categoria": "Suegras",
-    "chiste": "—Suegra, ¿sabes cocinar algo? —Hijo: «sí: comida a domicilio». (43)"
+    "chiste": "Cuando mi suegra se despide, siempre dice: 'Ya me voy'… y luego se queda media hora más."
   },
   {
     "id": "suegras_94",
     "categoria": "Suegras",
-    "chiste": "—Suegra, ¿sabes cocinar algo? —Hijo: «sí: comida a domicilio». (44)"
+    "chiste": "Mi suegra me dijo 'que Dios te bendiga'… creo que es su forma de decir 'buena suerte'."
   },
   {
     "id": "suegras_95",
     "categoria": "Suegras",
-    "chiste": "—Suegra, ¿sabes cocinar algo? —Hijo: «sí: comida a domicilio». (45)"
+    "chiste": "Mi suegra es como un tutorial que no se puede saltar."
   },
   {
     "id": "suegras_96",
     "categoria": "Suegras",
-    "chiste": "—Suegra, ¿sabes cocinar algo? —Hijo: «sí: comida a domicilio». (46)"
+    "chiste": "Cuando mi suegra dice 'no pasa nada', es cuando más miedo tengo."
   },
   {
     "id": "suegras_97",
     "categoria": "Suegras",
-    "chiste": "—Suegra, ¿sabes cocinar algo? —Hijo: «sí: comida a domicilio». (47)"
+    "chiste": "Mi suegra y yo tenemos algo en común: a los dos nos encanta tener la razón."
   },
   {
     "id": "suegras_98",
     "categoria": "Suegras",
-    "chiste": "—Suegra, ¿sabes cocinar algo? —Hijo: «sí: comida a domicilio». (48)"
+    "chiste": "—Suegra, ¿quiere un té o un café? —Quiero que recojas tu habitación."
   },
   {
     "id": "suegras_99",
     "categoria": "Suegras",
-    "chiste": "—Suegra, ¿sabes cocinar algo? —Hijo: «sí: comida a domicilio». (49)"
+    "chiste": "Mi suegra es tan observadora… que nota cuando respiro demasiado fuerte."
   },
   {
     "id": "suegras_100",
     "categoria": "Suegras",
-    "chiste": "—Suegra, ¿sabes cocinar algo? —Hijo: «sí: comida a domicilio». (50)"
-  },
-  { "id": "animales_1", "categoria": "Animales", "chiste": "Un pingüino entró a la heladería, pidió un cucurucho y se lo puso en la cabeza como sombrero." },
-  { "id": "animales_2", "categoria": "Animales", "chiste": "Un elefante fue a la playa con gafas de sol y flotador de patito, pero se olvidó que no cabe en el agua." },
-  { "id": "animales_3", "categoria": "Animales", "chiste": "Una vaca decidió tocar la guitarra eléctrica y formó una banda llamada 'Muuu-tallica'." },
-  { "id": "animales_4", "categoria": "Animales", "chiste": "Un perro pidió un café en la cafetería y le echaron tres huesos de galleta en vez de azúcar." },
-  { "id": "animales_5", "categoria": "Animales", "chiste": "Un gato se disfrazó de león para asustar a las palomas, pero ellas lo invitaron a su picnic." },
-  { "id": "animales_6", "categoria": "Animales", "chiste": "Una jirafa jugó al escondite detrás de un árbol y creyó que nadie la veía." },
-  { "id": "animales_7", "categoria": "Animales", "chiste": "Un pato se fue a la escuela con una mochila llena de pan." },
-  { "id": "animales_8", "categoria": "Animales", "chiste": "Un oso hormiguero abrió una pastelería solo para vender pasteles con forma de hormiga." },
-  { "id": "animales_9", "categoria": "Animales", "chiste": "Un canguro se metió en un cine y usó su bolsa para guardar palomitas extra." },
-  { "id": "animales_10", "categoria": "Animales", "chiste": "Un loro fue a un karaoke y solo cantó la misma palabra: 'GALLETAAAA'." },
-  { "id": "animales_11", "categoria": "Animales", "chiste": "Un caballo entró a una tienda de zapatos y pidió herraduras con luces LED." },
-  { "id": "animales_12", "categoria": "Animales", "chiste": "Un erizo intentó hacerse un peinado punk con gel, pero terminó con todos los pinchos pegados." },
-  { "id": "animales_13", "categoria": "Animales", "chiste": "Una foca entró en una librería y pidió un libro sobre olas." },
-  { "id": "animales_14", "categoria": "Animales", "chiste": "Un pez payaso se enfadó porque nadie se reía de sus chistes." },
-  { "id": "animales_15", "categoria": "Animales", "chiste": "Un búho abrió un canal de YouTube para enseñar a decir 'uh-uh' en todos los idiomas." },
-  { "id": "animales_16", "categoria": "Animales", "chiste": "Un camello compró una bicicleta porque estaba cansado de caminar por el desierto." },
-  { "id": "animales_17", "categoria": "Animales", "chiste": "Un oso panda trató de aprender kung-fu pero se quedaba dormido en las clases." },
-  { "id": "animales_18", "categoria": "Animales", "chiste": "Un flamenco se fue a esquiar pero no cabía en las botas." },
-  { "id": "animales_19", "categoria": "Animales", "chiste": "Un pulpo abrió una tienda de guantes y siempre tenía rebajas de 8 por 1." },
-  { "id": "animales_20", "categoria": "Animales", "chiste": "Un perro salchicha se disfrazó de perrito caliente para Halloween." },
-  { "id": "animales_21", "categoria": "Animales", "chiste": "Un mono intentó usar un smartphone pero solo mandaba selfies haciendo muecas." },
-  { "id": "animales_22", "categoria": "Animales", "chiste": "Una cabra se apuntó a clases de yoga y siempre hacía la postura de la montaña." },
-  { "id": "animales_23", "categoria": "Animales", "chiste": "Un ratón organizó una fiesta y solo sirvió queso en todas las formas posibles." },
-  { "id": "animales_24", "categoria": "Animales", "chiste": "Una ardilla escondió tantas nueces que abrió su propio supermercado." },
-  { "id": "animales_25", "categoria": "Animales", "chiste": "Un pato y un perro se fueron juntos a la feria y se ganaron un peluche de elefante." },
-  { "id": "animales_26", "categoria": "Animales", "chiste": "Un tiburón se puso un sombrero de paja y fue a bailar salsa a la playa." },
-  { "id": "animales_27", "categoria": "Animales", "chiste": "Un cerdo cocinó su propia pizza y le puso extra de piña porque le gustaba llevar la contraria." },
-  { "id": "animales_28", "categoria": "Animales", "chiste": "Un perezoso abrió un puesto de limonada y tardaba 3 horas en servir cada vaso." },
-  { "id": "animales_29", "categoria": "Animales", "chiste": "Un león se inscribió a clases de canto para rugir con más estilo." },
-  { "id": "animales_30", "categoria": "Animales", "chiste": "Un gato persiguió su propia sombra y la invitó a tomar leche." },
-  { "id": "animales_31", "categoria": "Animales", "chiste": "Un perro pastor decidió pastorear pelotas en vez de ovejas." },
-  { "id": "animales_32", "categoria": "Animales", "chiste": "Un loro se disfrazó de dragón para impresionar a las gaviotas." },
-  { "id": "animales_33", "categoria": "Animales", "chiste": "Un hipopótamo intentó bailar ballet y rompió tres tutús." },
-  { "id": "animales_34", "categoria": "Animales", "chiste": "Un gallo fue a un concurso de canto y llegó segundo detrás de un pavo real." },
-  { "id": "animales_35", "categoria": "Animales", "chiste": "Un burro fue a una tienda de ropa y compró pantalones a rayas." },
-  { "id": "animales_36", "categoria": "Animales", "chiste": "Un lobo abrió una pastelería que solo vendía tartas en forma de luna." },
-  { "id": "animales_37", "categoria": "Animales", "chiste": "Una tortuga corrió una maratón... en tres días." },
-  { "id": "animales_38", "categoria": "Animales", "chiste": "Un águila fue a hacerse las uñas y pidió diseño de nubes." },
-  { "id": "animales_39", "categoria": "Animales", "chiste": "Un castor construyó una casa con helados en vez de troncos." },
-  { "id": "animales_40", "categoria": "Animales", "chiste": "Un oso polar fue a la playa con sombrero y protector solar factor 200." },
-  { "id": "animales_41", "categoria": "Animales", "chiste": "Un delfín abrió una discoteca submarina con luces de medusa." },
-  { "id": "animales_42", "categoria": "Animales", "chiste": "Un gorila aprendió a tocar batería y se unió a una banda de rock." },
-  { "id": "animales_43", "categoria": "Animales", "chiste": "Una vaca y una cabra abrieron una cafetería y solo servían batidos." },
-  { "id": "animales_44", "categoria": "Animales", "chiste": "Un perro bulldog se puso gafas de sol y se convirtió en influencer." },
-  { "id": "animales_45", "categoria": "Animales", "chiste": "Un pez espada decidió cortar pasteles en fiestas de cumpleaños." },
-  { "id": "animales_46", "categoria": "Animales", "chiste": "Un rinoceronte participó en un desfile de moda con un sombrero gigante." },
-  { "id": "animales_47", "categoria": "Animales", "chiste": "Un pato se inscribió a clases de buceo pero no entendía por qué todos usaban bombonas." },
-  { "id": "animales_48", "categoria": "Animales", "chiste": "Un caracol abrió un puesto de comida rápida que cerraba en seis horas." },
-  { "id": "animales_49", "categoria": "Animales", "chiste": "Un cangrejo se puso patines y ganó una carrera de playa." },
-  { "id": "animales_50", "categoria": "Animales", "chiste": "Un loro alquiló un micrófono para cantar en la parada del autobús." },
-  { "id": "animales_51", "categoria": "Animales", "chiste": "Un búfalo fue a la peluquería y pidió un corte estilo rockero." },
-  { "id": "animales_52", "categoria": "Animales", "chiste": "Un cisne organizó una clase de baile en el lago." },
-  { "id": "animales_53", "categoria": "Animales", "chiste": "Un gato montés se apuntó a clases de pintura y solo hacía cuadros de ratones." },
-  { "id": "animales_54", "categoria": "Animales", "chiste": "Un perro labrador abrió un puesto de churros para perros." },
-  { "id": "animales_55", "categoria": "Animales", "chiste": "Una foca se inscribió en un concurso de canto de ballenas y ganó." },
-  { "id": "animales_56", "categoria": "Animales", "chiste": "Un oso pardo se disfrazó de abeja para robar miel." },
-  { "id": "animales_57", "categoria": "Animales", "chiste": "Una cabra montesa compitió en salto de trampolín." },
-  { "id": "animales_58", "categoria": "Animales", "chiste": "Un halcón pidió unas gafas de sol para cazar con más estilo." },
-  { "id": "animales_59", "categoria": "Animales", "chiste": "Un pato abrió un restaurante de sopas." },
-  { "id": "animales_60", "categoria": "Animales", "chiste": "Una ardilla fue al gimnasio para levantar bellotas." },
-  { "id": "animales_61", "categoria": "Animales", "chiste": "Un lobo marino organizó una fiesta de disfraces bajo el mar." },
-  { "id": "animales_62", "categoria": "Animales", "chiste": "Un gato siamés aprendió a tocar violín." },
-  { "id": "animales_63", "categoria": "Animales", "chiste": "Un caballo participó en un concurso de surf." },
-  { "id": "animales_64", "categoria": "Animales", "chiste": "Un flamenco vendía gafas de sol en la playa." },
-  { "id": "animales_65", "categoria": "Animales", "chiste": "Un conejo abrió una pastelería de zanahoria." },
-  { "id": "animales_66", "categoria": "Animales", "chiste": "Un perro husky trabajó como repartidor de pizzas." },
-  { "id": "animales_67", "categoria": "Animales", "chiste": "Una tortuga abrió un taller de pintura de conchas." },
-  { "id": "animales_68", "categoria": "Animales", "chiste": "Un loro fue al circo a contar chistes." },
-  { "id": "animales_69", "categoria": "Animales", "chiste": "Un tiburón abrió un puesto de gafas de buceo." },
-  { "id": "animales_70", "categoria": "Animales", "chiste": "Un canguro vendía helados saltando por el parque." },
-  { "id": "animales_71", "categoria": "Animales", "chiste": "Un búho daba clases de meditación nocturna." },
-  { "id": "animales_72", "categoria": "Animales", "chiste": "Un oso panda abrió una tienda de bambú gourmet." },
-  { "id": "animales_73", "categoria": "Animales", "chiste": "Un gallo hizo un canal de cocina en YouTube." },
-  { "id": "animales_74", "categoria": "Animales", "chiste": "Un pez payaso trabajaba como guía turístico submarino." },
-  { "id": "animales_75", "categoria": "Animales", "chiste": "Un camello montó una cafetería en medio del desierto." },
-  { "id": "animales_76", "categoria": "Animales", "chiste": "Un perro dálmata vendía paraguas en días soleados." },
-  { "id": "animales_77", "categoria": "Animales", "chiste": "Un ratón abrió una escuela de quesología." },
-  { "id": "animales_78", "categoria": "Animales", "chiste": "Un hipopótamo daba clases de natación sincronizada." },
-  { "id": "animales_79", "categoria": "Animales", "chiste": "Una foca trabajaba como fotógrafa de bodas en la playa." },
-  { "id": "animales_80", "categoria": "Animales", "chiste": "Un lobo vendía pasteles en la feria." },
-  { "id": "animales_81", "categoria": "Animales", "chiste": "Un águila montó una empresa de mensajería aérea." },
-  { "id": "animales_82", "categoria": "Animales", "chiste": "Un loro trabajaba como DJ en un barco." },
-  { "id": "animales_83", "categoria": "Animales", "chiste": "Un oso polar daba clases de esquí acuático." },
-  { "id": "animales_84", "categoria": "Animales", "chiste": "Una vaca vendía batidos en un festival." },
-  { "id": "animales_85", "categoria": "Animales", "chiste": "Un perro labrador pintaba cuadros abstractos." },
-  { "id": "animales_86", "categoria": "Animales", "chiste": "Un búho trabajaba como bibliotecario nocturno." },
-  { "id": "animales_87", "categoria": "Animales", "chiste": "Un tiburón hacía de guardaespaldas en una discoteca." },
-  { "id": "animales_88", "categoria": "Animales", "chiste": "Un camaleón daba clases de camuflaje en la escuela." },
-  { "id": "animales_89", "categoria": "Animales", "chiste": "Un oso pardo vendía miel en la feria." },
-  { "id": "animales_90", "categoria": "Animales", "chiste": "Una cabra hacía de árbitro en partidos de fútbol." },
-  { "id": "animales_91", "categoria": "Animales", "chiste": "Un pez espada cortaba cintas en inauguraciones." },
-  { "id": "animales_92", "categoria": "Animales", "chiste": "Un loro trabajaba como recepcionista en un hotel." },
-  { "id": "animales_93", "categoria": "Animales", "chiste": "Un gato persa daba clases de etiqueta." },
-  { "id": "animales_94", "categoria": "Animales", "chiste": "Un elefante pintaba murales con su trompa." },
-  { "id": "animales_95", "categoria": "Animales", "chiste": "Un perro beagle trabajaba como detective." },
-  { "id": "animales_96", "categoria": "Animales", "chiste": "Una tortuga vendía helados en la playa." },
-  { "id": "animales_97", "categoria": "Animales", "chiste": "Un flamenco trabajaba como árbitro en partidos de voleibol." },
-  { "id": "animales_98", "categoria": "Animales", "chiste": "Un mono vendía plátanos con chocolate." },
-  { "id": "animales_99", "categoria": "Animales", "chiste": "Un pato cocinaba crepes en la feria." },
-  { "id": "animales_100", "categoria": "Animales", "chiste": "Un caballo daba paseos turísticos en bicicleta." },
+    "chiste": "Cuando mi suegra dice 'me caes bien', siento que está planeando algo."},
 
+
+ {
+    "id": "animales_1",
+    "categoria": "Animales",
+    "chiste": "Un perro ve a su dueño recogiendo la correa y se emociona: '¡Por fin vamos al parque!'. Salen juntos… y acaban en la consulta del veterinario. El perro piensa: 'Caí de nuevo en la trampa'."
+  },
+  {
+    "id": "animales_2",
+    "categoria": "Animales",
+    "chiste": "Un gato se sube al teclado del ordenador mientras su dueño trabaja. El dueño lo quita y el gato regresa. El dueño suspira: '¿Por qué siempre te acuestas aquí?'. El gato: 'Porque este es el único lugar donde no ignoras mis movimientos'."
+  },
+  {
+    "id": "animales_3",
+    "categoria": "Animales",
+    "chiste": "Una ardilla entierra una nuez y se va. Tres días después, vuelve al mismo lugar… y hay un supermercado. 'Definitivamente, me mudé demasiado tarde', piensa."
+  },
+  {
+    "id": "animales_4",
+    "categoria": "Animales",
+    "chiste": "En una granja, una vaca mira cómo ordeñan a otra. 'Eso parece incómodo', comenta. El granjero la mira y dice: 'Tú eres la siguiente'."
+  },
+  {
+    "id": "animales_5",
+    "categoria": "Animales",
+    "chiste": "Un loro aprende a decir 'no hay nadie en casa'. Un día, el cartero llama y escucha la frase. Se va tranquilo… y el loro piensa: 'Otra entrega frustrada'."
+  },
+  {
+    "id": "animales_6",
+    "categoria": "Animales",
+    "chiste": "Un caballo ve pasar un coche deportivo y dice: 'Mira, un primo evolucionado'. El coche acelera y el caballo susurra: 'Pero yo no pago gasolina'."
+  },
+  {
+    "id": "animales_7",
+    "categoria": "Animales",
+    "chiste": "Un perro callejero encuentra una hamburguesa entera en la acera. Mira a ambos lados, la huele y piensa: 'Esto es una trampa… pero es una trampa deliciosa'."
+  },
+  {
+    "id": "animales_8",
+    "categoria": "Animales",
+    "chiste": "En un estanque, una rana mira a un pato nadando y dice: 'Yo también podría hacerlo… si no me hundiera a los dos segundos'."
+  },
+  {
+    "id": "animales_9",
+    "categoria": "Animales",
+    "chiste": "Un pez nada cerca de una pecera nueva y comenta: 'Qué bonito diseño… lástima que no tenga puerta de salida'."
+  },
+  {
+    "id": "animales_10",
+    "categoria": "Animales",
+    "chiste": "Un pingüino camina por la playa y ve turistas tomando el sol. Se detiene y dice: 'Y yo aquí, con este traje para toda la vida'."
+  },
+  {
+    "id": "animales_11",
+    "categoria": "Animales",
+    "chiste": "Un gato caza un ratón y se lo lleva a su dueño como regalo. El dueño grita y lo saca de casa. El gato piensa: 'No hay forma de agradarle a este humano'."
+  },
+  {
+    "id": "animales_12",
+    "categoria": "Animales",
+    "chiste": "Un perro escucha a su dueño decir 'vamos al parque'. Salta de emoción… pero el coche toma el camino al veterinario. El perro: 'Me han engañado otra vez'."
+  },
+  {
+    "id": "animales_13",
+    "categoria": "Animales",
+    "chiste": "Un mapache abre un cubo de basura, ve pizza fría y sonríe. 'Los humanos llaman a esto desperdicio… yo lo llamo desayuno'."
+  },
+  {
+    "id": "animales_14",
+    "categoria": "Animales",
+    "chiste": "En una carrera de caracoles, uno se detiene para mirar una flor. El otro dice: '¡Vamos, que nos adelanta una nube!'."
+  },
+  {
+    "id": "animales_15",
+    "categoria": "Animales",
+    "chiste": "Un perro se queda mirando por la ventana durante horas. Su dueño le pregunta: '¿Qué ves?'. El perro: 'A tu vecino comiendo sin invitar'."
+  },
+  {
+    "id": "animales_16",
+    "categoria": "Animales",
+    "chiste": "En la selva, un loro oye un disparo y grita: '¡Alto ahí!'. El cazador se asusta y huye. El loro piensa: 'Menos mal que vi tantas películas de policías'."
+  },
+  {
+    "id": "animales_17",
+    "categoria": "Animales",
+    "chiste": "Un elefante intenta subirse a una hamaca. Después de tres intentos, se tumba en el suelo y dice: 'La naturaleza no me diseñó para el ocio'."
+  },
+  {
+    "id": "animales_18",
+    "categoria": "Animales",
+    "chiste": "Un perro ve a un gato durmiendo en su cama. El perro: 'Si lo despierto, se enfadará. Si no lo despierto… yo duermo en el suelo'."
+  },
+  {
+    "id": "animales_19",
+    "categoria": "Animales",
+    "chiste": "Un pato entra a una tienda y pregunta: '¿Tienen uvas?'. El vendedor responde: 'No'. El pato se va… y vuelve al día siguiente a preguntar lo mismo."
+  },
+  {
+    "id": "animales_20",
+    "categoria": "Animales",
+    "chiste": "Un zorro ve una gallina detrás de una reja. Ella le dice: 'Ven por mí'. El zorro: 'No, gracias… eso parece un episodio de esos que acaban mal'."
+  },
+  {
+    "id": "animales_21",
+    "categoria": "Animales",
+    "chiste": "Un perro pequeño ladra a un perro enorme. El grande lo mira y dice: 'Tu valentía es admirable… pero también estúpida'."
+  },
+  {
+    "id": "animales_22",
+    "categoria": "Animales",
+    "chiste": "Un búho le pregunta a otro: '¿Quién?'. El otro responde: 'Tú, siempre tú con la misma pregunta'."
+  },
+  {
+    "id": "animales_23",
+    "categoria": "Animales",
+    "chiste": "En un bosque, un oso ve una cámara de seguridad. Se coloca frente a ella y sonríe: 'Espero que esta salga mejor que la del año pasado'."
+  },
+  {
+    "id": "animales_24",
+    "categoria": "Animales",
+    "chiste": "Un pez dorado da vueltas en su pecera. Otro pez le pregunta: '¿Qué haces?'. El primero: 'Recorriendo el mundo'."
+  },
+  {
+    "id": "animales_25",
+    "categoria": "Animales",
+    "chiste": "Un gallo canta a las 4 de la mañana. Una vaca desde el establo grita: '¡Alguien apague esa alarma biológica!'."
+  },
+  {
+    "id": "animales_26",
+    "categoria": "Animales",
+    "chiste": "Un perro se asoma a la nevera cada cinco minutos. El dueño le pregunta: '¿Esperas algo?'. El perro: 'Sí… un milagro'."
+  },
+  {
+    "id": "animales_27",
+    "categoria": "Animales",
+    "chiste": "Una ardilla observa a un humano correr por el parque. La ardilla: 'Debe estar guardando calorías para el invierno… igual que yo'."
+  },
+  {
+    "id": "animales_28",
+    "categoria": "Animales",
+    "chiste": "En un prado, una oveja le dice a otra: '¿Alguna vez te has sentido… peinada en exceso?'."
+  },
+  {
+    "id": "animales_29",
+    "categoria": "Animales",
+    "chiste": "Un caballo ve una bicicleta y dice: 'Eso es básicamente yo… con accesorios'."
+  },
+  {
+    "id": "animales_30",
+    "categoria": "Animales",
+    "chiste": "Un perro roba una media y corre por toda la casa. El dueño lo persigue. El perro piensa: 'El juego de siempre'."
+  },
+  {
+    "id": "animales_31",
+    "categoria": "Animales",
+    "chiste": "Un loro escucha una discusión y dice: '¡Calma, calma!'. Todos se callan… y el loro añade: 'Ahora sí, continúen'."
+  },
+  {
+    "id": "animales_32",
+    "categoria": "Animales",
+    "chiste": "Un gato ve caer un vaso al suelo y romperse. El gato: 'Uno más para mi colección'."
+  },
+  {
+    "id": "animales_33",
+    "categoria": "Animales",
+    "chiste": "Un perro y un gato se miran fijamente. El gato parpadea primero. El perro piensa: 'Victoria'."
+  },
+  {
+    "id": "animales_34",
+    "categoria": "Animales",
+    "chiste": "Un ratón ve queso en una trampa. Piensa: 'Es demasiado fácil… pero también demasiado delicioso'."
+  },
+  {
+    "id": "animales_35",
+    "categoria": "Animales",
+    "chiste": "Un camello ve un charco y se ríe: 'Para esto guardo agua, para no acabar como tú'."
+  },
+  {
+    "id": "animales_36",
+    "categoria": "Animales",
+    "chiste": "Un perro viejo ve un cachorro morder un zapato y le dice: 'Disfrútalo… antes de que te griten'."
+  },
+  {
+    "id": "animales_37",
+    "categoria": "Animales",
+    "chiste": "En una charca, un sapo mira su reflejo y dice: 'Hoy me veo menos príncipe que de costumbre'."
+  },
+  {
+    "id": "animales_38",
+    "categoria": "Animales",
+    "chiste": "Un cuervo roba una galleta y vuela a lo alto de un árbol. Otro cuervo le dice: 'Comparte'. El primero: 'En mi diccionario no existe esa palabra'."
+  },
+  {
+    "id": "animales_39",
+    "categoria": "Animales",
+    "chiste": "Un pez ve caer migas de pan al agua y grita: '¡Lluvia de comida!'."
+  },
+  {
+    "id": "animales_40",
+    "categoria": "Animales",
+    "chiste": "Un pato camina detrás de su madre. La madre dice: 'Siempre en fila, hijo… esto es tradición'."
+  },
+  {
+    "id": "animales_41",
+    "categoria": "Animales",
+    "chiste": "Un perro duerme todo el día. El gato lo mira y dice: 'Eres mi héroe'."
+  },
+  {
+    "id": "animales_42",
+    "categoria": "Animales",
+    "chiste": "En un zoológico, una jirafa ve a un niño pequeño y piensa: 'Debe ser lo que yo era de bebé'."
+  },
+  {
+    "id": "animales_43",
+    "categoria": "Animales",
+    "chiste": "Un mono roba un plátano y corre. Otro mono le grita: '¡Eso es mío!'. El primero: 'Ahora es nuestro'."
+  },
+  {
+    "id": "animales_44",
+    "categoria": "Animales",
+    "chiste": "Un perro ve que su dueño abre una bolsa de patatas. El perro: 'Sé que no me va a dar… pero igual lo voy a intentar'."
+  },
+  {
+    "id": "animales_45",
+    "categoria": "Animales",
+    "chiste": "Una paloma se posa sobre una estatua y dice: 'Perdón, es que no había baño cerca'."
+  },
+  {
+    "id": "animales_46",
+    "categoria": "Animales",
+    "chiste": "Un gato ve una caja y se mete dentro. 'Ahora soy invisible', piensa."
+  },
+  {
+    "id": "animales_47",
+    "categoria": "Animales",
+    "chiste": "Un perro ve fuegos artificiales y se esconde bajo la cama: 'Si no los veo, no existen'."
+  },
+  {
+    "id": "animales_48",
+    "categoria": "Animales",
+    "chiste": "Un pez ve un anzuelo y dice: 'Tiene buena pinta… pero algo huele raro'."
+  },
+  {
+    "id": "animales_49",
+    "categoria": "Animales",
+    "chiste": "Un perro corre detrás de su cola. Otro perro le pregunta: '¿Qué haces?'. El primero: 'Trabajo en logística'."
+  },
+  {
+    "id": "animales_50",
+    "categoria": "Animales",
+    "chiste": "Un gato ve que su dueño abre una maleta. El gato: 'Otra vez me abandona… o peor, me lleva con él'."
+  },
+  {
+    "id": "animales_51",
+    "categoria": "Animales",
+    "chiste": "Un perro ve a su dueño abrir una bolsa de galletas y corre feliz… pero descubre que son para el té. El perro piensa: 'Publicidad engañosa'."
+  },
+  {
+    "id": "animales_52",
+    "categoria": "Animales",
+    "chiste": "Un gato ve un láser en el suelo y lo persigue por toda la casa. Al final se detiene y reflexiona: 'Esto es exactamente lo que los humanos quieren que haga'."
+  },
+  {
+    "id": "animales_53",
+    "categoria": "Animales",
+    "chiste": "Una gallina mira un huevo hervido y suspira: 'Tantos años de esfuerzo… para acabar en una ensalada'."
+  },
+  {
+    "id": "animales_54",
+    "categoria": "Animales",
+    "chiste": "Un pez globo ve una cámara submarina y se infla para salir guapo en la foto."
+  },
+  {
+    "id": "animales_55",
+    "categoria": "Animales",
+    "chiste": "Un loro escucha a su dueño decir 'mañana al veterinario'. Pasa la noche practicando una tos falsa."
+  },
+  {
+    "id": "animales_56",
+    "categoria": "Animales",
+    "chiste": "Un perro ve que su dueño tira la pelota… y decide no devolverla. 'Hoy jugamos a otra cosa', piensa."
+  },
+  {
+    "id": "animales_57",
+    "categoria": "Animales",
+    "chiste": "Un ratón se cuela en una fiesta de gatos disfrazado de queso. Todo iba bien… hasta que trajeron vino."
+  },
+  {
+    "id": "animales_58",
+    "categoria": "Animales",
+    "chiste": "En la selva, un mono ve a un fotógrafo y posa como modelo… hasta que el fotógrafo le quita el plátano."
+  },
+  {
+    "id": "animales_59",
+    "categoria": "Animales",
+    "chiste": "Una abeja llega tarde a la colmena. Sus amigas le preguntan qué pasó y responde: 'Tráfico de flores'."
+  },
+  {
+    "id": "animales_60",
+    "categoria": "Animales",
+    "chiste": "Un perro mira cómo su dueño come pizza. El dueño le da un trozo de borde y el perro piensa: 'Este humano no me respeta'."
+  },
+  {
+    "id": "animales_61",
+    "categoria": "Animales",
+    "chiste": "Un caballo ve una valla alta y decide saltarla. Al otro lado… solo había otra valla más alta."
+  },
+  {
+    "id": "animales_62",
+    "categoria": "Animales",
+    "chiste": "Un gato se sienta en la maleta de su dueño. 'Si me ve aquí, no se va', piensa."
+  },
+  {
+    "id": "animales_63",
+    "categoria": "Animales",
+    "chiste": "Un perro ve un charco y salta dentro feliz… hasta que se da cuenta de que era barro."
+  },
+  {
+    "id": "animales_64",
+    "categoria": "Animales",
+    "chiste": "Un pez dorado oye a su dueño decir 'cena con pescado'… y empieza a planear su fuga."
+  },
+  {
+    "id": "animales_65",
+    "categoria": "Animales",
+    "chiste": "Una vaca ve un cartel de 'Carne en oferta' y murmura: 'Ojalá fuera queso'."
+  },
+  {
+    "id": "animales_66",
+    "categoria": "Animales",
+    "chiste": "Un perro ve un globo y lo muerde. El estallido lo asusta tanto que decide odiar los cumpleaños."
+  },
+  {
+    "id": "animales_67",
+    "categoria": "Animales",
+    "chiste": "Un pingüino patina en hielo y presume… hasta que se resbala frente a toda la colonia."
+  },
+  {
+    "id": "animales_68",
+    "categoria": "Animales",
+    "chiste": "Un gato ve a su dueño cocinar pescado. Se sienta a esperar… y espera… y espera."
+  },
+  {
+    "id": "animales_69",
+    "categoria": "Animales",
+    "chiste": "Un perro husmea un bolso y encuentra una pelota. 'Tesoro encontrado', piensa."
+  },
+  {
+    "id": "animales_70",
+    "categoria": "Animales",
+    "chiste": "Un caballo ve un espejo y saluda pensando que es otro caballo educado."
+  },
+  {
+    "id": "animales_71",
+    "categoria": "Animales",
+    "chiste": "Un gato se mete en una caja y se queda ahí todo el día. 'Privacidad premium', piensa."
+  },
+  {
+    "id": "animales_72",
+    "categoria": "Animales",
+    "chiste": "Un perro escucha un trueno y corre bajo la cama: 'Fin del mundo confirmado'."
+  },
+  {
+    "id": "animales_73",
+    "categoria": "Animales",
+    "chiste": "Una rana salta a una hoja y se resbala: 'Mal día para presumir'."
+  },
+  {
+    "id": "animales_74",
+    "categoria": "Animales",
+    "chiste": "Un loro aprende a imitar el timbre. Ahora los humanos abren la puerta cada cinco minutos."
+  },
+  {
+    "id": "animales_75",
+    "categoria": "Animales",
+    "chiste": "Un gato ve caer nieve por primera vez y decide que el suelo es lava."
+  },
+  {
+    "id": "animales_76",
+    "categoria": "Animales",
+    "chiste": "Un perro cava un hoyo en el jardín. Olvida dónde… y pasa el resto del día buscándolo."
+  },
+  {
+    "id": "animales_77",
+    "categoria": "Animales",
+    "chiste": "Un pez salta del agua pensando que impresiona… y casi aterriza en la barbacoa."
+  },
+  {
+    "id": "animales_78",
+    "categoria": "Animales",
+    "chiste": "Una cabra entra a la cocina y se come la lista de compras. 'Problema resuelto', piensa."
+  },
+  {
+    "id": "animales_79",
+    "categoria": "Animales",
+    "chiste": "Un perro se duerme encima del mando de la tele y cambia de canal 17 veces."
+  },
+  {
+    "id": "animales_80",
+    "categoria": "Animales",
+    "chiste": "Un gato se sube a la nevera y observa el reino. 'Rey de la casa', se dice."
+  },
+  {
+    "id": "animales_81",
+    "categoria": "Animales",
+    "chiste": "Un perro ladra a su reflejo en el espejo durante media hora. Luego se queda esperando respuesta."
+  },
+  {
+    "id": "animales_82",
+    "categoria": "Animales",
+    "chiste": "Un caballo intenta beber de un cubo… y moja todas sus patas."
+  },
+  {
+    "id": "animales_83",
+    "categoria": "Animales",
+    "chiste": "Un loro oye la palabra 'galleta' y no deja de repetirla hasta que le dan una."
+  },
+  {
+    "id": "animales_84",
+    "categoria": "Animales",
+    "chiste": "Un perro corre detrás de un ciclista y al llegar… se olvida de por qué lo seguía."
+  },
+  {
+    "id": "animales_85",
+    "categoria": "Animales",
+    "chiste": "Un gato ve un ventilador y lo considera su nuevo enemigo."
+  },
+  {
+    "id": "animales_86",
+    "categoria": "Animales",
+    "chiste": "Un pato entra en un charco y se da cuenta de que es pintura azul."
+  },
+  {
+    "id": "animales_87",
+    "categoria": "Animales",
+    "chiste": "Una tortuga intenta subir un escalón y decide que prefiere la planta baja."
+  },
+  {
+    "id": "animales_88",
+    "categoria": "Animales",
+    "chiste": "Un perro mete la cabeza en una bolsa y se asusta al no encontrar la salida."
+  },
+  {
+    "id": "animales_89",
+    "categoria": "Animales",
+    "chiste": "Un gato ve una vela encendida y decide comprobar si es comestible."
+  },
+  {
+    "id": "animales_90",
+    "categoria": "Animales",
+    "chiste": "Un perro se acuesta sobre el mando del aire y pasa de invierno a verano en un minuto."
+  },
+  {
+    "id": "animales_91",
+    "categoria": "Animales",
+    "chiste": "Un ratón roba un trozo de queso y lo esconde en la zapatilla del dueño."
+  },
+  {
+    "id": "animales_92",
+    "categoria": "Animales",
+    "chiste": "Un gato se queda atrapado en la despensa… con un saco de comida abierta."
+  },
+  {
+    "id": "animales_93",
+    "categoria": "Animales",
+    "chiste": "Un perro ve una puerta entreabierta y la empuja… solo para entrar al baño ocupado."
+  },
+  {
+    "id": "animales_94",
+    "categoria": "Animales",
+    "chiste": "Un loro imita el sonido de abrir una lata y engaña a todos los gatos de la casa."
+  },
+  {
+    "id": "animales_95",
+    "categoria": "Animales",
+    "chiste": "Un pez ve burbujas subir y piensa que alguien está enviando mensajes."
+  },
+  {
+    "id": "animales_96",
+    "categoria": "Animales",
+    "chiste": "Un perro ve una mariposa y la sigue… hasta que se estrella contra un arbusto."
+  },
+  {
+    "id": "animales_97",
+    "categoria": "Animales",
+    "chiste": "Un gato intenta atrapar su propia sombra. No gana."
+  },
+  {
+    "id": "animales_98",
+    "categoria": "Animales",
+    "chiste": "Un gallo canta tan temprano que asusta a las vacas."
+  },
+  {
+    "id": "animales_99",
+    "categoria": "Animales",
+    "chiste": "Un perro se come la tarea del niño… y ahora la maestra cree que es un cliché."
+  },
+  {
+    "id": "animales_100",
+    "categoria": "Animales",
+    "chiste": "Un gato ve un dron volando y lo mira como si fuera un pájaro de otro planeta."
+  },
   
   { "id": "trabalenguas_1", "categoria": "Trabalenguas", "chiste": "Tres tristes tigres trotan torpemente tras trozos de tarta tropical mientras tararean tonterías." },
   { "id": "trabalenguas_2", "categoria": "Trabalenguas", "chiste": "Pepe pinta puertas pequeñas para perros peludos que prefieren pasar por pasadizos." },
@@ -2191,106 +2093,508 @@
   },
   
  
-  { "id": "colegios_1", "categoria": "Colegios", "chiste": "El timbre del colegio gritó tan fuerte que asustó a las mochilas, y una de ellas se escondió detrás de la papelera." },
-  { "id": "colegios_2", "categoria": "Colegios", "chiste": "En la clase de ciencias, el experimento salió corriendo por la ventana y ahora vive en el árbol del patio." },
-  { "id": "colegios_3", "categoria": "Colegios", "chiste": "La tiza se puso a bailar salsa en plena lección y el borrador le hizo de pareja." },
-  { "id": "colegios_4", "categoria": "Colegios", "chiste": "En el recreo, la pelota decidió jugar sola, metió tres goles y nos ganó." },
-  { "id": "colegios_5", "categoria": "Colegios", "chiste": "El cuaderno se tapó porque tenía frío en la portada, así que lo envolví con mi bufanda." },
-  { "id": "colegios_6", "categoria": "Colegios", "chiste": "La silla se cansó de sostenerme y se fue a sentar en el pasillo para descansar." },
-  { "id": "colegios_7", "categoria": "Colegios", "chiste": "En matemáticas, el número 4 se disfrazó de silla para que el profesor no lo encontrara." },
-  { "id": "colegios_8", "categoria": "Colegios", "chiste": "El borrador desapareció porque no quería trabajar más y lo encontramos escondido en la mochila del profesor." },
-  { "id": "colegios_9", "categoria": "Colegios", "chiste": "En arte pintamos un cuadro tan grande que tuvimos que colgarlo en el techo del gimnasio." },
-  { "id": "colegios_10", "categoria": "Colegios", "chiste": "La regla midió el recreo y dijo que era tan corto que mejor lo volvía a medir por si acaso." },
-  { "id": "colegios_11", "categoria": "Colegios", "chiste": "En educación física corrimos tan rápido que adelantamos al profesor y lo esperamos en la meta." },
-  { "id": "colegios_12", "categoria": "Colegios", "chiste": "La ventana se abrió sola para chismear lo que hacíamos y terminó escuchando toda la clase." },
-  { "id": "colegios_13", "categoria": "Colegios", "chiste": "El lápiz pidió vacaciones por exceso de deberes y se fue a la playa con la goma de borrar." },
-  { "id": "colegios_14", "categoria": "Colegios", "chiste": "La campana se escondió en la sala de música y llegamos tarde a casa." },
-  { "id": "colegios_15", "categoria": "Colegios", "chiste": "En la pizarra apareció un dibujo misterioso: mi tarea escapando en patinete." },
-  { "id": "colegios_16", "categoria": "Colegios", "chiste": "El profesor dijo que éramos tan brillantes que apagó la luz para que no lo encandiláramos." },
-  { "id": "colegios_17", "categoria": "Colegios", "chiste": "La mochila se tragó un bocadillo tan grande que después no cerraba la cremallera." },
-  { "id": "colegios_18", "categoria": "Colegios", "chiste": "En la biblioteca, los libros cuchicheaban historias que todavía no estaban escritas." },
-  { "id": "colegios_19", "categoria": "Colegios", "chiste": "El borrador se disfrazó de nube y se fue flotando hacia el recreo." },
-  { "id": "colegios_20", "categoria": "Colegios", "chiste": "En ciencias, la planta levantó la mano y pidió agua como respuesta." },
-  { "id": "colegios_21", "categoria": "Colegios", "chiste": "La silla cantó una canción en medio de la clase y todos la aplaudimos." },
-  { "id": "colegios_22", "categoria": "Colegios", "chiste": "El cuaderno se escondió debajo del pupitre porque no quería que escribiera en él." },
-  { "id": "colegios_23", "categoria": "Colegios", "chiste": "En el comedor servían espaguetis tan largos que uno terminó en la clase de al lado." },
-  { "id": "colegios_24", "categoria": "Colegios", "chiste": "La tiza saltó del borrador y fue a dibujar en el suelo del patio." },
-  { "id": "colegios_25", "categoria": "Colegios", "chiste": "En educación física saltamos tan alto que un pájaro nos pidió autógrafos." },
-  { "id": "colegios_26", "categoria": "Colegios", "chiste": "El libro de historia nos contó un chisme del año pasado y prometió contarnos el de este año." },
-  { "id": "colegios_27", "categoria": "Colegios", "chiste": "La campana sonó tres veces porque estaba aburrida y quería atención." },
-  { "id": "colegios_28", "categoria": "Colegios", "chiste": "En geografía, el mapa se perdió y tuvimos que usarlo para encontrarlo." },
-  { "id": "colegios_29", "categoria": "Colegios", "chiste": "La goma de borrar borró un bostezo que se me escapó." },
-  { "id": "colegios_30", "categoria": "Colegios", "chiste": "El timbre tocó una canción y hasta el director bailó." },
-  { "id": "colegios_31", "categoria": "Colegios", "chiste": "La ventana saludó al recreo con una reverencia elegante." },
-  { "id": "colegios_32", "categoria": "Colegios", "chiste": "En arte dibujé una puerta y casi se abre de verdad." },
-  { "id": "colegios_33", "categoria": "Colegios", "chiste": "El lápiz escribió solo mientras yo dormía la siesta." },
-  { "id": "colegios_34", "categoria": "Colegios", "chiste": "La mochila cantó en el coro escolar y desafinó a propósito." },
-  { "id": "colegios_35", "categoria": "Colegios", "chiste": "En ciencias creamos una nube de papel que llovía confeti sobre todos." },
-  { "id": "colegios_36", "categoria": "Colegios", "chiste": "El cuaderno aprendió a silbar y ahora no para de hacerlo en clase." },
-  { "id": "colegios_37", "categoria": "Colegios", "chiste": "La silla se puso de pie para descansar un rato de mí." },
-  { "id": "colegios_38", "categoria": "Colegios", "chiste": "En el comedor, la sopa nos aplaudió por comerla tan rápido." },
-  { "id": "colegios_39", "categoria": "Colegios", "chiste": "La pizarra sonrió cuando la limpiaron con una esponja nueva." },
-  { "id": "colegios_40", "categoria": "Colegios", "chiste": "El timbre se disfrazó de gallo y cantó a las 8 en punto." },
-  { "id": "colegios_41", "categoria": "Colegios", "chiste": "La regla se fue a pasear por el pasillo y no volvió hasta el recreo." },
-  { "id": "colegios_42", "categoria": "Colegios", "chiste": "En geografía, el globo terráqueo giró solo para presumir de continente." },
-  { "id": "colegios_43", "categoria": "Colegios", "chiste": "La goma de borrar aprendió a escribir su propio nombre." },
-  { "id": "colegios_44", "categoria": "Colegios", "chiste": "El profesor contó un chiste tan bueno que hasta las mesas se rieron." },
-  { "id": "colegios_45", "categoria": "Colegios", "chiste": "La ventana bostezó tan fuerte que se le empañaron los cristales." },
-  { "id": "colegios_46", "categoria": "Colegios", "chiste": "En ciencias, el microscopio decidió mirarnos a nosotros por curiosidad." },
-  { "id": "colegios_47", "categoria": "Colegios", "chiste": "El lápiz se cayó y rodó hasta el patio para unirse al recreo." },
-  { "id": "colegios_48", "categoria": "Colegios", "chiste": "La mochila se escondió en la biblioteca para leer tranquila." },
-  { "id": "colegios_49", "categoria": "Colegios", "chiste": "En educación física jugamos con una pelota invisible y fue el mejor partido." },
-  { "id": "colegios_50", "categoria": "Colegios", "chiste": "La campana hizo un eco tan largo que todavía se escucha en la cafetería." },
-  { "id": "colegios_51", "categoria": "Colegios", "chiste": "La pizarra se cubrió de dibujos mientras todos dormíamos la siesta en clase." },
-  { "id": "colegios_52", "categoria": "Colegios", "chiste": "En arte pintamos una escalera para subir al recreo, pero la borraron antes de usarla." },
-  { "id": "colegios_53", "categoria": "Colegios", "chiste": "La goma de borrar se fue de excursión y volvió con fotos de la montaña." },
-  { "id": "colegios_54", "categoria": "Colegios", "chiste": "El cuaderno hizo una voltereta en el pupitre y aterrizó de pie." },
-  { "id": "colegios_55", "categoria": "Colegios", "chiste": "El timbre cantó villancicos en julio y nos dio ganas de comer turrón." },
-  { "id": "colegios_56", "categoria": "Colegios", "chiste": "En ciencias, un frasco de mermelada nos dio toda la lección." },
-  { "id": "colegios_57", "categoria": "Colegios", "chiste": "La silla se pintó de verde para parecer césped y esconderse en el patio." },
-  { "id": "colegios_58", "categoria": "Colegios", "chiste": "El lápiz escribió una carta de amor a la goma de borrar." },
-  { "id": "colegios_59", "categoria": "Colegios", "chiste": "En el recreo, la pelota rodó sola hasta la tienda de chuches." },
-  { "id": "colegios_60", "categoria": "Colegios", "chiste": "La regla aprendió a hacer flexiones en clase de gimnasia." },
-  { "id": "colegios_61", "categoria": "Colegios", "chiste": "El libro de matemáticas se enfadó porque no resolvimos sus problemas." },
-  { "id": "colegios_62", "categoria": "Colegios", "chiste": "La mochila se puso gafas de sol para el recreo." },
-  { "id": "colegios_63", "categoria": "Colegios", "chiste": "El borrador se disfrazó de mago y desapareció durante la clase." },
-  { "id": "colegios_64", "categoria": "Colegios", "chiste": "En geografía, el mapa se dio la vuelta para no mirar al profesor." },
-  { "id": "colegios_65", "categoria": "Colegios", "chiste": "La campana sonó tan despacio que parecía susurrar." },
-  { "id": "colegios_66", "categoria": "Colegios", "chiste": "En música, la flauta se puso a contar chistes y desafinó de risa." },
-  { "id": "colegios_67", "categoria": "Colegios", "chiste": "El lápiz corrió por la mesa como si fuera una pista de carreras." },
-  { "id": "colegios_68", "categoria": "Colegios", "chiste": "La ventana se cerró de golpe porque tenía frío." },
-  { "id": "colegios_69", "categoria": "Colegios", "chiste": "En arte, pintamos un sol tan grande que iluminó el pasillo." },
-  { "id": "colegios_70", "categoria": "Colegios", "chiste": "La goma de borrar organizó una fiesta y borró a todos los invitados." },
-  { "id": "colegios_71", "categoria": "Colegios", "chiste": "En ciencias, un vaso de agua nos dio una charla sobre hidratación." },
-  { "id": "colegios_72", "categoria": "Colegios", "chiste": "La silla se puso a girar sola como un tiovivo." },
-  { "id": "colegios_73", "categoria": "Colegios", "chiste": "El timbre cambió su sonido por un maullido de gato." },
-  { "id": "colegios_74", "categoria": "Colegios", "chiste": "En educación física hicimos carreras de mochilas y ganó la del profesor." },
-  { "id": "colegios_75", "categoria": "Colegios", "chiste": "La regla se midió a sí misma para ver si había crecido." },
-  { "id": "colegios_76", "categoria": "Colegios", "chiste": "El cuaderno empezó a escribir un diario sobre la vida en el colegio." },
-  { "id": "colegios_77", "categoria": "Colegios", "chiste": "En geografía, el globo terráqueo se mareó de tanto girar." },
-  { "id": "colegios_78", "categoria": "Colegios", "chiste": "La pizarra se sonrojó cuando la pintamos de rosa." },
-  { "id": "colegios_79", "categoria": "Colegios", "chiste": "El lápiz se rompió la punta mientras escribía un chiste malo." },
-  { "id": "colegios_80", "categoria": "Colegios", "chiste": "La mochila se llenó tanto que parecía una almohada gigante." },
-  { "id": "colegios_81", "categoria": "Colegios", "chiste": "El borrador decidió limpiar la mesa en lugar de la pizarra." },
-  { "id": "colegios_82", "categoria": "Colegios", "chiste": "En ciencias, el termómetro dijo que tenía calor." },
-  { "id": "colegios_83", "categoria": "Colegios", "chiste": "La silla saltó por la ventana para unirse al recreo." },
-  { "id": "colegios_84", "categoria": "Colegios", "chiste": "El libro de historia pidió un descanso para actualizarse." },
-  { "id": "colegios_85", "categoria": "Colegios", "chiste": "La campana hizo una pausa para tomar agua." },
-  { "id": "colegios_86", "categoria": "Colegios", "chiste": "En música, el tambor se quedó dormido y roncaba con ritmo." },
-  { "id": "colegios_87", "categoria": "Colegios", "chiste": "El lápiz hizo un dibujo que se escapó corriendo." },
-  { "id": "colegios_88", "categoria": "Colegios", "chiste": "La goma de borrar borró la palabra 'borrar'." },
-  { "id": "colegios_89", "categoria": "Colegios", "chiste": "En educación física, la pelota se negó a botar." },
-  { "id": "colegios_90", "categoria": "Colegios", "chiste": "La regla se puso un sombrero para ir elegante a clase." },
-  { "id": "colegios_91", "categoria": "Colegios", "chiste": "El cuaderno se llenó de garabatos y dijo que era arte moderno." },
-  { "id": "colegios_92", "categoria": "Colegios", "chiste": "En ciencias, el microscopio nos hizo un retrato." },
-  { "id": "colegios_93", "categoria": "Colegios", "chiste": "La pizarra cambió el color a azul para variar." },
-  { "id": "colegios_94", "categoria": "Colegios", "chiste": "El lápiz se escapó rodando por el pasillo." },
-  { "id": "colegios_95", "categoria": "Colegios", "chiste": "La mochila hizo de almohada en clase de historia." },
-  { "id": "colegios_96", "categoria": "Colegios", "chiste": "El borrador se escondió en la caja de tizas para descansar." },
-  { "id": "colegios_97", "categoria": "Colegios", "chiste": "En arte, el pincel pintó solo porque yo estaba comiendo." },
-  { "id": "colegios_98", "categoria": "Colegios", "chiste": "La campana sonó como una risa y todos reímos también." },
-  { "id": "colegios_99", "categoria": "Colegios", "chiste": "En geografía, el mapa se durmió encima de la mesa." },
-  { "id": "colegios_100", "categoria": "Colegios", "chiste": "El timbre se puso nervioso y sonó antes de tiempo." },
+  {
+    "id": "Colegios_1",
+    "categoria": "Colegios",
+    "chiste": "En clase de ciencias, el profesor pregunta: '¿Qué es la fotosíntesis?'. Juan levanta la mano y responde: 'Un filtro de Instagram para las plantas'."
+  },
+  {
+    "id": "Colegios_2",
+    "categoria": "Colegios",
+    "chiste": "En educación física, Pedro se tropieza con el balón y cae. El profe pregunta si está bien y Pedro dice: 'Sí, pero creo que el balón me odia'."
+  },
+  {
+    "id": "Colegios_3",
+    "categoria": "Colegios",
+    "chiste": "La maestra le dice a Ana que dibuje un círculo. Ana dibuja un cuadrado. '¿Qué es eso?', pregunta la maestra. Ana: 'Un círculo tímido'."
+  },
+  {
+    "id": "Colegios_4",
+    "categoria": "Colegios",
+    "chiste": "En la cafetería, Luis mira su bandeja y dice: 'Creo que mi sopa me guiñó un ojo'."
+  },
+  {
+    "id": "Colegios_5",
+    "categoria": "Colegios",
+    "chiste": "Durante el examen, Carlos susurra: 'Ojalá las respuestas vinieran con subtítulos'."
+  },
+  {
+    "id": "Colegios_6",
+    "categoria": "Colegios",
+    "chiste": "En la fila del recreo, Sofía pregunta: '¿Por qué siempre suena el timbre cuando estoy a punto de ganar al escondite?'."
+  },
+  {
+    "id": "Colegios_7",
+    "categoria": "Colegios",
+    "chiste": "El profesor dice: 'La tarea es individual'. Mario responde: 'Profe, ¿puedo hacerlo en equipo con mi gemelo imaginario?'."
+  },
+  {
+    "id": "Colegios_8",
+    "categoria": "Colegios",
+    "chiste": "En arte, Laura pinta un sol azul. El profe pregunta por qué. Ella dice: 'Porque hoy está triste'."
+  },
+  {
+    "id": "Colegios_9",
+    "categoria": "Colegios",
+    "chiste": "En informática, Pablo busca 'cómo hacer deberes sin hacerlos'. El profesor lo sorprende y dice: 'Cuando lo encuentres, me avisas'."
+  },
+  {
+    "id": "Colegios_10",
+    "categoria": "Colegios",
+    "chiste": "En el patio, Diego corre tan rápido que pierde un zapato. Lo mira y dice: 'Te rescataré después de clase, soldado'."
+  },
+  {
+    "id": "Colegios_11",
+    "categoria": "Colegios",
+    "chiste": "En clase de historia, la maestra pregunta: '¿Quién descubrió América?'. Marta responde: 'Google Maps'."
+  },
+  {
+    "id": "Colegios_12",
+    "categoria": "Colegios",
+    "chiste": "En la biblioteca, un niño abre un libro y encuentra un dibujo de dinosaurio. Lo cierra rápido: 'No quiero que se escape'."
+  },
+  {
+    "id": "Colegios_13",
+    "categoria": "Colegios",
+    "chiste": "En matemáticas, el profesor pregunta: 'Si tengo 5 manzanas y te doy 2…'. Juan lo interrumpe: 'Depende, ¿son verdes o rojas?'."
+  },
+  {
+    "id": "Colegios_14",
+    "categoria": "Colegios",
+    "chiste": "En educación física, Pedro pregunta: 'Profe, ¿la flexibilidad se compra en la tienda?'."
+  },
+  {
+    "id": "Colegios_15",
+    "categoria": "Colegios",
+    "chiste": "En música, la maestra le dice a Sara que toque una nota. Ella toca el timbre de la clase."
+  },
+  {
+    "id": "Colegios_16",
+    "categoria": "Colegios",
+    "chiste": "En el comedor, Marcos mira su postre y dice: 'Creo que mi flan está respirando'."
+  },
+  {
+    "id": "Colegios_17",
+    "categoria": "Colegios",
+    "chiste": "En dibujo, Pablo dibuja un perro con alas. El profe: 'Eso no existe'. Pablo: 'Aún'."
+  },
+  {
+    "id": "Colegios_18",
+    "categoria": "Colegios",
+    "chiste": "En el pasillo, Carla se queda quieta mirando una hormiga. 'Es mi amiga nueva', explica."
+  },
+  {
+    "id": "Colegios_19",
+    "categoria": "Colegios",
+    "chiste": "En clase, la profesora dice: 'Saquen una hoja'. Juan saca una hoja de árbol."
+  },
+  {
+    "id": "Colegios_20",
+    "categoria": "Colegios",
+    "chiste": "En el recreo, Pablo grita: '¡Gol!'… y estaba jugando al ajedrez."
+  },
+  {
+    "id": "Colegios_21",
+    "categoria": "Colegios",
+    "chiste": "En clase de inglés, la maestra pregunta: 'How are you?'. Pedro responde: 'I am Batman'."
+  },
+  {
+    "id": "Colegios_22",
+    "categoria": "Colegios",
+    "chiste": "En el recreo, Julia intenta saltar la cuerda, pero se enreda y dice: 'Me atraparon las matemáticas invisibles'."
+  },
+  {
+    "id": "Colegios_23",
+    "categoria": "Colegios",
+    "chiste": "En ciencias, la maestra habla del agua y Luis pregunta: '¿Y el chocolate caliente es un océano de felicidad?'."
+  },
+  {
+    "id": "Colegios_24",
+    "categoria": "Colegios",
+    "chiste": "En música, Miguel toca la flauta tan mal que un perro empezó a aullar en el patio."
+  },
+  {
+    "id": "Colegios_25",
+    "categoria": "Colegios",
+    "chiste": "En el comedor, Andrea ve su sándwich y dice: 'Creo que esta lechuga me miró feo'."
+  },
+  {
+    "id": "Colegios_26",
+    "categoria": "Colegios",
+    "chiste": "En artes plásticas, Clara pinta un árbol naranja. El profesor pregunta: '¿Por qué naranja?'. Ella: 'Está en otoño adelantado'."
+  },
+  {
+    "id": "Colegios_27",
+    "categoria": "Colegios",
+    "chiste": "En informática, el profe pregunta por qué la computadora está apagada. Diego responde: 'Está tomando una siesta'."
+  },
+  {
+    "id": "Colegios_28",
+    "categoria": "Colegios",
+    "chiste": "En el pasillo, Marcos lleva un casco. 'Por si las dudas', explica."
+  },
+  {
+    "id": "Colegios_29",
+    "categoria": "Colegios",
+    "chiste": "En educación física, Sofía se cae y al levantarse dice: 'Fue un ejercicio de confianza con el suelo'."
+  },
+  {
+    "id": "Colegios_30",
+    "categoria": "Colegios",
+    "chiste": "En clase, la maestra dice: 'Saquen un lápiz'. Luis saca un pincel gigante."
+  },
+  {
+    "id": "Colegios_31",
+    "categoria": "Colegios",
+    "chiste": "En la biblioteca, Marta susurra: 'Shhh', pero a ella misma."
+  },
+  {
+    "id": "Colegios_32",
+    "categoria": "Colegios",
+    "chiste": "En matemáticas, el profe pregunta: '¿Qué es el infinito?'. Juan: 'La fila del baño en el recreo'."
+  },
+  {
+    "id": "Colegios_33",
+    "categoria": "Colegios",
+    "chiste": "En clase de ciencias, una mosca se posa en el cuaderno de Pablo. Él la llama 'experimento'."
+  },
+  {
+    "id": "Colegios_34",
+    "categoria": "Colegios",
+    "chiste": "En el comedor, Lucas sopla su sopa tan fuerte que apagó la vela de la mesa."
+  },
+  {
+    "id": "Colegios_35",
+    "categoria": "Colegios",
+    "chiste": "En historia, el profe pregunta: '¿Qué pasó en 1492?'. Ana responde: 'No estaba, pero seguro algo importante'."
+  },
+  {
+    "id": "Colegios_36",
+    "categoria": "Colegios",
+    "chiste": "En el recreo, Pedro juega a la pelota y grita '¡Gol!'… pero estaba solo."
+  },
+  {
+    "id": "Colegios_37",
+    "categoria": "Colegios",
+    "chiste": "En clase, la maestra dice: 'Lean en silencio'. Juan lee en voz muy baja: 'Silencio, silencio, silencio…'."
+  },
+  {
+    "id": "Colegios_38",
+    "categoria": "Colegios",
+    "chiste": "En artes, Lucía dibuja un dragón en matemáticas porque 'los números también necesitan aventuras'."
+  },
+  {
+    "id": "Colegios_39",
+    "categoria": "Colegios",
+    "chiste": "En la fila, David lleva un paraguas cerrado. 'Para que no llueva', dice."
+  },
+  {
+    "id": "Colegios_40",
+    "categoria": "Colegios",
+    "chiste": "En educación física, el profe dice: 'Corran'. Paula empieza a caminar rápido: 'Estoy en modo ahorro de energía'."
+  },
+  {
+    "id": "Colegios_41",
+    "categoria": "Colegios",
+    "chiste": "En música, Andrés toca el tambor tan fuerte que la maestra pensó que era un terremoto."
+  },
+  {
+    "id": "Colegios_42",
+    "categoria": "Colegios",
+    "chiste": "En el recreo, María construye un castillo de arena… en el arenero del jardín."
+  },
+  {
+    "id": "Colegios_43",
+    "categoria": "Colegios",
+    "chiste": "En clase, el profe pregunta: '¿Qué es un triángulo?'. Lucas: 'Un círculo que fue al gimnasio'."
+  },
+  {
+    "id": "Colegios_44",
+    "categoria": "Colegios",
+    "chiste": "En el comedor, Sofía mira su gelatina y dice: 'Está bailando sola'."
+  },
+  {
+    "id": "Colegios_45",
+    "categoria": "Colegios",
+    "chiste": "En matemáticas, Pablo dibuja un corazón en lugar de un número. 'Para que sea más bonito', dice."
+  },
+  {
+    "id": "Colegios_46",
+    "categoria": "Colegios",
+    "chiste": "En la biblioteca, Claudia pone un libro bajo su almohada para aprender por ósmosis."
+  },
+  {
+    "id": "Colegios_47",
+    "categoria": "Colegios",
+    "chiste": "En educación física, Diego corre tan lento que parece ir marcha atrás."
+  },
+  {
+    "id": "Colegios_48",
+    "categoria": "Colegios",
+    "chiste": "En artes, Leo pinta un árbol con zapatos. 'Para que pueda irse de paseo', explica."
+  },
+  {
+    "id": "Colegios_49",
+    "categoria": "Colegios",
+    "chiste": "En clase de inglés, Marta responde a todo con 'Yes', incluso cuando le preguntan su nombre."
+  },
+  {
+    "id": "Colegios_50",
+    "categoria": "Colegios",
+    "chiste": "En el recreo, Juan se esconde para no jugar y lo encuentran… jugando con una hormiga."
+  },
+  {
+    "id": "Colegios_51",
+    "categoria": "Colegios",
+    "chiste": "En la sala de profesores, uno dice: 'He descubierto que si sonrío mientras corrijo exámenes, me deprimo menos'. Otro responde: 'Yo descubrí que si no los corrijo, me deprimo nada'."
+  },
+  {
+    "id": "Colegios_52",
+    "categoria": "Colegios",
+    "chiste": "Durante un examen, un alumno le dice al profesor: 'Esto no estaba en el temario'. El profesor contesta: 'Sí, pero estaba en la vida'."
+  },
+  {
+    "id": "Colegios_53",
+    "categoria": "Colegios",
+    "chiste": "En la reunión de padres, uno pregunta: '¿No podrían quitar los deberes los fines de semana?'. El director dice: 'Claro, si usted trabaja gratis los lunes'."
+  },
+  {
+    "id": "Colegios_54",
+    "categoria": "Colegios",
+    "chiste": "En la cafetería, un alumno pregunta: '¿Esto es carne?'. La cocinera responde: 'Es una pregunta muy filosófica'."
+  },
+  {
+    "id": "Colegios_55",
+    "categoria": "Colegios",
+    "chiste": "El profesor dice: 'Este examen está diseñado para que lo apruebe el que estudió'. Y uno del fondo murmura: 'Pues que gane el mejor'."
+  },
+  {
+    "id": "Colegios_56",
+    "categoria": "Colegios",
+    "chiste": "En clase de historia, el profesor pregunta: '¿Quién firmó la independencia?'. Un alumno responde: 'No sé, pero yo no fui'."
+  },
+  {
+    "id": "Colegios_57",
+    "categoria": "Colegios",
+    "chiste": "Un alumno entrega la tarea en papel reciclado. El profesor lo felicita, hasta que ve que atrás estaba la tarea corregida de otro año… con un cero."
+  },
+  {
+    "id": "Colegios_58",
+    "categoria": "Colegios",
+    "chiste": "En educación física, el profesor pregunta: '¿Por qué no corres?'. El alumno dice: 'Estoy cuidando mis articulaciones para la jubilación'."
+  },
+  {
+    "id": "Colegios_59",
+    "categoria": "Colegios",
+    "chiste": "En el comedor, un alumno dice: 'Creo que la sopa me devolvió la mirada'."
+  },
+  {
+    "id": "Colegios_60",
+    "categoria": "Colegios",
+    "chiste": "En la sala de profesores, alguien comenta: 'La fotocopiadora funciona hoy'. Otro responde: 'Entonces seguro que el wifi no'."
+  },
+  {
+    "id": "Colegios_61",
+    "categoria": "Colegios",
+    "chiste": "En la reunión de padres, uno pregunta: '¿Por qué tantas excursiones?'. La maestra: 'Para que los niños vean que la vida fuera del aula también es cara'."
+  },
+  {
+    "id": "Colegios_62",
+    "categoria": "Colegios",
+    "chiste": "En clase, un alumno dice: 'No estudié porque estuve reflexionando sobre el sentido de la vida'. El profesor: 'Y la vida dijo que suspendías'."
+  },
+  {
+    "id": "Colegios_63",
+    "categoria": "Colegios",
+    "chiste": "El director anuncia que el uniforme cambiará. Todos se alegran… hasta que ven que es igual pero más caro."
+  },
+  {
+    "id": "Colegios_64",
+    "categoria": "Colegios",
+    "chiste": "En clase de lengua, un alumno dice: 'No me sé la respuesta, pero le puedo contar una historia'. El profesor: 'Solo si el final es correcto'."
+  },
+  {
+    "id": "Colegios_65",
+    "categoria": "Colegios",
+    "chiste": "En el pasillo, dos alumnos hablan: 'Ojalá hubiera becas por esfuerzo'. El otro responde: 'O por presentarse'."
+  },
+  {
+    "id": "Colegios_66",
+    "categoria": "Colegios",
+    "chiste": "En la biblioteca, un alumno devuelve un libro sin abrir. Dice: 'Lo leí por intuición'."
+  },
+  {
+    "id": "Colegios_67",
+    "categoria": "Colegios",
+    "chiste": "Un profesor dice: 'Este trabajo se entrega el lunes'. Un alumno pregunta: '¿Qué lunes?'."
+  },
+  {
+    "id": "Colegios_68",
+    "categoria": "Colegios",
+    "chiste": "En clase de inglés, el profesor pregunta: 'What is your name?'. Un alumno responde: 'I am hungry'."
+  },
+  {
+    "id": "Colegios_69",
+    "categoria": "Colegios",
+    "chiste": "En la reunión de profesores, alguien dice: 'Tenemos demasiadas reuniones'. Y convocaron otra para hablar del tema."
+  },
+  {
+    "id": "Colegios_70",
+    "categoria": "Colegios",
+    "chiste": "En el comedor, un alumno pregunta: '¿Esto es puré de patata?'. La cocinera: 'Es puré de lo que sobrevivió'."
+  },
+  {
+    "id": "Colegios_71",
+    "categoria": "Colegios",
+    "chiste": "Durante el examen, un alumno escribe: 'No sé la respuesta, pero gracias por preguntar'."
+  },
+  {
+    "id": "Colegios_72",
+    "categoria": "Colegios",
+    "chiste": "En la sala de profesores, uno dice: 'Tengo menos paciencia que el wifi del aula'."
+  },
+  {
+    "id": "Colegios_73",
+    "categoria": "Colegios",
+    "chiste": "Un alumno pide ir al baño en mitad del examen y regresa con un café."
+  },
+  {
+    "id": "Colegios_74",
+    "categoria": "Colegios",
+    "chiste": "En clase, el profesor dice: '¿Dudas?'. Y un alumno responde: 'De todo en general'."
+  },
+  {
+    "id": "Colegios_75",
+    "categoria": "Colegios",
+    "chiste": "En la reunión de padres, uno pregunta si se pueden entregar trabajos por correo electrónico. La maestra: 'Sí, pero no los leo'."
+  },
+  {
+    "id": "Colegios_76",
+    "categoria": "Colegios",
+    "chiste": "En clase, un alumno pregunta: '¿Esto entra en el examen?'. El profesor: 'No, entra en tu vida'."
+  },
+  {
+    "id": "Colegios_77",
+    "categoria": "Colegios",
+    "chiste": "El director anuncia que habrá una semana cultural. Los alumnos preguntan si es libre de exámenes. El director sonríe."
+  },
+  {
+    "id": "Colegios_78",
+    "categoria": "Colegios",
+    "chiste": "En la cafetería, un alumno pregunta: '¿Esto es café o sopa oscura?'."
+  },
+  {
+    "id": "Colegios_79",
+    "categoria": "Colegios",
+    "chiste": "Un alumno entrega un trabajo con tantas faltas que el corrector automático se rindió."
+  },
+  {
+    "id": "Colegios_80",
+    "categoria": "Colegios",
+    "chiste": "En clase, el profesor dice: 'Saquen una hoja'. Un alumno: '¿Para qué?'. El profesor: 'Para que empiece tu sufrimiento'."
+  },
+  {
+    "id": "Colegios_81",
+    "categoria": "Colegios",
+    "chiste": "En la reunión de padres, uno pregunta: '¿Qué pasa si mi hijo no entrega nada en todo el año?'. El profesor: 'Entonces le damos el premio a la constancia'."
+  },
+  {
+    "id": "Colegios_82",
+    "categoria": "Colegios",
+    "chiste": "En la sala de profesores, alguien dice: 'Hoy sí voy a corregir todos los exámenes'. Y luego se sirvió otro café."
+  },
+  {
+    "id": "Colegios_83",
+    "categoria": "Colegios",
+    "chiste": "En el comedor, un alumno pregunta si la ensalada es vegana. La cocinera: 'Era, antes de la mayonesa'."
+  },
+  {
+    "id": "Colegios_84",
+    "categoria": "Colegios",
+    "chiste": "Durante un examen, un alumno dice: 'Creo que estudié para otra asignatura'."
+  },
+  {
+    "id": "Colegios_85",
+    "categoria": "Colegios",
+    "chiste": "En clase, el profesor pregunta: '¿Qué es la mitosis?'. Un alumno: 'Un mito muy grande'."
+  },
+  {
+    "id": "Colegios_86",
+    "categoria": "Colegios",
+    "chiste": "En la reunión de padres, uno dice: 'Mi hijo no entiende las fracciones'. La maestra: 'Yo tampoco entiendo su letra'."
+  },
+  {
+    "id": "Colegios_87",
+    "categoria": "Colegios",
+    "chiste": "En clase de matemáticas, un alumno pregunta: '¿Esto me servirá en la vida real?'. El profesor: 'No, pero sí para aprobar'."
+  },
+  {
+    "id": "Colegios_88",
+    "categoria": "Colegios",
+    "chiste": "En la biblioteca, un alumno dice: 'Busco un libro que explique por qué no leo'."
+  },
+  {
+    "id": "Colegios_89",
+    "categoria": "Colegios",
+    "chiste": "En la sala de profesores, alguien propone clases de meditación. Otro dice: 'Ya meditamos… sobre cuándo renunciar'."
+  },
+  {
+    "id": "Colegios_90",
+    "categoria": "Colegios",
+    "chiste": "En el comedor, un alumno pide más pan. La cocinera: 'Solo si apruebas el trimestre'."
+  },
+  {
+    "id": "Colegios_91",
+    "categoria": "Colegios",
+    "chiste": "En un examen, un alumno entrega una hoja en blanco con una nota: 'Estoy ahorrando papel'."
+  },
+  {
+    "id": "Colegios_92",
+    "categoria": "Colegios",
+    "chiste": "En clase, el profesor pregunta: '¿Quién quiere pasar a la pizarra?'. Y todos miran su mochila."
+  },
+  {
+    "id": "Colegios_93",
+    "categoria": "Colegios",
+    "chiste": "Durante una práctica de laboratorio, un alumno pregunta si puede hacer café con el mechero Bunsen."
+  },
+  {
+    "id": "Colegios_94",
+    "categoria": "Colegios",
+    "chiste": "En la reunión de padres, uno dice: 'Mi hijo llega tarde porque desayuna lento'. El profesor: 'Entonces que empiece a cenar antes'."
+  },
+  {
+    "id": "Colegios_95",
+    "categoria": "Colegios",
+    "chiste": "En clase, un alumno pregunta: '¿Esto entra en el examen final?'. El profesor: 'No, entra en el extraordinario'."
+  },
+  {
+    "id": "Colegios_96",
+    "categoria": "Colegios",
+    "chiste": "En la sala de profesores, alguien dice: 'Hoy no pienso hacer nada'. Otro responde: 'Entonces estás en modo alumno'."
+  },
+  {
+    "id": "Colegios_97",
+    "categoria": "Colegios",
+    "chiste": "En el comedor, un alumno dice: 'Esto sabe a victoria'. La cocinera: 'O a sopa de ayer'."
+  },
+  {
+    "id": "Colegios_98",
+    "categoria": "Colegios",
+    "chiste": "En clase, un alumno responde mal y el profesor dice: 'Por lo menos estabas cerca'. El alumno: 'Sí, como un avión al aeropuerto'."
+  },
+  {
+    "id": "Colegios_99",
+    "categoria": "Colegios",
+    "chiste": "Durante el examen, un alumno pide consejo al profesor. El profesor: 'Mi consejo es que estudies antes'."
+  },
+  {
+    "id": "Colegios_100",
+    "categoria": "Colegios",
+    "chiste": "En la reunión de padres, uno dice: 'Mi hijo no entiende la tabla periódica'. La maestra: 'Yo tampoco entiendo sus excusas'."
+  },
+
+ 
   { "id": "brainrot_1", "categoria": "Brainrot Italiano", "chiste": "Tralalero Tralala persigue a Ballerina Cappuccina que baila sobre una pizza en llamas, mientras Cappuccino Assassino les ofrece espresso explosivo gritando 'Mamma miiiiaaa!'" },
   { "id": "brainrot_2", "categoria": "Brainrot Italiano", "chiste": "Chimpanzini Bananini roba la Vespa de Bombardiro Crocodilo y se escapan por el mercado lanzando plátanos rellenos de pesto." },
   { "id": "brainrot_3", "categoria": "Brainrot Italiano", "chiste": "Tripi Troppi nada en una fuente de salsa boloñesa mientras Frigo Camelo le trae cubitos de hielo con forma de ravioli." },
@@ -2390,7 +2694,561 @@
   { "id": "brainrot_97", "categoria": "Brainrot Italiano", "chiste": "Glorbo Fruttodrillo enseña a una banda de tomates a tocar batería." },
   { "id": "brainrot_98", "categoria": "Brainrot Italiano", "chiste": "Boneca Ambalabu y Tripi Troppi venden globos rellenos de pesto en una feria." },
   { "id": "brainrot_99", "categoria": "Brainrot Italiano", "chiste": "Cappuccino Assassino organiza una carrera de cucharas gigantes en el Coliseo." },
-  { "id": "brainrot_100", "categoria": "Brainrot Italiano", "chiste": "Bombardiro Crocodilo y Chimpanzini Bananini se pierden en un laberinto hecho de tiramisú." }
+
+
+  { "id": "brainrot_100", "categoria": "Brainrot Italiano", "chiste": "Bombardiro Crocodilo y Chimpanzini Bananini se pierden en un laberinto hecho de tiramisú." },
+  { "id": "futbol_1", "categoria": "Fútbol", "chiste": "En un partido infantil, el entrenador grita: '¡Pedro, pasa el balón!'. Y Pedro le responde: 'No puedo, ¡se lo presté a Juan en el recreo!'." },
+  { "id": "futbol_2", "categoria": "Fútbol", "chiste": "Un aficionado le dice a otro: 'Este árbitro necesita gafas'. El otro contesta: 'Sí, y yo necesito paciencia para verlo pitar'." },
+  { "id": "futbol_3", "categoria": "Fútbol", "chiste": "En la portería, el portero dice: 'Hoy no me meterán goles'. Y al minuto dos, ya iba perdiendo 3-0." },
+  { "id": "futbol_4", "categoria": "Fútbol", "chiste": "El delantero falla un penalti y dice: 'Fue culpa del viento'. El entrenador: 'Estamos en un pabellón cerrado'." },
+  { "id": "futbol_5", "categoria": "Fútbol", "chiste": "Un niño llega a casa y dice: 'Mamá, marqué tres goles'. Ella pregunta: '¿Ganaron?'. Él: 'No, perdimos 10-3'." },
+  { "id": "futbol_6", "categoria": "Fútbol", "chiste": "En el descanso, un jugador pregunta: '¿Cuánto vamos?'. El capitán: 'Cero a cero'. El jugador: '¡Uf, menos mal, pensé que íbamos perdiendo!'." },
+  { "id": "futbol_7", "categoria": "Fútbol", "chiste": "Un comentarista dice: 'Este portero es un muro'. Y justo después entra el gol por el centro." },
+  { "id": "futbol_8", "categoria": "Fútbol", "chiste": "El árbitro pregunta: '¿Quién tiró la botella al campo?'. Un hincha responde: '¡Fue un pase largo!'." },
+  { "id": "futbol_9", "categoria": "Fútbol", "chiste": "En un partido de barrio, un jugador dice: 'No corro más, que me voy a sudar la camiseta'. Era de su hermano." },
+  { "id": "futbol_10", "categoria": "Fútbol", "chiste": "Un aficionado: 'Si ganamos hoy, invito las cervezas'. Ganaron y desapareció misteriosamente." },
+  { "id": "futbol_11", "categoria": "Fútbol", "chiste": "El portero grita: '¡Defensa, atentos!'. Y los defensas responden: 'Tranquilo, estamos mirando el balón también'." },
+  { "id": "futbol_12", "categoria": "Fútbol", "chiste": "En el entrenamiento: 'Profesor, ¿puedo ir al baño?'. 'Sí, pero no te olvides de marcar al delantero cuando vuelvas'." },
+  { "id": "futbol_13", "categoria": "Fútbol", "chiste": "En un partido, un niño pregunta: '¿Cuánto falta?'. El entrenador: 'Mucho, apenas llevamos dos minutos'." },
+  { "id": "futbol_14", "categoria": "Fútbol", "chiste": "El árbitro saca tarjeta amarilla y el jugador le dice: '¿Y con esta consigo puntos?'." },
+  { "id": "futbol_15", "categoria": "Fútbol", "chiste": "En el vestuario, uno dice: 'Hoy no me voy a esforzar'. El entrenador: 'Perfecto, así seguimos igual que la semana pasada'." },
+  { "id": "futbol_16", "categoria": "Fútbol", "chiste": "El comentarista: 'Este delantero es rápido como un rayo'. En ese momento se tropieza con el césped." },
+  { "id": "futbol_17", "categoria": "Fútbol", "chiste": "Un jugador a otro: 'Cúbreme'. Y el otro le pone una toalla encima." },
+  { "id": "futbol_18", "categoria": "Fútbol", "chiste": "En la grada, un niño le pregunta a su padre: '¿Por qué gritan todos?'. El padre: 'Porque el árbitro es gratis'." },
+  { "id": "futbol_19", "categoria": "Fútbol", "chiste": "El capitán dice: 'Vamos a dejar el alma en la cancha'. Y uno pregunta: '¿Y si la recogemos al final del partido?'." },
+  { "id": "futbol_20", "categoria": "Fútbol", "chiste": "Un aficionado grita: '¡Árbitro, compra un silbato nuevo!'. Y él responde: '¡Este es nuevo, por eso pita tanto!'." },
+  { "id": "futbol_21", "categoria": "Fútbol", "chiste": "Un niño llega del partido y su madre le pregunta: '¿Cómo salieron?'. 'Por la puerta del vestuario, mamá'." },
+  { "id": "futbol_22", "categoria": "Fútbol", "chiste": "En un penalti, el portero se tira antes de que el jugador chute. El jugador se da la vuelta y se va." },
+  { "id": "futbol_23", "categoria": "Fútbol", "chiste": "El árbitro: 'Se acabó el tiempo'. El delantero: 'Perfecto, que ya tengo hambre'." },
+  { "id": "futbol_24", "categoria": "Fútbol", "chiste": "En el descanso: '¿Qué táctica usamos en el segundo tiempo?'. El entrenador: 'Que no nos metan más goles'." },
+  { "id": "futbol_25", "categoria": "Fútbol", "chiste": "El comentarista dice: 'Este defensa corta todo'. Menos el pase que terminó en gol." },
+  { "id": "futbol_26", "categoria": "Fútbol", "chiste": "Un aficionado le dice al portero: 'Eres un colador'. Y él responde: 'Sí, pero de lujo'." },
+  { "id": "futbol_27", "categoria": "Fútbol", "chiste": "El entrenador: '¡Corre, que te ganas el puesto!'. Y el jugador: '¿Cuál, el de la banca?'." },
+  { "id": "futbol_28", "categoria": "Fútbol", "chiste": "En la grada: 'Este árbitro está comprado'. El otro: 'Pues que lo devuelvan, que vino defectuoso'." },
+  { "id": "futbol_29", "categoria": "Fútbol", "chiste": "Un niño: 'Profesor, ¿hoy jugamos con táctica?'. Profesor: 'No, hoy jugamos con suerte'." },
+  { "id": "futbol_30", "categoria": "Fútbol", "chiste": "En un saque de esquina, un jugador pregunta: '¿Qué hago?'. El capitán: 'Mete el gol, por favor'." },
+  { "id": "futbol_31", "categoria": "Fútbol", "chiste": "En un partido, el portero dice: 'Hoy no me pasa ni una'. Cinco minutos después: 'Bueno, una sí'." },
+  { "id": "futbol_32", "categoria": "Fútbol", "chiste": "En el vestuario: 'Chicos, vamos a darlo todo'. Un jugador: 'Yo solo traje medio ánimo'." },
+  { "id": "futbol_33", "categoria": "Fútbol", "chiste": "Un aficionado pregunta: '¿Qué es un fuera de juego?'. El otro: 'Es cuando todos se enojan al mismo tiempo'." },
+  { "id": "futbol_34", "categoria": "Fútbol", "chiste": "El entrenador al delantero: 'Te falta gol'. Y él responde: '¿Dónde se compra?'." },
+  { "id": "futbol_35", "categoria": "Fútbol", "chiste": "En el descanso: '¿Quién quiere agua?'. Y uno dice: 'Yo quiero vacaciones'." },
+  { "id": "futbol_36", "categoria": "Fútbol", "chiste": "En un partido amistoso, el árbitro dice: 'Jueguen limpio'. Uno contesta: 'Pero si ya me duché'." },
+  { "id": "futbol_37", "categoria": "Fútbol", "chiste": "Un niño: 'Papá, marqué un gol'. Papá: '¡Genial!'. Niño: 'Fue en nuestra portería'." },
+  { "id": "futbol_38", "categoria": "Fútbol", "chiste": "En la grada, uno dice: 'Si perdemos hoy, no ceno'. Perdieron, y cenó doble." },
+  { "id": "futbol_39", "categoria": "Fútbol", "chiste": "El portero grita: '¡Salid a presionar!'. Y la defensa: 'Presionamos pero no garantizamos'." },
+  { "id": "futbol_40", "categoria": "Fútbol", "chiste": "En el entrenamiento, uno pregunta: '¿Podemos jugar sin correr?'. El entrenador: 'Claro, se llama ajedrez'." },
+  { "id": "futbol_41", "categoria": "Fútbol", "chiste": "El árbitro saca roja y el jugador pregunta: '¿Esto significa que gané?'." },
+  { "id": "futbol_42", "categoria": "Fútbol", "chiste": "En la grada: 'Ese portero es una máquina'. El otro: 'Sí, una máquina de encajar goles'." },
+  { "id": "futbol_43", "categoria": "Fútbol", "chiste": "Un niño le dice al entrenador: 'Hoy juego de portero'. El entrenador: 'Pues ponte un casco'." },
+  { "id": "futbol_44", "categoria": "Fútbol", "chiste": "En el descanso, el entrenador: 'Vamos a remontar'. Un jugador: 'Yo mejor me quedo abajo'." },
+  { "id": "futbol_45", "categoria": "Fútbol", "chiste": "El comentarista: 'Partido intenso'. Y el público: 'Intensamente aburrido'." },
+  { "id": "futbol_46", "categoria": "Fútbol", "chiste": "En un saque de banda, uno dice: 'Voy a lanzar fuerte'. El balón cayó a tres metros." },
+  { "id": "futbol_47", "categoria": "Fútbol", "chiste": "Un aficionado: 'Nuestro equipo juega como nunca'. El otro: 'Y pierde como siempre'." },
+  { "id": "futbol_48", "categoria": "Fútbol", "chiste": "El entrenador dice: 'Hoy jugamos como en casa'. Perdieron, pero se sintieron cómodos." },
+  { "id": "futbol_49", "categoria": "Fútbol", "chiste": "En un tiro libre, el jugador le pregunta al portero: '¿Dónde la quieres?'. El portero: 'Fuera'." },
+  { "id": "futbol_50", "categoria": "Fútbol", "chiste": "El árbitro pita el final y un jugador grita: '¡Por fin, se acabó el sufrimiento!'." },
+
+  {
+    "id": "jaimito_1",
+    "categoria": "Jaimito",
+    "chiste": "La mamá de Jaimito le dice: 'Ve a comprar pan y que te den cambio'. Vuelve con una barra y un paquete de caramelos. Mamá: '¿Y el cambio?'. Jaimito: 'El panadero me dio caramelos porque me vio cara de buena gente'."
+  },
+  {
+    "id": "jaimito_2",
+    "categoria": "Jaimito",
+    "chiste": "En el médico, el doctor pregunta: '¿Qué te pasa, Jaimito?'. Jaimito: 'Que cuando respiro me duele aquí'. El doctor lo revisa y dice: 'Es que estás señalando el bolsillo donde guardas el chicle'."
+  },
+  {
+    "id": "jaimito_3",
+    "categoria": "Jaimito",
+    "chiste": "En la peluquería, el peluquero pregunta: '¿Cómo te corto el pelo?'. Jaimito: 'En silencio, que me da miedo'."
+  },
+  {
+    "id": "jaimito_4",
+    "categoria": "Jaimito",
+    "chiste": "Su mamá le pide: 'Jaimito, barre la cocina'. Él vuelve cinco minutos después: 'Listo, barrí debajo de la alfombra'."
+  },
+  {
+    "id": "jaimito_5",
+    "categoria": "Jaimito",
+    "chiste": "En la carnicería, Jaimito pregunta: '¿La carne tiene hueso?'. El carnicero: 'A veces sí'. Jaimito: 'Pues deme una sin examen de matemáticas dentro'."
+  },
+  {
+    "id": "jaimito_6",
+    "categoria": "Jaimito",
+    "chiste": "Jaimito está frente al espejo haciendo muecas. Su abuela le dice: 'Te vas a quedar así'. Jaimito responde: 'Pues así estoy más guapo'."
+  },
+  {
+    "id": "jaimito_7",
+    "categoria": "Jaimito",
+    "chiste": "En la calle, un señor le dice: 'Niño, ¿dónde queda la plaza?'. Jaimito: 'En la otra esquina, pero hoy no está abierta porque está cansada'."
+  },
+  {
+    "id": "jaimito_8",
+    "categoria": "Jaimito",
+    "chiste": "Su papá le dice: 'Ve a lavar el coche'. Jaimito vuelve al rato y dice: 'Listo'. Papá: '¡Pero si está igual de sucio!'. Jaimito: 'Es que lo lavé por dentro para que se sienta bien'."
+  },
+  {
+    "id": "jaimito_9",
+    "categoria": "Jaimito",
+    "chiste": "En el supermercado, su mamá le dice: 'Coge un carrito'. Minutos después aparece con un carrito de juguete de la sección infantil."
+  },
+  {
+    "id": "jaimito_10",
+    "categoria": "Jaimito",
+    "chiste": "Su tía le pregunta: '¿Quieres más sopa?'. Jaimito: 'No, gracias, ya estoy flotando'."
+  },
+  {
+    "id": "jaimito_11",
+    "categoria": "Jaimito",
+    "chiste": "En el parque, Jaimito ve un cartel que dice 'Prohibido pisar el césped'. Se arrodilla y gatea para que no lo regañen."
+  },
+  {
+    "id": "jaimito_12",
+    "categoria": "Jaimito",
+    "chiste": "En la panadería, Jaimito pide: 'Un pan largo'. El panadero: '¿De medio metro?'. Jaimito: 'No, de aquí a mi casa'."
+  },
+  {
+    "id": "jaimito_13",
+    "categoria": "Jaimito",
+    "chiste": "En la pescadería, el vendedor le dice: 'Está fresquísimo'. Jaimito: 'Pues no lo deje escapar'."
+  },
+  {
+    "id": "jaimito_14",
+    "categoria": "Jaimito",
+    "chiste": "Su abuela le da una moneda para comprar helado. Vuelve sin helado y con una piruleta gigante. Jaimito: 'El heladero no tenía cambio, así que me dio esto y me dijo que era mejor para los dientes'."
+  },
+  {
+    "id": "jaimito_15",
+    "categoria": "Jaimito",
+    "chiste": "En el autobús, el conductor le dice: 'Niño, el pasaje'. Jaimito: 'Gracias, pero no quiero, yo bajo en la próxima'."
+  },
+  {
+    "id": "jaimito_16",
+    "categoria": "Jaimito",
+    "chiste": "Su mamá le dice: 'No toques nada en la tienda'. Dos minutos después, Jaimito le grita: '¡Mamá, ven! No estoy tocando nada pero se está cayendo solo'."
+  },
+  {
+    "id": "jaimito_17",
+    "categoria": "Jaimito",
+    "chiste": "En el cine, la acomodadora le pregunta: '¿Quieres asiento en primera fila?'. Jaimito: 'No, gracias, no vine a participar en la película'."
+  },
+  {
+    "id": "jaimito_18",
+    "categoria": "Jaimito",
+    "chiste": "En la frutería, el frutero le pregunta: '¿Te gustan las manzanas?'. Jaimito: 'Sí, pero no las verdes, porque aún no saben que están maduras'."
+  },
+  {
+    "id": "jaimito_19",
+    "categoria": "Jaimito",
+    "chiste": "Su abuelo le dice: 'Antes jugábamos en la calle todo el día'. Jaimito: 'Claro, porque no había Wi-Fi'."
+  },
+  {
+    "id": "jaimito_20",
+    "categoria": "Jaimito",
+    "chiste": "En la playa, su mamá le dice: 'No te metas al agua sin flotador'. Jaimito: 'Tranquila, solo voy a meter un pie... pero varias veces seguidas'."
+  },
+  {
+    "id": "jaimito_21",
+    "categoria": "Jaimito",
+    "chiste": "En la tienda de ropa, la vendedora pregunta: '¿Qué talla buscas?'. Jaimito: 'La que sea más rápida de poner'."
+  },
+  {
+    "id": "jaimito_22",
+    "categoria": "Jaimito",
+    "chiste": "En la gasolinera, el empleado le dice: '¿Lleno el depósito?'. Jaimito: 'No, con la mitad me llega a casa'."
+  },
+  {
+    "id": "jaimito_23",
+    "categoria": "Jaimito",
+    "chiste": "En la farmacia, la farmacéutica pregunta: '¿Algo más?'. Jaimito: 'Sí, un sobre para guardar la medicina por si me sobra'."
+  },
+  {
+    "id": "jaimito_24",
+    "categoria": "Jaimito",
+    "chiste": "En la zapatería, Jaimito se prueba un zapato y dice: 'Me queda perfecto'. El vendedor: 'Pero es del pie izquierdo'. Jaimito: 'Pues me daré la vuelta para que parezca el derecho'."
+  },
+  {
+    "id": "jaimito_25",
+    "categoria": "Jaimito",
+    "chiste": "En el restaurante, el camarero le dice: 'Hoy tenemos sopa del día'. Jaimito: '¿Y mañana tienen sopa de mañana?'."
+  },
+  {
+    "id": "jaimito_26",
+    "categoria": "Jaimito",
+    "chiste": "En la tienda de animales, Jaimito ve un loro y pregunta: '¿Habla?'. El dependiente: 'Sí'. Jaimito: 'Pues dígale que me salude'."
+  },
+  {
+    "id": "jaimito_27",
+    "categoria": "Jaimito",
+    "chiste": "En la ferretería, Jaimito pregunta: '¿Tiene clavos?'. El vendedor: 'Sí'. Jaimito: 'Pues agárrelos, que se le están cayendo'."
+  },
+  {
+    "id": "jaimito_28",
+    "categoria": "Jaimito",
+    "chiste": "En la panadería, el panadero le dice: 'Este pan está caliente'. Jaimito: 'Entonces lo dejaré que se enfríe antes de comerlo, no quiero que se enoje'."
+  },
+  {
+    "id": "jaimito_29",
+    "categoria": "Jaimito",
+    "chiste": "En la frutería, Jaimito señala unas uvas y dice: 'Quiero de esas'. El frutero: '¿Negras o verdes?'. Jaimito: 'Las que no estén celosas'."
+  },
+  {
+    "id": "jaimito_30",
+    "categoria": "Jaimito",
+    "chiste": "En el kiosco, Jaimito pide una revista. El vendedor: '¿Cuál quieres?'. Jaimito: 'La que tenga más chistes para reírme gratis'."
+  },
+  {
+    "id": "jaimito_31",
+    "categoria": "Jaimito",
+    "chiste": "En la heladería, Jaimito pide: 'Uno de vainilla y chocolate'. El heladero: '¿En cucurucho o vaso?'. Jaimito: 'En descuento'."
+  },
+  {
+    "id": "jaimito_32",
+    "categoria": "Jaimito",
+    "chiste": "En la tienda, el vendedor: '¿Puedo ayudarte?'. Jaimito: 'Sí, a encontrar las golosinas más grandes'."
+  },
+  {
+    "id": "jaimito_33",
+    "categoria": "Jaimito",
+    "chiste": "En el parque, Jaimito ve una fuente y dice: 'Ojalá llueva refresco aquí'."
+  },
+  {
+    "id": "jaimito_34",
+    "categoria": "Jaimito",
+    "chiste": "En la carnicería, el carnicero: '¿Te gusta la carne?'. Jaimito: 'Sí, pero solo si no me persigue'."
+  },
+  {
+    "id": "jaimito_35",
+    "categoria": "Jaimito",
+    "chiste": "En la tienda de música, el vendedor: '¿Tocas algún instrumento?'. Jaimito: 'Sí, el timbre de mi casa'."
+  },
+  {
+    "id": "jaimito_36",
+    "categoria": "Jaimito",
+    "chiste": "En la pastelería, Jaimito pregunta: '¿El pastel engorda?'. El pastelero: 'Sí'. Jaimito: 'Pues deme uno flaco'."
+  },
+  {
+    "id": "jaimito_37",
+    "categoria": "Jaimito",
+    "chiste": "En el supermercado, el cajero: '¿Va a pagar con tarjeta?'. Jaimito: 'No, con una sonrisa'."
+  },
+  {
+    "id": "jaimito_38",
+    "categoria": "Jaimito",
+    "chiste": "En el parque, un hombre le dice: '¿Quieres un helado?'. Jaimito: '¿Es gratis?'. 'No'. 'Entonces mejor me quedo con el calor'."
+  },
+  {
+    "id": "jaimito_39",
+    "categoria": "Jaimito",
+    "chiste": "En la gasolinera, el empleado: '¿Regular o premium?'. Jaimito: '¿Cuál corre más rápido?'."
+  },
+  {
+    "id": "jaimito_40",
+    "categoria": "Jaimito",
+    "chiste": "En la playa, Jaimito le dice a un vendedor ambulante: '¿Me regala una sombrilla?'. Vendedor: 'No'. Jaimito: 'Entonces me voy a la sombra de otro'."
+  },
+  {
+    "id": "jaimito_41",
+    "categoria": "Jaimito",
+    "chiste": "En la librería, el vendedor: '¿Buscas un libro en especial?'. Jaimito: 'Sí, el que tenga menos letras para acabarlo rápido'."
+  },
+  {
+    "id": "jaimito_42",
+    "categoria": "Jaimito",
+    "chiste": "En el mercado, Jaimito pregunta: '¿Cuánto cuesta esta sandía?'. Vendedor: '5 euros'. Jaimito: '¿Y si solo me la llevo por la mitad?'."
+  },
+  {
+    "id": "jaimito_43",
+    "categoria": "Jaimito",
+    "chiste": "En la joyería, el vendedor: '¿Buscas algo para regalar?'. Jaimito: 'Sí, pero algo que brille como mi futuro... barato'."
+  },
+  {
+    "id": "jaimito_44",
+    "categoria": "Jaimito",
+    "chiste": "En el parque acuático, el socorrista le dice: 'No corras'. Jaimito: 'No corro, floto rápido'."
+  },
+  {
+    "id": "jaimito_45",
+    "categoria": "Jaimito",
+    "chiste": "En la pizzería, el camarero: '¿La quiere en porciones o entera?'. Jaimito: 'Entera, que no me gusta compartir'."
+  },
+  {
+    "id": "jaimito_46",
+    "categoria": "Jaimito",
+    "chiste": "En la tienda de deportes, el vendedor: '¿Qué buscas?'. Jaimito: 'Algo que me haga correr más rápido sin cansarme'."
+  },
+  {
+    "id": "jaimito_47",
+    "categoria": "Jaimito",
+    "chiste": "En la frutería, Jaimito mira unas cerezas y pregunta: '¿Cuántas puedo probar gratis antes de que me cobren?'."
+  },
+  {
+    "id": "jaimito_48",
+    "categoria": "Jaimito",
+    "chiste": "En la tienda de dulces, la dependienta: '¿Quieres una bolsa pequeña o grande?'. Jaimito: 'La más grande, así ahorro viajes'."
+  },
+  {
+    "id": "jaimito_49",
+    "categoria": "Jaimito",
+    "chiste": "En la gasolinera, el empleado: '¿Cuánto le pongo?'. Jaimito: 'Hasta que la manguera haga clic'."
+  },
+  {
+    "id": "jaimito_50",
+    "categoria": "Jaimito",
+    "chiste": "En la tienda de animales, Jaimito señala un pez y dice: 'Me lo llevo'. Vendedor: '¿Y la pecera?'. Jaimito: 'No, que nade en la bañera'."
+  },
+  {
+    "id": "jaimito_largo_1",
+    "categoria": "Jaimito",
+    "chiste": "Un día, Jaimito estaba aburrido en casa y decidió preparar un batido. Echó leche, plátano, fresas… y un trozo de pan porque 'tenía hambre'. Lo mezcló todo y le ofreció a su abuela. Ella lo probó, hizo una mueca y dijo: '¿Qué es esto, Jaimito?'. Y él, muy serio: 'Un desayuno express… que se te va a quedar pegado hasta el año que viene'."
+  },
+  {
+    "id": "jaimito_largo_2",
+    "categoria": "Jaimito",
+    "chiste": "Jaimito fue al supermercado con su mamá. Ella le dijo: 'No compres nada raro'. Cuando llegaron a la caja, la madre vio una sandía con gafas de sol en el carrito. 'Jaimito, ¿por qué pusiste esto aquí?'. Él respondió: 'Porque estaba en oferta y creo que quiere venir a la playa con nosotros'."
+  },
+  {
+    "id": "jaimito_largo_3",
+    "categoria": "Jaimito",
+    "chiste": "Una vez, Jaimito quiso ayudar a su papá a lavar el coche. Empezó bien, pero luego pensó que quedaría más limpio si usaba detergente en polvo, jabón de platos y champú. Al final, el coche brillaba… pero echaba espuma cada vez que llovía."
+  },
+  {
+    "id": "jaimito_largo_4",
+    "categoria": "Jaimito",
+    "chiste": "Jaimito vio a un hombre vendiendo globos en el parque. Le preguntó cuánto costaba uno, y al oír el precio dijo: 'No tengo tanto dinero'. El hombre, para ser amable, le regaló uno. Jaimito lo soltó y dijo: 'Gracias, quería ver si subía hasta mi casa para avisar a mi gato que no baje todavía'."
+  },
+  {
+    "id": "jaimito_largo_5",
+    "categoria": "Jaimito",
+    "chiste": "Su mamá le pidió que pusiera la mesa para comer. Jaimito lo hizo… pero puso platos, vasos y cubiertos en la mesa del jardín, debajo de la lluvia. Cuando le preguntó por qué, dijo: 'Así los platos ya salen lavados'."
+  },
+  {
+    "id": "jaimito_largo_6",
+    "categoria": "Jaimito",
+    "chiste": "Jaimito fue a la heladería y pidió un helado de tres bolas. El heladero le preguntó de qué sabores. Jaimito contestó: 'Chocolate, vainilla y… sorpresa'. El heladero le dio un helado con menta y él dijo: 'Ves, eso sí que es sorpresa, porque odio la menta'."
+  },
+  {
+    "id": "jaimito_largo_7",
+    "categoria": "Jaimito",
+    "chiste": "Un domingo, Jaimito decidió 'ayudar' a su mamá a cocinar. La receta decía 'romper dos huevos'. Él lo tomó literal y los lanzó al suelo como si fueran pelotas. Luego, muy orgulloso, dijo: 'Listo, ya puedes seguir con la receta'."
+  },
+  {
+    "id": "jaimito_largo_8",
+    "categoria": "Jaimito",
+    "chiste": "Jaimito fue con su abuelo a pescar. Después de horas sin atrapar nada, Jaimito tiró un bocadillo al agua. El abuelo le gritó: '¡¿Qué haces?!'. Jaimito respondió: 'Si los peces no vienen a mí, yo les llevo el almuerzo'."
+  },
+  {
+    "id": "jaimito_largo_9",
+    "categoria": "Jaimito",
+    "chiste": "En la frutería, el frutero le dijo que las manzanas estaban a dos por uno. Jaimito compró una y dijo: 'Entonces me guardas la otra para mañana, así me dura la oferta'."
+  },
+  {
+    "id": "jaimito_largo_10",
+    "categoria": "Jaimito",
+    "chiste": "Un día, Jaimito vio que el perro de la vecina llevaba puesto un suéter. Fue a su casa y volvió con un gorro de lana en la cabeza. Cuando su mamá le preguntó por qué, dijo: 'Si el perro va elegante, yo también'."
+  },
+  {
+    "id": "jaimito_largo_11",
+    "categoria": "Jaimito",
+    "chiste": "En la playa, Jaimito decidió enterrar a su papá en la arena hasta el cuello. Luego, se fue a buscar conchas y regresó una hora después… y había enterrado también la sombrilla, 'para que no se escape'."
+  },
+  {
+    "id": "jaimito_largo_12",
+    "categoria": "Jaimito",
+    "chiste": "Su tía le dijo: 'No toques la tarta, es para la cena'. Jaimito la miró, dio una vuelta y le dijo: 'No la he tocado… la he probado con la cuchara'."
+  },
+  {
+    "id": "jaimito_largo_13",
+    "categoria": "Jaimito",
+    "chiste": "Jaimito fue a comprar pan y volvió con una pizza. Su mamá le preguntó por qué, y él dijo: 'El panadero estaba cerrado, pero el pizzero estaba abierto, y no me gusta ver gente sola'."
+  },
+  {
+    "id": "jaimito_largo_14",
+    "categoria": "Jaimito",
+    "chiste": "En el mercado, Jaimito vio un puesto de pescado y preguntó: '¿Están frescos?'. El pescadero le respondió: 'Sí, acaban de llegar del mar'. Jaimito: 'Pues avíseme cuando lleguen de la ducha'."
+  },
+  {
+    "id": "jaimito_largo_15",
+    "categoria": "Jaimito",
+    "chiste": "Un día, Jaimito decidió hacer una limonada para vender en la calle. Puso un cartel: 'Limonada a 1 euro'. Al rato lo cambió por: 'Limonada gratis si traes un euro'."
+  },
+  {
+    "id": "jaimito_largo_16",
+    "categoria": "Jaimito",
+    "chiste": "Su mamá le dijo que barriera la sala. Él volvió al rato y dijo: 'Ya está'. Cuando ella entró, vio toda la basura escondida detrás del sofá. Jaimito dijo: 'Ahí está segura para que no se pierda'."
+  },
+  {
+    "id": "jaimito_largo_17",
+    "categoria": "Jaimito",
+    "chiste": "En una feria, Jaimito vio un puesto de tiro al blanco y le dijo al encargado: '¿Si gano me puedo llevar el oso grande?'. El hombre dijo que sí. Jaimito: 'Pues mejor me llevo el oso pequeño para que no se sienta solo'."
+  },
+  {
+    "id": "jaimito_largo_18",
+    "categoria": "Jaimito",
+    "chiste": "En la carnicería, el carnicero le dijo: 'Esta carne está fresca'. Jaimito: 'Menos mal, porque no me gusta la carne dormida'."
+  },
+  {
+    "id": "jaimito_largo_19",
+    "categoria": "Jaimito",
+    "chiste": "Su abuelo le enseñó cómo plantar un árbol. Jaimito lo plantó boca abajo 'para que las raíces respiren mejor'."
+  },
+  {
+    "id": "jaimito_largo_20",
+    "categoria": "Jaimito",
+    "chiste": "En la tienda de animales, Jaimito preguntó si los peces soñaban. El vendedor dijo que no sabía. Jaimito respondió: 'Entonces llévame uno, que quiero ser el primero en preguntarles'."
+  },
+  {
+    "id": "jaimito_largo_21",
+    "categoria": "Jaimito",
+    "chiste": "Un día, Jaimito vio una máquina expendedora de refrescos. Metió una moneda, salió una lata y la metió en su mochila. Repitió 5 veces. Un hombre le preguntó: '¿No vas a tomar ninguno?'. Jaimito respondió: 'No, es que hoy estoy ganando'."
+  },
+  {
+    "id": "jaimito_largo_22",
+    "categoria": "Jaimito",
+    "chiste": "En la frutería, Jaimito agarró una piña y dijo: 'Quiero esta, parece un erizo gigante'. El frutero sonrió y Jaimito añadió: 'Y si no me gusta de sabor, puedo usarla de adorno'."
+  },
+  {
+    "id": "jaimito_largo_23",
+    "categoria": "Jaimito",
+    "chiste": "Su mamá lo llevó al banco. Mientras ella hacía fila, Jaimito preguntó en voz alta: '¿Aquí también se guardan los dientes que se le caen a la gente?'."
+  },
+  {
+    "id": "jaimito_largo_24",
+    "categoria": "Jaimito",
+    "chiste": "En la playa, Jaimito vio un cangrejo y lo siguió hasta el agua. Cuando volvió, llevaba los zapatos llenos de arena y dijo: 'Casi me invita a su casa, pero no cabíamos los dos'."
+  },
+  {
+    "id": "jaimito_largo_25",
+    "categoria": "Jaimito",
+    "chiste": "Un vecino le preguntó a Jaimito: '¿Me ayudas a regar las plantas?'. Jaimito fue con una jarra… llena de refresco de cola. 'Así tienen burbujas y no se aburren', dijo."
+  },
+  {
+    "id": "jaimito_largo_26",
+    "categoria": "Jaimito",
+    "chiste": "Su tía le pidió que vigilara la olla mientras hervía agua. A los cinco minutos, Jaimito fue y puso unas gafas de sol encima: 'Para que no le moleste el vapor'."
+  },
+  {
+    "id": "jaimito_largo_27",
+    "categoria": "Jaimito",
+    "chiste": "En el mercado, un señor le dijo: 'Niño, eso es un mango'. Jaimito: 'Ya sé, pero voy a ver si me lo gano'."
+  },
+  {
+    "id": "jaimito_largo_28",
+    "categoria": "Jaimito",
+    "chiste": "Su mamá le pidió que guardara las sobras en la nevera. Minutos después, encontró la nevera en el patio. Jaimito dijo: 'Así no tiene que caminar tanto hasta la mesa'."
+  },
+  {
+    "id": "jaimito_largo_29",
+    "categoria": "Jaimito",
+    "chiste": "Jaimito fue a una tienda de mascotas y preguntó: '¿Puedo devolver un pez si no sabe nadar rápido?'."
+  },
+  {
+    "id": "jaimito_largo_30",
+    "categoria": "Jaimito",
+    "chiste": "En el parque, un señor le dijo: '¿No te mareas en el columpio?'. Jaimito: 'No, pero mi bocadillo sí'."
+  },
+  {
+    "id": "jaimito_largo_31",
+    "categoria": "Jaimito",
+    "chiste": "En una feria, Jaimito compró algodón de azúcar. Lo dejó caer en la arena y dijo: 'Mira, inventé el algodón de playa'."
+  },
+  {
+    "id": "jaimito_largo_32",
+    "categoria": "Jaimito",
+    "chiste": "Su abuela le dijo que lavara las verduras. Jaimito las puso en la lavadora y programó ciclo suave."
+  },
+  {
+    "id": "jaimito_largo_33",
+    "categoria": "Jaimito",
+    "chiste": "Un cartero dejó un paquete en su puerta. Jaimito lo abrió y dijo: 'Seguro es para mí, porque estaba más cerca de mí que de nadie'."
+  },
+  {
+    "id": "jaimito_largo_34",
+    "categoria": "Jaimito",
+    "chiste": "En el cine, su papá le dijo: 'Ve a comprar palomitas'. Volvió con una pizza y dijo: 'Es que las palomitas estaban tristes de estar tan chiquitas'."
+  },
+  {
+    "id": "jaimito_largo_35",
+    "categoria": "Jaimito",
+    "chiste": "En la piscina, un socorrista le dijo que no corriera. Jaimito: 'No corro, solo camino muy deprisa como si fuera de dibujos animados'."
+  },
+  {
+    "id": "jaimito_largo_36",
+    "categoria": "Jaimito",
+    "chiste": "En la heladería, Jaimito pidió un helado y lo puso en un vaso de refresco. 'Así me ahorro un viaje', dijo."
+  },
+  {
+    "id": "jaimito_largo_37",
+    "categoria": "Jaimito",
+    "chiste": "Su mamá le dijo que sacara al perro a pasear. Volvió sin el perro y con una oveja: 'El perro hizo un cambio en el parque'."
+  },
+  {
+    "id": "jaimito_largo_38",
+    "categoria": "Jaimito",
+    "chiste": "En la tienda, Jaimito vio un ventilador y lo encendió. Se puso delante con gafas y dijo: 'Ahora soy un presentador de televisión famoso'."
+  },
+  {
+    "id": "jaimito_largo_39",
+    "categoria": "Jaimito",
+    "chiste": "Un día, Jaimito intentó hacer un castillo de arena, pero terminó construyendo un sofá. 'Es para ver la marea cómodamente', explicó."
+  },
+  {
+    "id": "jaimito_largo_40",
+    "categoria": "Jaimito",
+    "chiste": "En el supermercado, Jaimito preguntó si podía probar las galletas antes de comprarlas. El encargado dijo que no. Jaimito respondió: 'Pues entonces me llevo las que ya vienen abiertas'."
+  },
+  {
+    "id": "jaimito_largo_41",
+    "categoria": "Jaimito",
+    "chiste": "Su papá le dijo: 'Ve a llenar el tanque de agua'. Jaimito lo llenó con refresco de naranja 'para que huela mejor'."
+  },
+  {
+    "id": "jaimito_largo_42",
+    "categoria": "Jaimito",
+    "chiste": "En la calle, un señor le preguntó: '¿Cuánto falta para llegar al parque?'. Jaimito: 'Unos cinco pasos míos, pero como tengo las piernas cortas, mejor cuéntelo usted'."
+  },
+  {
+    "id": "jaimito_largo_43",
+    "categoria": "Jaimito",
+    "chiste": "Su mamá le dijo que doblara la ropa. Jaimito hizo una montaña con todas las camisetas: 'Es un nuevo método para que la ropa se abrace entre sí'."
+  },
+  {
+    "id": "jaimito_largo_44",
+    "categoria": "Jaimito",
+    "chiste": "En la playa, Jaimito intentó inflar un flotador soplando por el agujero equivocado y terminó mareado: 'Creo que inflé el mar', dijo."
+  },
+  {
+    "id": "jaimito_largo_45",
+    "categoria": "Jaimito",
+    "chiste": "En la tienda de regalos, Jaimito vio una taza con bigote dibujado. La compró y dijo: 'Así el café también se ve elegante'."
+  },
+  {
+    "id": "jaimito_largo_46",
+    "categoria": "Jaimito",
+    "chiste": "Su primo le pidió que cuidara su bicicleta. Cuando volvió, Jaimito estaba montando la bici… pero al revés. 'Así practico marcha atrás', dijo."
+  },
+  {
+    "id": "jaimito_largo_47",
+    "categoria": "Jaimito",
+    "chiste": "En el mercado, Jaimito le dijo al vendedor de melones: 'Deme el más grande'. El hombre le dio uno enorme y Jaimito preguntó: '¿Puedo vivir dentro si me peleo con mi mamá?'."
+  },
+  {
+    "id": "jaimito_largo_48",
+    "categoria": "Jaimito",
+    "chiste": "En el parque, un hombre estaba pintando un banco. Jaimito le dijo: 'Gracias por dejarlo nuevo, así me siento más importante'."
+  },
+  {
+    "id": "jaimito_largo_49",
+    "categoria": "Jaimito",
+    "chiste": "En una feria, Jaimito ganó una planta. Al llegar a casa, la puso frente al televisor. 'Para que se entretenga y no se aburra', dijo."
+  },
+  {
+    "id": "jaimito_largo_50",
+    "categoria": "Jaimito",
+    "chiste": "Un día, Jaimito encontró un paraguas roto. Lo usó como antena y dijo: 'Ahora puedo escuchar la radio del vecino'."
+  }
+
   
   
 ]
