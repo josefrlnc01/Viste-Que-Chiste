@@ -1,4 +1,10 @@
+import { TextToSpeech } from "@capacitor-community/text-to-speech";
+
 export const speak = (text) => {
-    const utterance = new SpeechSynthesisUtterance(text);
-    speechSynthesis.speak(utterance)
+    TextToSpeech.speak({
+        text: text,
+        lang: 'es-ES',
+        pitch: 1,
+        rate: 1
+    });
 }

@@ -1,5 +1,16 @@
 {
   "appId": "com.chistesapp.app",
-  "appName": "chistes",
-  "webDir": "dist"
+  "appName": "Viste Que Chiste",
+  "webDir": "dist",
+"plugins": {
+  "SplashScreen": {
+    "launchShowDuration": 1500,
+    "launchAutoHide": true,
+    "backgroundColor": "#FFFFFF",
+    "androidScaleType": "CENTER_CROP",
+    "iosScaleType": "CENTER_CROP",
+    "showSpinner": false
+  }
+}
+
 }

@@ -5,16 +5,16 @@ export default function Flyer({ joke, visible }) {
         className="min-w-full min-h-screen grid place-content-center fixed top-0 left-0 z-50"
         style={{ display: visible ? "block" : "none" } }
       >
-        <div className="card flyer-container">
+        <div className="flyer-container">
           <div className="flyer-header">
-            <h2 id="flyer-title" className="text-center">🎩</h2>
+          
           </div>
           <div className="flyer-content">
             <div className="comment-place">
               <blockquote id="flyer-comment" className="text-center">{joke}</blockquote>
             </div>
             <div className="flyer-footer">
-              <p className="flyer-link text-center">😂 VISTE QUE CHISTE APP 😂 </p>
+              <p className="flyer-link text-sm text-center">😂 VISTE QUE CHISTE APP 😂 </p>
             </div>
           </div>
         </div>

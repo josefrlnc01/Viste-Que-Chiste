@@ -9,6 +9,10 @@ import html2canvas from "html2canvas";
 import Flyer from "./flyer";
 import interstitialAdd  from '../pages/adds.jsx';
 import { useCategoria } from '../context/CategoriaContext.jsx';
+import { Share } from '@capacitor/share';
+import { Capacitor } from '@capacitor/core';
+import { Filesystem, Directory } from "@capacitor/filesystem";
+import Confetti from "react-confetti";
 
 const BACKUP_JOKES = [
   "¿Qué le dice un jaguar a otro jaguar? Jaguar you",
@@ -27,16 +31,37 @@ export default function Jokes() {
     const [firstJoke, setFirstJoke] = useState(false)
     const {categoria} = useCategoria()
 
+   const [showConfetti, setShowConfetti] = useState(false);
+
+  const handleAction = () => {
+    setShowConfetti(true);
+
+    // Ocultar confetti después de 3 segundos
+    setTimeout(() => {
+      setShowConfetti(false);
+    }, 3000);
+  };
+
   function plusCounter(){
     let addsCounter = parseInt(localStorage.getItem('addsCounter') || '0')
     addsCounter++
     localStorage.setItem('addsCounter',addsCounter.toString())
   }
 
+  async function blobToBase64(blob) {
+    return new Promise((resolve, reject) => {
+      const reader = new FileReader()
+    reader.onloadend = () => resolve(reader.result)
+    reader.onerror = reject
+    reader.readAsDataURL(blob)
+    })
+  }
+
     async function shareCanvas() {
         try {
           if(!firstJoke) return
             setShowFlyer(true);
+           
             // Wait for the Flyer to be visible in the DOM
             await new Promise((resolve) => setTimeout(resolve, 100));
             const flyer = document.getElementById("customFlyer");
@@ -53,24 +78,27 @@ export default function Jokes() {
                 logging: true
             });
             setShowFlyer(false);
+            
             const blob = await new Promise((resolve) => {
                 canvas.toBlob((b) => {
                     const file = new File([b], 'flyer.png', { type: 'image/png' });
-                    if (navigator.canShare && navigator.canShare({ files: [file] })) {
-                        navigator.share({
-                            title: 'Nuevo Chiste del dia',
-                            text: '😂 VISTE QUE CHISTE 😂',
-                            files: [file]
-                        }).catch((error) => {
-                            console.error("Error sharing file:", error);
-                            downloadImage(b, file.name);
-                        });
-                    } else {
-                        downloadImage(b, file.name);
-                    }
-                    resolve();
+                    resolve(b);
                 }, 'image/png', 1.0);
             });
+             const blob64 = await blobToBase64(blob);
+            const fileName = `chiste${Date.now()}.png`
+            const writeRes = await Filesystem.writeFile({
+              path: fileName,
+              data : blob64.split(',')[1],
+              directory:Directory.Cache
+            })
+           const writeUrl = writeRes.uri;
+           Share.share({
+               title: '¡Mira este chiste!',
+               text: chisteActual,
+               url: writeUrl,
+               dialogTitle: 'Compartir chiste'
+           })
         } catch (error) {
             setShowFlyer(false);
             console.error("Error in shareCanvas:", error);
@@ -97,6 +125,7 @@ export default function Jokes() {
 
     const mostrarChisteAleatorio = () => {
       try {
+         handleAction()
         const pool = categoria === 'Generales'
         ? jokes
         : categoriesChistes.filter(cat => cat.categoria === categoria)
@@ -140,6 +169,12 @@ export default function Jokes() {
       <Flyer joke={chisteActual} visible={showFlyer} />
       <main className='min-h-screen'> 
         <div className="min-w-full min-h-screen  text-center flex flex-col justify-start items-center gap-20">
+          {showConfetti && (
+            <Confetti
+              width={typeof window !== 'undefined' ? window.innerWidth : 360}
+              height={typeof window !== 'undefined' ? window.innerHeight : 640}
+            />
+          )}
           <div className='min-w-9/12 min-h-full mt-10 flex flex-col gap-4 justify-center items-center'>
             <button type='button' onClick={mostrarChisteAleatorio} className='joke bg-yellow-300 p-8 rounded-md 
             '>CONTAR CHISTE 😆</button>

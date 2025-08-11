@@ -23,6 +23,14 @@ body {
   border: 3px solid black;
   border-radius: 12px;
   box-shadow: 4px 4px 0px #000;
+  min-height:  auto;
+}
+.flyer-container{
+  background: white;
+  border: 3px solid black;
+  border-radius: 12px;
+  box-shadow: 4px 4px 0px #000;
+  min-height:  70dvh;
 }
 .joke{
   border: 3px solid black;

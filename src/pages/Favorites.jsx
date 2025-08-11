@@ -66,9 +66,9 @@ export default function Favorites(){
 
   return (
    
-    <div className="max-w-xl mx-auto mt-14 py-8 min-h-screen ">
+    <div className="max-w-xl mx-auto mt-18 p-4 min-h-screen flex flex-col justify-start ">
        
-      <h2 className="text-2xl font-bold mb-4 text-center text-green-400 bg-white opacity-75 p-3 rounded-md">MIS CHISTES FAVORITOS 🤩​</h2>
+      <h2 className="text-2xl font-bold mb-4 text-center text-green-400 bg-white opacity-75 mt-6 p-3 rounded-md">MIS CHISTES FAVORITOS 🤩​</h2>
       {jokes.length === 0 ? (
         <p className="text-green-500 text-center">Aun tienes chistes favoritos 🧐</p>
       ) : (
@@ -78,11 +78,11 @@ export default function Favorites(){
             <Flyer joke={joke.text} visible={showFlyer} />
             <p>{joke.text}</p>
             <div className="mt-2 flex gap-3">
-              <button onClick={() => speak(joke.text)} className="bg-sky-400 p-2 text-white rounded">
+              <button onClick={() => speak(joke.text)} className="bg-sky-400 p-1 text-sm text-white rounded">
                 🔊 Escuchar
               </button>
-              <button className=' p-2 bg-green-400  rounded-md text-white' onClick={() => shareCanvas()}>🚀 Compartir​​​</button>
-              <button onClick={() => removeJoke(joke.id)} className="bg-pink-700 p-2 text-white rounded">
+              <button className=' p-1 bg-green-400  rounded-md text-white text-sm' onClick={() => shareCanvas()}>🚀 Compartir​​​</button>
+              <button onClick={() => removeJoke(joke.id)} className="bg-pink-700 p-1 text-sm text-white rounded">
                 🗑 Eliminar
               </button>
             </div>
