@@ -184,7 +184,7 @@ export default function Jokes() {
           )}
           <div className='min-w-9/12 min-h-full mt-10 flex flex-col gap-4 justify-center items-center'>
             <button type='button' onClick={mostrarChisteAleatorio} className='joke bg-yellow-300 p-8 rounded-md 
-            '>CONTAR CHISTE 😆</button>
+            '>CONTAR CHISTE 😝​</button>
             <div className='card min-w-4/5 max-w-60 min-h-52 mx-auto mt-16 flex flex-col justify-between bg-slate-300 text-black p-4 rounded-md shadow-xl'>
               <p className='text-lg text-pretty'>{chisteActual}</p>
               <div className=' min-w-full min-h-full p-2 mt-2 mb-0   text-white flex flex-row justify-center gap-2  rounded-lg'>

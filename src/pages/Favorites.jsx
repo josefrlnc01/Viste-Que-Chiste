@@ -6,7 +6,7 @@ import Flyer from "../components/flyer";
 export default function Favorites(){
     const { jokes, removeJoke} = useFavoritesStore()
     const [showFlyer, setShowFlyer] = useState(false);
-
+  console.log(jokes)
     async function blobToBase64(blob) {
       return new Promise((resolve, reject) => {
         const reader = new FileReader()
@@ -79,6 +79,7 @@ export default function Favorites(){
           
           <div key={joke.id} className="card bg-gray-100 p-4 mb-3 rounded-md shadow min-w-4/5 mx-auto">
             <Flyer joke={joke.text} visible={showFlyer} />
+           
             <p>{joke.text}</p>
             <div className="mt-2 flex gap-3">
               <button onClick={() => speak(joke.text)} className="bg-sky-400 p-2 text-sm text-white rounded">

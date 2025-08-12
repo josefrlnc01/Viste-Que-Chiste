@@ -3,10 +3,10 @@
     <!-- Tema de lanzamiento para API 31+ usando la SplashScreen API -->
     <style name="AppTheme.NoActionBarLaunch" parent="Theme.SplashScreen">
         <!-- Color de fondo del splash -->
-        <item name="windowSplashScreenBackground">#FFFFFF</item>
+        <item name="android:windowSplashScreenBackground">@color/splashscreen_background</item>
 
         <!-- Tu imagen de splash (vector o png en drawable) -->
-        <item name="windowSplashScreenAnimatedIcon">@drawable/splash</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/splash_image</item>
 
         <!-- Tema al que saltará tras el splash -->
         <item name="postSplashScreenTheme">@style/AppTheme.NoActionBar</item>
