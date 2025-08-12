@@ -3,6 +3,8 @@ import {speak} from '../utils/tts'
 import { useState } from "react";
 import html2canvas from "html2canvas";
 import Flyer from "../components/flyer";
+import { Filesystem, Directory } from "@capacitor/filesystem";
+import { Share } from '@capacitor/share';
 export default function Favorites(){
     const { jokes, removeJoke} = useFavoritesStore()
     const [showFlyer, setShowFlyer] = useState(false);
@@ -18,7 +20,7 @@ export default function Favorites(){
   
       async function shareCanvas() {
           try {
-            if(!firstJoke) return
+            
               setShowFlyer(true);
              
               // Wait for the Flyer to be visible in the DOM
@@ -51,13 +53,16 @@ export default function Favorites(){
                 data : blob64.split(',')[1],
                 directory:Directory.Cache
               })
-             const writeUrl = writeRes.uri;
+              jokes.map(joke => {
+                const writeUrl = writeRes.uri;
              Share.share({
                  title: '¡Mira este chiste!',
-                 text: chisteActual,
+                 text: joke.chiste,
                  url: writeUrl,
                  dialogTitle: 'Compartir chiste'
              })
+              })
+             
           } catch (error) {
               setShowFlyer(false);
               console.error("Error in shareCanvas:", error);

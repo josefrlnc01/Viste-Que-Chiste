@@ -151,7 +151,7 @@ export default function Jokes() {
           interstitialAdd()
           localStorage.setItem('addsCounter', '0')
         }
-        console.log(parseInt(localStorage.getItem('addsCounter') || '0'))
+        
         
         gsap.fromTo('.card',
           {rotationX:0, opacity:.5},
@@ -183,15 +183,15 @@ export default function Jokes() {
             />
           )}
           <div className='min-w-9/12 min-h-full mt-10 flex flex-col gap-4 justify-center items-center'>
-            <button type='button' onClick={mostrarChisteAleatorio} className='joke bg-yellow-300 p-8 rounded-md 
+            <button type='button' onClick={mostrarChisteAleatorio} className='joke  p-8 rounded-md 
             '>CONTAR CHISTE 😝​</button>
-            <div className='card min-w-4/5 max-w-60 min-h-52 mx-auto mt-16 flex flex-col justify-between bg-slate-300 text-black p-4 rounded-md shadow-xl'>
+            <div className='card min-w-4/5 max-w-60 min-h-52 mx-auto mt-16 flex flex-col justify-between bg-slate-300 text-black p-6 rounded-md shadow-xl'>
               <p className='text-lg text-pretty'>{chisteActual}</p>
-              <div className=' min-w-full min-h-full p-2 mt-2 mb-0   text-white flex flex-row justify-center gap-2  rounded-lg'>
-              {firstJoke ?  <button className=' p-6 bg-sky-400 shadow-md  rounded-md' onClick={() => speak(chisteActual)}>🔊​</button> : ''}
+              <div className=' min-w-full min-h-full p-2 mt-1 mb-0   text-white flex flex-row justify-center gap-2  rounded-lg'>
+              {firstJoke ?  <button type='button' className=' p-5 bg-sky-400 shadow-md border-2 border-solid border-amber-50  rounded-md' onClick={() => speak(chisteActual)}>🔊​</button> : ''}
                
-                {firstJoke ? <button className=' p-6 bg-pink-400 shadow-md   rounded-md' onClick={saveJoke}>⭐​​</button> : ''}
-                {firstJoke ? <button className=' p-6 bg-green-400 shadow-md   rounded-md' onClick={() => shareCanvas()}>🚀​​​</button> : '' }
+                {firstJoke ? <button type='button' className=' p-5 bg-pink-400 shadow-md border-2  border-amber-50  rounded-md' onClick={saveJoke}>⭐​​</button> : ''}
+                {firstJoke ? <button type='button' className=' p-5 bg-green-400 shadow-md border-2 border-amber-50   rounded-md' onClick={() => shareCanvas()}>🚀​​​</button> : '' }
                 
               </div>
             </div>
