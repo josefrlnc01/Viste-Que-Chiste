@@ -35,7 +35,9 @@ export default function Jokes() {
    const {jokes} = useFavoritesStore() 
    
 
-
+  if(firstJoke){
+     document.body.style.backgroundImage = `url(${savedAtLocal})`
+  }
    
 
   const handleAction = () => {

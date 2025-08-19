@@ -12,7 +12,7 @@ import { Toaster, toast } from 'react-hot-toast';
 
 
 let savedAtLocal = localStorage.getItem('savedThemes', '')
- document.body.style.backgroundImage = `url(${savedAtLocal})`
+
 
 export default function App() {
     const [menuToggle, setMenuToggle] = useState(false)
