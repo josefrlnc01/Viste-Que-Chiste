@@ -4,9 +4,9 @@
 
 body {
   background-color: #f0f9ff;
-  background-image: url('assets/back.webp');
+ background-image: url('assets/back.webp');
    min-height: 100vh;
-   overflow: hidden;
+   overflow-y: auto;
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "Bungee", sans-serif;
@@ -20,9 +20,9 @@ body {
 }
 .card{
   background: white;
-  border: 7px solid #222222;
+  border: 3px solid black;
   border-radius: 12px;
-  box-shadow: 2px 2px 0px #222222;
+  box-shadow: 4px 4px 0px #000;
   min-height:  auto;
 }
 .flyer-container{
@@ -52,21 +52,24 @@ body {
   align-items: center;
 }
 .joke{
-  border: 7px solid #222;
+  border: none;
   border-radius: 12px;
-
+color: #f0f9ff;
+  min-height:  auto;
   transition: transform .2s ease;
-  background-color: #FFD60A;
+
   backdrop-filter: contrast(1.5);
 }
 .joke:active{
   transform: translateY(2px);
 }
 .btn-header{
-  border: 7px solid #222;
-  border-radius: 100%;
-  
-  background-color: #FFC300;
+ 
+  border-radius: 12px;
+ 
+  min-height:  auto;
+  opacity: .9;
+ 
 }
 .categorie-btn{
    border: 3px solid black;

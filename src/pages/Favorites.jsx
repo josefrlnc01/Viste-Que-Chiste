@@ -78,7 +78,7 @@ export default function Favorites(){
        
       <h2 className="text-2xl font-bold mb-4 text-center text-green-400 bg-white opacity-75 mt-6 p-3 rounded-md">MIS CHISTES FAVORITOS 🤩​</h2>
       {jokes.length === 0 ? (
-        <p className="text-green-500 text-center">Aun tienes chistes favoritos 🧐</p>
+        <p className="text-green-500 text-center  bg-white opacity-75 mt-6 p-3 rounded-md">Aún no tienes chistes favoritos 🧐</p>
       ) : (
         jokes.map((joke) => (
           

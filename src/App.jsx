@@ -6,12 +6,13 @@ import { useState } from 'react';
 import Resolveds from './components/jokes';
 import Flyer from './components/flyer';
 import { Toaster, toast } from 'react-hot-toast';
+
 // Backup jokes in case the model fails
 
 
 
-
-
+let savedAtLocal = localStorage.getItem('savedThemes', '')
+ document.body.style.backgroundImage = `url(${savedAtLocal})`
 
 export default function App() {
     const [menuToggle, setMenuToggle] = useState(false)
@@ -19,7 +20,8 @@ export default function App() {
     const [saved, setSaved] = useState('')
     const [menuCategories, setMenuCategories] = useState(null)
 
-
+   
+  
 
  return (
   <>

@@ -3,7 +3,8 @@ import { createContext, useState, useContext } from "react";
 const CategoriaContext = createContext();
 
 export function CategoriaProvider({ children }) {
-  const [categoria, setCategoria] = useState("Generales");
+  const categ = localStorage.getItem('categoria')
+  const [categoria, setCategoria] = useState(`${categ}`);
   return (
     <CategoriaContext.Provider value={{ categoria, setCategoria }}>
       {children}

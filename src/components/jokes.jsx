@@ -14,6 +14,7 @@ import { Capacitor } from '@capacitor/core';
 import { Filesystem, Directory } from "@capacitor/filesystem";
 import Confetti from "react-confetti";
 
+
 const BACKUP_jokeDefinitive = [
   "¿Qué le dice un jaguar a otro jaguar? Jaguar you",
   "¿Cómo se despiden los químicos? Ácido un placer",
@@ -29,7 +30,14 @@ export default function Jokes() {
     const {categoria} = useCategoria()
    const [showConfetti, setShowConfetti] = useState(false);
    const [jokeDefinitive, setjokeDefinitive] = useState(chistesData);
+   
+   const actualCategory = localStorage.getItem('categoria')
    const {jokes} = useFavoritesStore() 
+   
+
+
+   
+
   const handleAction = () => {
     setShowConfetti(true);
 
@@ -83,22 +91,26 @@ export default function Jokes() {
                 }, 'image/png', 1.0);
             });
              const blob64 = await blobToBase64(blob);
-            const fileName = `chiste${Date.now()}.png`
-            const writeRes = await Filesystem.writeFile({
+            const fileName = `chiste${Date.now()}.png`;
+            await Filesystem.writeFile({
               path: fileName,
               data : blob64.split(',')[1],
               directory:Directory.Cache
             })
-           const writeUrl = writeRes.uri;
+            const {uri : nativeUri} = await Filesystem.getUri({
+              path : fileName,
+              directory : Directory.Cache
+            })
+         
            Share.share({
                title: '¡Mira este chiste!',
                text: chisteActual,
-               url: writeUrl,
+               url: [nativeUri],
                dialogTitle: 'Compartir chiste'
            })
         } catch (error) {
             setShowFlyer(false);
-            console.error("Error in shareCanvas:", error);
+            
             return;
         }
     }
@@ -132,19 +144,23 @@ export default function Jokes() {
 
     const mostrarChisteAleatorio = () => {
       try {
-        
+        const categ = localStorage.getItem('categoria')
         const pool = categoria === 'Generales'
         ? jokeDefinitive
-        : categoriesChistes.filter(cat => cat.categoria === categoria)
-        setFirstJoke(true)
+        : categoriesChistes.filter(cat => cat.categoria === categ)
+        
         const randomJoke = pool[Math.floor(Math.random() * pool.length)]
        
         const normalized =
         typeof randomJoke === 'string'
-          ? { chiste: randomJoke, categoria: categoria === 'Generales' ? 'General' : categoria, id: randomJoke.id }
-          : { chiste: randomJoke?.chiste ?? String(randomJoke ?? ''), categoria: randomJoke?.categoria ?? 'General' , id:randomJoke.id};
+          ? { chiste: randomJoke, categoria: categoria === 'Generales' ? 'General' : categoria }
+          : { chiste: randomJoke?.chiste ?? String(randomJoke ?? ''), categoria: randomJoke?.categoria ?? 'General' };
         
-        
+        if(!actualCategory){
+          toast.error('Introduce una categoría desde el menú en el icono superior derecho')
+          return
+        }
+        setFirstJoke(true)
         setChisteActual(normalized.chiste)
         plusCounter()
         if(parseInt(localStorage.getItem('addsCounter') || '0') >= maxForaddsCounter ){
@@ -183,19 +199,30 @@ export default function Jokes() {
             />
           )}
           <div className='min-w-9/12 min-h-full mt-10 flex flex-col gap-4 justify-center items-center'>
-            <button type='button' onClick={mostrarChisteAleatorio} className='joke  p-8 rounded-md 
-            '>CONTAR CHISTE 😝​</button>
-            <div className='card min-w-4/5 max-w-60 min-h-52 mx-auto mt-16 flex flex-col justify-between bg-slate-300 text-black p-6 rounded-md shadow-xl'>
-              <p className='text-lg text-pretty'>{chisteActual}</p>
+          <div className='min-w-8/12 m-auto backdrop-blur-md bg-gradient-to-r from-yellow-300 via-amber-300 to-orange-300 p-8 rounded-xl opacity-95'>
+          
+          <p className='text-white font-medium'>Categoría: <span className='font-bold'>{actualCategory}</span></p>
+          </div>
+            <div className='card min-w-4/5 max-w-60 min-h-2/4 max-h-2/4 mx-auto mt-16 flex flex-col justify-between bg-slate-300 text-black p-6 rounded-md shadow-xl'>
+              <p className='text-lg text-pretty space-x-3'>{chisteActual}</p>
               <div className=' min-w-full min-h-full p-2 mt-1 mb-0   text-white flex flex-row justify-center gap-2  rounded-lg'>
-              {firstJoke ?  <button type='button' className=' p-5 bg-sky-400 shadow-md border-2 border-solid border-amber-50  rounded-md' onClick={() => speak(chisteActual)}>🔊​</button> : ''}
+              {firstJoke ?  <button type='button' className=' p-5 bg-sky-400 shadow-md border-2 border-solid border-amber-50  rounded-md active:scale-95' onClick={() => speak(chisteActual)}>🔊​</button> : ''}
                
-                {firstJoke ? <button type='button' className=' p-5 bg-pink-400 shadow-md border-2  border-amber-50  rounded-md' onClick={saveJoke}>⭐​​</button> : ''}
-                {firstJoke ? <button type='button' className=' p-5 bg-green-400 shadow-md border-2 border-amber-50   rounded-md' onClick={() => shareCanvas()}>🚀​​​</button> : '' }
+                {firstJoke ? <button type='button' className=' p-5 bg-pink-400 shadow-md border-2  border-amber-50  rounded-md active:scale-95' onClick={saveJoke}>⭐​​</button> : ''}
+                {firstJoke ? <button type='button' className=' p-5 bg-green-400 shadow-md border-2 border-amber-50   rounded-md active:scale-95' onClick={() => shareCanvas()}>🚀​​​</button> : '' }
                 
               </div>
             </div>
           </div>
+          <div className='min-w-8/12 min-h-6/12   flex flex-col items-center justify-center  '>
+          <button type='button' onClick={mostrarChisteAleatorio} className='joke  p-8 rounded-md bg-gradient-to-b from-amber-300 to-amber-500 active:scale-95 transition-transform duration-150
+         shadow-[0_8px_0_rgba(0,0,0,0.15)] hover:shadow-[0_10px_0_rgba(0,0,0,0.18)]
+         border-2 border-black 
+            '>CONTAR CHISTE 😝​</button>
+          
+         
+          </div> 
+          
         </div>
       </main>
     </>
