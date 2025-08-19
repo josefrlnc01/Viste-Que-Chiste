@@ -4,6 +4,12 @@ import tailwindcss from '@tailwindcss/vite'
 
 
 export default defineConfig({
+  base: '/Viste-Que-Chiste/',
   plugins: [react(), tailwindcss()],
-  server: { host: true, port: 5173 }
+  server: { host: true, port: 5173 },
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+    emptyOutDir: true
+  }
 })
