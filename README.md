@@ -1,8 +1,10 @@
-<<<<<<< HEAD
+
 # Viste Que Chiste
 
 <div align="center">
-  <img src="public/icon.png" alt="Viste Que Chiste Logo" width="200"/>
+<img width="96" height="96" alt="icon" src="https://github.com/user-attachments/assets/7f6ad75f-0c88-42fc-8b90-94943ec74a6e" />
+
+
   
   [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
   [![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)](https://vitejs.dev/)
@@ -72,8 +74,6 @@ Viste Que Chiste es una aplicación móvil divertida y entretenida que te permit
 ## 📱 Plataformas Soportadas
 
 - Android
-- iOS (requiere configuración adicional)
-- Web (PWA)
 
 ## 🤝 Contribución
 
@@ -93,10 +93,7 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para má
 
 ¿Tienes preguntas o sugerencias? No dudes en contactarme en [josefrlnc01@gmail.com](mailto:josefrlnc01@gmail.com)
 
----
 
 
-=======
-Viste Que Chiste is a jokes app for Android made with React and JavaScript, 
-this is a project made for upgrade my level at React and know more about basics of it.
->>>>>>> 57c8547bb455bda78a32e9be6318e3957f697757
+
+
