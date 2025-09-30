@@ -72,8 +72,6 @@ Viste Que Chiste es una aplicación móvil divertida y entretenida que te permit
 ## 📱 Plataformas Soportadas
 
 - Android
-- iOS (requiere configuración adicional)
-- Web (PWA)
 
 ## 🤝 Contribución
 
