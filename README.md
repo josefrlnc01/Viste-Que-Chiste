@@ -2,7 +2,8 @@
 # Viste Que Chiste
 
 <div align="center">
-  <img src="public/icon.png"<img width="1024" height="1024" alt="icon" src="https://github.com/user-attachments/assets/e1236dad-06d1-4d9a-8fcc-9418e979ab47" />
+<img width="1024" height="1024" alt="icon" src="https://github.com/user-attachments/assets/7f6ad75f-0c88-42fc-8b90-94943ec74a6e" />
+
 
   
   [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
