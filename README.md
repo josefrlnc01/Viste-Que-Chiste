@@ -2,7 +2,8 @@
 # Viste Que Chiste
 
 <div align="center">
-  <img src="public/icon.png" alt="Viste Que Chiste Logo" width="200"/>
+  <img src="public/icon.png"<img width="1024" height="1024" alt="icon" src="https://github.com/user-attachments/assets/e1236dad-06d1-4d9a-8fcc-9418e979ab47" />
+
   
   [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
   [![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)](https://vitejs.dev/)
