@@ -2,7 +2,7 @@
 # Viste Que Chiste
 
 <div align="center">
-<img width="1024" height="1024" alt="icon" src="https://github.com/user-attachments/assets/7f6ad75f-0c88-42fc-8b90-94943ec74a6e" />
+<img width="96" height="96" alt="icon" src="https://github.com/user-attachments/assets/7f6ad75f-0c88-42fc-8b90-94943ec74a6e" />
 
 
   
