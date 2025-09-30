@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Viste Que Chiste
 
 <div align="center">
@@ -95,3 +96,7 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para má
 ---
 
 
+=======
+Viste Que Chiste is a jokes app for Android made with React and JavaScript, 
+this is a project made for upgrade my level at React and know more about basics of it.
+>>>>>>> 57c8547bb455bda78a32e9be6318e3957f697757

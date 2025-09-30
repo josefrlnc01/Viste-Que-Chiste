@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources>
-    <string name="app_name">Viste Que Chiste</string>
-    <string name="title_activity_main">Viste Que Chiste</string>
-    <string name="package_name">com.chistesapp.app</string>
-    <string name="custom_url_scheme">com.chistesapp.app</string>
-</resources>

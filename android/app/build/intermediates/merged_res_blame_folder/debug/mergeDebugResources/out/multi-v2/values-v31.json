@@ -1,0 +1,47 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.chistesapp.app-mergeDebugResources-38:/values-v31/values-v31.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Jose\\OneDrive\\Escritorio\\Viste-Que-Chiste\\android\\app\\src\\main\\res\\values-v31\\styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "148",
+                        "endLines": "12",
+                        "endColumns": "12",
+                        "endOffsets": "664"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "11",
+                        "endColumns": "12",
+                        "endOffsets": "430"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Jose\\.gradle\\caches\\8.11.1\\transforms\\ef234481c09f01fb9f0508a5da2b1126\\transformed\\core-splashscreen-1.0.1\\res\\values-v31\\values-v31.xml",
+                    "from": {
+                        "startLines": "2,9",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,473",
+                        "endLines": "8,13",
+                        "endColumns": "12,12",
+                        "endOffsets": "468,697"
+                    },
+                    "to": {
+                        "startLines": "12,19",
+                        "startColumns": "4,4",
+                        "startOffsets": "435,853",
+                        "endLines": "18,23",
+                        "endColumns": "12,12",
+                        "endOffsets": "848,1077"
+                    }
+                }
+            ]
+        }
+    ]
+}
