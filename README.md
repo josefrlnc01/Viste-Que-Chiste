@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Viste Que Chiste
 
 <div align="center">
