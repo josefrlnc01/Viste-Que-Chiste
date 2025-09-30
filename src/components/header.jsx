@@ -1,42 +1,25 @@
-import menuIcon from '../assets/dataset.webp'
-import categoriesIcon from '../assets/iconapss.webp'
-import Categories from './Categories'
-import PanelSaveds from './saveds'
-import { useState } from 'react'
+
+import { useEffect, useState } from 'react'
 import { useBackToHome } from '../hooks/backToHome';
-import {toast} from 'react-hot-toast'
+import { toast } from 'react-hot-toast'
+import HeaderCategories from './HeaderCategories'
+import HeaderNormal from './HeaderNormal'
+import HeaderSaveds from './HeaderSaveds'
 
-export default function Header({menuToggle, setMenuToggle, menuCategories, setMenuCategories}){
-    const [categoria, setCategoria] = useState('Generales')
-
-    const ultimaCategoria = categoria
-    const mostrarMenuCategorias = () => {
-        if(!menuCategories){
-            setMenuCategories(true)
-        }
-        else{
-
-            setMenuCategories(null)
-        }
-    }
-
-    const mostrarMenu = () => {
-        if(!menuToggle){
-            setMenuToggle(true)
-        }
-       else{
-        setMenuToggle(null)
-       }
-    }
-
+export default function Header({ menuToggle, setMenuToggle, menuCategories, setMenuCategories, chisteId, setChisteId}) {
+   
+   
+    
+    
+    
 
     useBackToHome({
-        homePath : '/',
-        doublePressToExit : true,
+        homePath: '/',
+        doublePressToExit: true,
         onSecondPress: () => {
             toast.success('Pulsa otra vez para salir')
         },
-        shouldCloseOverlay : ()  => {
+        shouldCloseOverlay: () => {
             // Cierra paneles abiertos (favoritos o categorías) y consume el back
             let closed = false
             if (menuToggle) {
@@ -51,24 +34,29 @@ export default function Header({menuToggle, setMenuToggle, menuCategories, setMe
         }
     })
 
-    return(
-        <>
-        <header className="min-w-dvw flex flex-row justify-between mt-6  min-h-4 ">
-        {menuCategories ? '' :  <button type='button' className="btn-header ml-1 px-4 h-20 flex justify-center items-center  bg-blue-600 active:scale-95 transition-transform duration-150
-         shadow-[0_8px_0_rgba(0,0,0,0.15)] hover:shadow-[0_10px_0_rgba(0,0,0,0.18)]
-         border-2 border-black rounded-md z-20"><img alt='logo de menu' className='w-9' src={menuIcon} onClick={mostrarMenu} />​</button>}   
-               
-        {menuToggle || menuCategories ? <PanelSaveds
-        menuCategories={menuCategories}
-        menuToggle={menuToggle}/> : ''}
-        {menuToggle ? '' :  <button type='button' className="btn-header mr-1 px-4 h-20 flex justify-center items-center  bg-blue-600 active:scale-95 transition-transform duration-150
-         shadow-[0_8px_0_rgba(0,0,0,0.15)] hover:shadow-[0_10px_0_rgba(0,0,0,0.18)]
-         border-2 border-black  rounded-md z-20"><img alt='logo de menu' className='w-9' src={categoriesIcon} onClick={mostrarMenuCategorias} />​</button>}
- 
+    const renderHeader = () => {
+        if (menuCategories) {
+            return <HeaderCategories setMenuCategories={setMenuCategories}  />;
+        } else if (menuToggle) {
+            return <HeaderSaveds menuToggle={menuToggle} setMenuToggle={setMenuToggle} />;
+        } else {
+            return (
+                <HeaderNormal
+                    chisteId={chisteId}
+                    setChisteId={setChisteId}
+                    menuCategories={menuCategories}
+                    setMenuCategories={setMenuCategories}
+                    setMenuToggle={setMenuToggle}
+                    menuToggle={menuToggle}
+                    
+                />
+            );
+        }
+    };
 
-        
-       
-        </header>
+    return (
+        <>
+            {renderHeader()}
         </>
     )
 }

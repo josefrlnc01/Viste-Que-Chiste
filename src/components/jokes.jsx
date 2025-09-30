@@ -1,44 +1,68 @@
-import { useState, useRef } from 'react';
-import { speak } from '../utils/tts';
+import { useState, useRef, useEffect, useMemo } from 'react';
+import { speak } from '../utils/tts.js';
 import chistesData from '../data/chistes.json'
-import { useFavoritesStore } from '../features/favorites/favoritesStore';
+import { useFavoritesStore } from '../features/favorites/favoritesStore.js';
 import { gsap } from "gsap";
-import {  toast } from 'react-hot-toast';
+import { toast } from 'react-hot-toast';
 import categoriesChistes from '../data/chistes_categorias.json'
-import html2canvas from "html2canvas";
-import Flyer from "./flyer";
-import interstitialAdd  from '../pages/adds.jsx';
+
+import Flyer from "./flyer.jsx";
+import interstitialAdd from '../pages/adds.jsx';
 import { useCategoria } from '../context/CategoriaContext.jsx';
 import { Share } from '@capacitor/share';
-import { Capacitor } from '@capacitor/core';
-import { Filesystem, Directory } from "@capacitor/filesystem";
 import Confetti from "react-confetti";
 
 
 const BACKUP_jokeDefinitive = [
   "¿Qué le dice un jaguar a otro jaguar? Jaguar you",
   "¿Cómo se despiden los químicos? Ácido un placer",
-  "¿Qué le dice una iguana a su hermana gemela? Somos iguanitas"
 ];
 
-export default function Jokes() {
-    const [chisteActual, setChisteActual] = useState('');
-    const { addJoke, removeJoke } = useFavoritesStore();
-     const [showFlyer, setShowFlyer] = useState(false);
-    const maxForaddsCounter = 6
-    const [firstJoke, setFirstJoke] = useState(false)
-    const {categoria} = useCategoria()
-   const [showConfetti, setShowConfetti] = useState(false);
-   const [jokeDefinitive, setjokeDefinitive] = useState(chistesData);
-   
-   const actualCategory = localStorage.getItem('categoria')
-   const {jokes} = useFavoritesStore() 
-   
+export default function Jokes({ chisteId, setChisteId }) {
+  const [chisteActual, setChisteActual] = useState('');
+  const { addJoke } = useFavoritesStore();
+  const [firstJoke, setFirstJoke] = useState(false);
+  const [showConfetti, setShowConfetti] = useState(false);
+  const prevChisteRef = useRef();
+  const { jokes } = useFavoritesStore()
+  const maxForaddsCounter = 6
+  const { categoria } = useCategoria()
+
+  useEffect(() => {
+    prevChisteRef.current = categoria;
+    
+    // Primero intentar cargar desde localStorage
+    const id = localStorage.getItem(`indice_${categoria}`)
+    const joke = localStorage.getItem(`joke_${categoria}`)
+    
+    if (joke && id) {
+      // Si existe en localStorage, usar eso
+      setChisteId(id)
+      setChisteActual(joke)
+      setFirstJoke(true)
+    } else {
+      // Solo si NO hay nada guardado, cargar el primer chiste
+      const jokes = getJokesForCategory();
+      if (jokes.length > 0) {
+        const firstJoke = [...jokes].sort((a, b) => Number(a.id) - Number(b.id))[0];
+        if (firstJoke) {
+          const idToShow = String(firstJoke.id).includes('_')
+            ? String(firstJoke.id).split('_')[1]
+            : String(firstJoke.id);
+          setChisteId(idToShow);
+          setChisteActual(firstJoke.chiste || firstJoke.text || '');
+          setFirstJoke(true)
+          // Guardar en localStorage
+          localStorage.setItem(`indice_${categoria}`, '1');
+          localStorage.setItem(`joke_${categoria}`, firstJoke.chiste || firstJoke.text || '');
+        }
+      }
+    }
+  }, [categoria]);
 
 
-   
-
-  const handleAction = () => {
+  
+  const handleConfetti = () => {
     setShowConfetti(true);
 
     // Ocultar confetti después de 3 segundos
@@ -47,185 +71,298 @@ export default function Jokes() {
     }, 3000);
   };
 
-  function plusCounter(){
+  function plusCounter() {
     let addsCounter = parseInt(localStorage.getItem('addsCounter') || '0')
     addsCounter++
-    localStorage.setItem('addsCounter',addsCounter.toString())
+    localStorage.setItem('addsCounter', addsCounter.toString())
   }
 
-  async function blobToBase64(blob) {
-    return new Promise((resolve, reject) => {
-      const reader = new FileReader()
-    reader.onloadend = () => resolve(reader.result)
-    reader.onerror = reject
-    reader.readAsDataURL(blob)
-    })
+
+
+  async function shareJoke(id) {
+    try {
+      let jokeForShare = chisteActual
+      if (!firstJoke) {
+        const currentIdx = getCurrentIndex();
+        const currentJoke = localStorage.getItem(`joke_${categoria}`)
+        jokeForShare = currentJoke
+      }
+
+      if (window.Capacitor?.isNativePlatform()) {
+        await new Promise(resolve => setTimeout(resolve, 100)); // Esperar a que se renderice
+
+        await Share.share({
+          title: 'Chiste',
+          text: jokeForShare,
+          dialogTitle: 'Compartir chiste'
+        });
+        toast.success('Chiste copiado al portapapeles');
+      }
+
+      const card = document.getElementById(`card-${id}`);
+      if (card) {
+        // Animación de salida
+        gsap.to(card, {
+          y: -100, // Se mueve hacia arriba
+          // Se desvanece
+          duration: 0.8, // Duración de la animación
+          ease: 'power2.inOut',
+          onComplete: () => {
+            // Restablecer la animación después de completarse
+            gsap.set(card, { clearProps: 'all' });
+          }
+        });
+      }
+
+
+    } catch (error) {
+      console.error('Error en sharejoke:', error);
+      toast.error('Error al compartir el chiste. Por favor, inténtalo de nuevo.');
+    }
   }
 
-    async function shareCanvas() {
-        try {
-          if(!firstJoke) return
-            setShowFlyer(true);
-           
-            // Wait for the Flyer to be visible in the DOM
-            await new Promise((resolve) => setTimeout(resolve, 100));
-            const flyer = document.getElementById("customFlyer");
-            if (!flyer) {
-                console.error("Flyer element not found");
-                setShowFlyer(false);
-                return null;
-            }
-            const canvas = await html2canvas(flyer, {
-                useCORS: true,
-                allowTaint: true,
-                scale: 2,
-                backgroundColor: null,
-                logging: true
-            });
-            setShowFlyer(false);
-            
-            const blob = await new Promise((resolve) => {
-                canvas.toBlob((b) => {
-                    const file = new File([b], 'flyer.png', { type: 'image/png' });
-                    resolve(b);
-                }, 'image/png', 1.0);
-            });
-             const blob64 = await blobToBase64(blob);
-            const fileName = `chiste${Date.now()}.png`;
-            await Filesystem.writeFile({
-              path: fileName,
-              data : blob64.split(',')[1],
-              directory:Directory.Cache
-            })
-            const {uri : nativeUri} = await Filesystem.getUri({
-              path : fileName,
-              directory : Directory.Cache
-            })
-         
-           Share.share({
-               title: '¡Mira este chiste!',
-               text: chisteActual,
-               url: [nativeUri],
-               dialogTitle: 'Compartir chiste'
-           })
-        } catch (error) {
-            setShowFlyer(false);
-            
-            return;
-        }
-    }
-    
 
-    const downloadImage = (blob, filename) => {
-        const link = document.createElement('a')
-        link.href = URL.createObjectURL(blob)
-        link.download = filename;
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-        URL.revokeObjectURL(link.href);
-    }
 
-  
-    function saveJoke(){
-      
-      // Detectar duplicados por texto, ya que el store guarda { id: uuid, text }
-      if (jokes.some(j => j.text === chisteActual)) {
-        toast.error('Este chiste ya está guardado 🥸​')
-        return
-      }
-      handleAction()
-      toast.success('Nuevo chiste para la colección 🤪​')
-      addJoke(chisteActual)
-    }
-    
 
-    
+  function saveJoke() {
 
-    const mostrarChisteAleatorio = () => {
-      try {
-        const categ = localStorage.getItem('categoria')
-        const pool = categoria === 'Generales'
-        ? jokeDefinitive
-        : categoriesChistes.filter(cat => cat.categoria === categ)
-        
-        const randomJoke = pool[Math.floor(Math.random() * pool.length)]
-       
-        const normalized =
-        typeof randomJoke === 'string'
-          ? { chiste: randomJoke, categoria: categoria === 'Generales' ? 'General' : categoria }
-          : { chiste: randomJoke?.chiste ?? String(randomJoke ?? ''), categoria: randomJoke?.categoria ?? 'General' };
-        
-        if(!actualCategory){
-          toast.error('Introduce una categoría desde el menú en el icono superior derecho')
-          return
-        }
-        setFirstJoke(true)
-        setChisteActual(normalized.chiste)
-        plusCounter()
-        if(parseInt(localStorage.getItem('addsCounter') || '0') >= maxForaddsCounter ){
-          interstitialAdd()
-          localStorage.setItem('addsCounter', '0')
-        }
-        
-        
-        gsap.fromTo('.card',
-          {rotationX:0, opacity:.5},
-          {rotationX:360,
-          opacity:1,
-            yoyo:true}
-        )
-      } catch (error) {
-        console.error('Error al mostrar el chiste:', error);
-        // Fallback to backup jokeDefinitive if there's an error
-        const backupJoke = BACKUP_jokeDefinitive[Math.floor(Math.random() * BACKUP_jokeDefinitive.length)];
-        setChisteActual(backupJoke);
-        speak(backupJoke);
-      }
+    // Detectar duplicados por texto, ya que el store guarda { id: uuid, text }
+    if (jokes.some(j => j.text === chisteActual)) {
+      toast.error('Este chiste ya está guardado 🥸​')
+      return
     }
+    handleConfetti()
+    toast.success('Nuevo chiste para la colección 🤪​')
+    addJoke(chisteActual)
+  }
+
+  const getJokesForCategory = () => {
    
+    return categoria === 'Generales' ? chistesData : categoriesChistes.filter(joke => joke.categoria === categoria)
+  };
 
-  
-     return (
+  // Obtener el índice actual (1-based para el usuario)
+  const getCurrentIndex = () => {
+    const storedIndex = localStorage.getItem(`indice_${categoria}`);
+    // Si no hay índice guardado, empezamos en 1
+    return storedIndex !== null ? parseInt(storedIndex, 10) : 1;
+  };
+
+  // Actualizar el chiste actual
+  const updateJoke = (joke, userIndex) => {
+    if (!joke) return;
+    
+    // Índice del array (0-based)
+    const arrayIndex = userIndex - 1;
+    
+    setChisteActual(joke.chiste || joke.text || '');
+    setChisteId(String(joke.id));
+    localStorage.setItem(`joke_${categoria}`, joke.text || joke.chiste || '');
+    // Guardar el índice 1-based para el usuario
+    localStorage.setItem(`indice_${categoria}`, userIndex);
+    setFirstJoke(true);
+  };
+
+  const jokeds = getJokesForCategory();
+  const sortedJokes = [...jokeds].sort((a, b) => Number(a.id) - Number(b.id));
+
+ 
+
+  useEffect(() => {
+    // Intentar cargar el último chiste del localStorage
+    const ultimoChisteGuardado = localStorage.getItem('ultimoChiste');
+    
+    if (ultimoChisteGuardado && sortedJokes.length > 0) {
+      try {
+        const { chiste, categoria: catGuardada, indice } = JSON.parse(ultimoChisteGuardado);
+        
+        // Si la categoría guardada coincide con la actual
+        if (catGuardada === categoria && indice < sortedJokes.length) {
+          updateJoke(sortedJokes[indice], indice);
+          return;
+        }
+      } catch (e) {
+        console.error('Error al cargar el último chiste:', e);
+      }
+    }
+    
+    
+  }, [sortedJokes]);
+
+
+  const mostrarChisteAnterior = () => {
+    try {
+      const jokes = getJokesForCategory();
+      if (jokes.length === 0) {
+        toast.error('No hay chistes disponibles en esta categoría');
+        return;
+      }
+
+      const currentIdx = getCurrentIndex();
+      // Asegurarse de que el índice anterior no sea negativo
+      const prevIdx = currentIdx <= 0 ? jokes.length - 1 : currentIdx - 1;
+      const sortedJokes = [...jokes].sort((a, b) => Number(a.id) - Number(b.id));
+      const prevJoke = sortedJokes[prevIdx];
+
+      if (prevJoke) {
+        updateJoke(prevJoke, prevIdx);
+        // Actualizar el localStorage con el chiste anterior
+        localStorage.setItem('ultimoChiste', JSON.stringify({
+          chiste: prevJoke.chiste || prevJoke.text || '',
+          categoria: categoria,
+          indice: prevIdx
+        }));
+      }
+
+      // Animación
+      gsap.fromTo('.text-card',
+        { rotationX: 360, opacity: 0.5 },
+        { rotationX: 0, opacity: 1, yoyo: true }
+      );
+
+      // Contador de anuncios
+      const adds = parseInt(localStorage.getItem('addsCounter') || '0', 10);
+      if (adds >= maxForaddsCounter) {
+        interstitialAdd();
+        localStorage.setItem('addsCounter', '0');
+      }
+
+    } catch (error) {
+      console.error('Error al mostrar el chiste anterior:', error);
+      toast.error('Error al cargar el chiste anterior');
+    }
+  }
+
+
+  const noCategory = () => {
+    return localStorage.getItem('categoria') === null;
+  };
+
+  const mostrarChisteAleatorio = () => {
+    try {
+      const jokes = getJokesForCategory();
+      if (jokes.length === 0) {
+        toast.error('No hay chistes disponibles para esta categoría');
+        return;
+      }
+
+      const currentIdx = getCurrentIndex();
+      const sortedJokes = [...jokes].sort((a, b) => Number(a.id) - Number(b.id));
+      
+      // Calcular el siguiente índice (1-based para el usuario)
+      const nextUserIdx = (currentIdx % sortedJokes.length) + 1;
+      const nextJoke = sortedJokes[nextUserIdx]; // Convertir a 0-based
+
+      if (nextJoke) {
+        updateJoke(nextJoke, nextUserIdx);
+        // Guardar el chiste actual en localStorage
+        localStorage.setItem('ultimoChiste', JSON.stringify({
+          chiste: nextJoke.chiste || nextJoke.text || '',
+          categoria: categoria,
+          indice: nextUserIdx
+        }));
+      }
+      plusCounter()
+      const adds = parseInt(localStorage.getItem('addsCounter') || '0', 10);
+      if (adds >= maxForaddsCounter) {
+        interstitialAdd();
+        localStorage.setItem('addsCounter', '0');
+      }
+
+
+      gsap.fromTo('.text-card',
+        { rotationX: 0, opacity: 0.5 },
+        { rotationX: 360, opacity: 1, yoyo: true }
+      );
+
+      // 10) Si necesitas llevar un índice por categoría:
+      // handleIndex(categ); // (si esa función espera la categoría efectiva)
+
+    } catch (error) {
+      console.error('Error al mostrar el chiste:', error);
+      const backupJoke = BACKUP_jokeDefinitive[Math.floor(Math.random() * BACKUP_jokeDefinitive.length)];
+      setChisteActual(backupJoke);
+      speak(backupJoke);
+    }
+  };
+
+
+
+  // Exponer la función al hacer clic en una categoría
+  useEffect(() => {
+    // Exponer la función al objeto window cuando el componente se monta
+    window.mostrarChisteAleatorio = mostrarChisteAleatorio;
+    window.getJokesForCategory = getJokesForCategory;
+    // Limpiar la función del objeto window cuando el componente se desmonte
+    return () => {
+      delete window.mostrarChisteAleatorio;
+    };
+  }, [mostrarChisteAleatorio]);
+
+ 
+  return (
     <>
-     
-      <Flyer joke={chisteActual} visible={showFlyer} />
-      <main className='min-h-screen'> 
-        <div className="min-w-full min-h-screen  text-center flex flex-col justify-start items-center gap-20">
-          {showConfetti && (
-            <Confetti
-              width={typeof window !== 'undefined' ? window.innerWidth : 360}
-              height={typeof window !== 'undefined' ? window.innerHeight : 640}
-            />
-          )}
-          <div className='min-w-9/12 min-h-full mt-10 flex flex-col gap-4 justify-center items-center'>
-          <div className='min-w-8/12 m-auto backdrop-blur-md bg-gradient-to-r from-yellow-300 via-amber-300 to-orange-300 p-8 rounded-xl opacity-95'>
-          
-          <p className='text-white font-medium'>Categoría: <span className='font-bold'>{actualCategory}</span></p>
+
+
+      <main className='min-h-[calc(100vh-144px)] flex flex-col justify-between '>
+
+        {showConfetti && (
+          <Confetti
+            width={typeof window !== 'undefined' ? window.innerWidth : 360}
+            height={typeof window !== 'undefined' ? window.innerHeight : 640}
+          />
+        )}
+
+        <div
+        
+          className='flex flex-col justify-center grow mx-auto px-2  py-6 '>
+          <div
+          id={`card-${chisteId}`} 
+          className='bg-white rounded-3xl p-8 text-center shadow-lg border border-black/5 relative overflow-hidden'>
+
+            <p className='text-card text-md text-pretty space-x-3 font-medium '>{chisteActual}</p>
+
           </div>
-            <div className='card min-w-4/5 max-w-60 min-h-2/4 max-h-2/4 mx-auto mt-16 flex flex-col justify-between bg-slate-300 text-black p-6 rounded-md shadow-xl'>
-              <p className='text-lg text-pretty space-x-3'>{chisteActual}</p>
-              <div className=' min-w-full min-h-full p-2 mt-1 mb-0   text-white flex flex-row justify-center gap-2  rounded-lg'>
-              {firstJoke ?  <button type='button' className=' p-5 bg-sky-400 shadow-md border-2 border-solid border-amber-50  rounded-md active:scale-95' onClick={() => speak(chisteActual)}>🔊​</button> : ''}
-               
-                {firstJoke ? <button type='button' className=' p-5 bg-pink-400 shadow-md border-2  border-amber-50  rounded-md active:scale-95' onClick={saveJoke}>⭐​​</button> : ''}
-                {firstJoke ? <button type='button' className=' p-5 bg-green-400 shadow-md border-2 border-amber-50   rounded-md active:scale-95' onClick={() => shareCanvas()}>🚀​​​</button> : '' }
-                
-              </div>
-            </div>
+          <div className=' min-w-full min-h-full p-2 mt-1 mb-0  flex justify-center gap-4 '>
+            <button 
+            onClick={() => speak(chisteActual)}
+            className="px-4 py-3 bg-gradient-to-r from-sky-400 to-blue-500 text-white rounded-2xl font-medium text-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex items-center gap-2">
+              🔊 Escuchar
+            </button>
+
+            <button 
+            onClick={() => saveJoke()}
+            className="px-4 py-3 bg-gradient-to-r from-yellow-400 to-amber-500 text-white rounded-2xl font-medium text-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex items-center gap-2">
+              ⭐ Guardar
+            </button>
+            <button 
+            onClick={() => shareJoke(chisteId)}
+            className="px-4 py-3 bg-gradient-to-r from-green-400 to-emerald-500 text-white rounded-2xl font-medium text-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex items-center gap-2">
+              🚀 Compartir
+            </button>
+
           </div>
-          <div className='min-w-8/12 min-h-6/12   flex flex-col items-center justify-center  '>
-          <button type='button' onClick={mostrarChisteAleatorio} className='joke  p-8 rounded-md bg-gradient-to-b from-amber-300 to-amber-500 active:scale-95 transition-transform duration-150
-         shadow-[0_8px_0_rgba(0,0,0,0.15)] hover:shadow-[0_10px_0_rgba(0,0,0,0.18)]
-         border-2 border-black 
-            '>CONTAR CHISTE 😝​</button>
-          
-         
-          </div> 
-          
         </div>
+
+
+
+        <div className='min-w-full min-h-6/12 p-2   flex items-center justify-center gap-2 mb-3 '>
+          <button type='button' onClick={mostrarChisteAnterior} className='flex-1 py-6 px-4 border-none rounded-2xl font-semibold text-sm cursor-pointer transition-all duration-300 uppercase tracking-wide text-white bg-gradient-to-br from-indigo-500 to-purple-600 hover:-translate-y-1 hover:shadow-lg active:translate-y-0
+           '>ANTERIOR</button>
+
+          {noCategory() ? '' : <button type='button' onClick={mostrarChisteAleatorio}
+
+            className='flex-1 py-6 px-4 border-none rounded-2xl font-semibold text-sm cursor-pointer transition-all duration-300 uppercase tracking-wide text-white bg-gradient-to-br from-pink-500 to-rose-600 hover:-translate-y-1 hover:shadow-lg active:translate-y-0
+           '>SIGUIENTE 😝​</button>}
+
+
+
+        </div>
+
+
+
       </main>
     </>
   );
-      
+
 }
