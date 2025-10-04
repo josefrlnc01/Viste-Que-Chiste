@@ -48,7 +48,7 @@ Viste Que Chiste es una aplicación móvil divertida y entretenida que te permit
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/viste-que-chiste.git
+   git clone https://github.com/josefrlnc01/viste-que-chiste.git
    cd viste-que-chiste
    ```
 
